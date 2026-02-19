@@ -1,0 +1,5 @@
+IdCommande,IdOffre,Date_commande,Conditions_de_vente
+CMD501,O201,2026-01-22,Paiement comptant
+CMD502,O203,2026-01-25,Credit
+CMD503,O204,2026-01-28,Cheque
+CMD504,O205,2026-02-01,Paiement comptant

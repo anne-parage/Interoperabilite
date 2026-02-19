@@ -1,0 +1,6 @@
+[
+  {"IdLivraison": "LIV001", "IdRapport": "RQ001", "Date_prevue": "2026-03-01", "Date_effective": "2026-03-01", "lieu_livraison": "Paris Centre", "Statut_livraison": "Livree"},
+  {"IdLivraison": "LIV002", "IdRapport": "RQ002", "Date_prevue": "2026-03-05", "Date_effective": null, "lieu_livraison": "Lyon Gare", "Statut_livraison": "En cours"},
+  {"IdLivraison": "LIV003", "IdRapport": "RQ004", "Date_prevue": "2026-03-10", "Date_effective": null, "lieu_livraison": "Marseille Port", "Statut_livraison": "Planifiee"}
+]
+

@@ -1,0 +1,7 @@
+[
+  {"IdRapport": "RQ001", "IdUsine": 1, "Statut_conformite": "Conforme", "Date_controle": "2026-02-15"},
+  {"IdRapport": "RQ002", "IdUsine": 2, "Statut_conformite": "Conforme", "Date_controle": "2026-02-17"},
+  {"IdRapport": "RQ003", "IdUsine": 1, "Statut_conformite": "Non Conforme", "Date_controle": "2026-02-20"},
+  {"IdRapport": "RQ004", "IdUsine": 3, "Statut_conformite": "Conforme", "Date_controle": "2026-02-22"}
+]
+

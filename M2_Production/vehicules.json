@@ -1,0 +1,7 @@
+[
+  {"numero_de_serie": "VIN123456789", "IdOF": "OF001", "IdUsine": 1, "modele": "Modele A"},
+  {"numero_de_serie": "VIN987654321", "IdOF": "OF002", "IdUsine": 2, "modele": "Modele B"},
+  {"numero_de_serie": "VIN456789123", "IdOF": "OF003", "IdUsine": 1, "modele": "Modele C"},
+  {"numero_de_serie": "VIN789123456", "IdOF": "OF004", "IdUsine": 3, "modele": "Modele A"}
+]
+

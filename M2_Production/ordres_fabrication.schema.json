@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "IdOF": { "type": "string" },
+      "IdCommande": { "type": "string" },
+      "Date_Planification": { "type": "string", "format": "date" },
+      "Date_lancement": { "type": "string", "format": "date" }
+    },
+    "required": ["IdOF", "IdCommande", "Date_Planification", "Date_lancement"]
+  }
+}

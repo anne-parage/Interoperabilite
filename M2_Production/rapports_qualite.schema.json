@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "IdRapport": { "type": "string" },
+      "IdUsine": { "type": "integer" },
+      "Statut_conformite": { "type": "string" },
+      "Date_controle": { "type": "string", "format": "date" }
+    },
+    "required": ["IdRapport", "IdUsine", "Statut_conformite", "Date_controle"]
+  }
+}

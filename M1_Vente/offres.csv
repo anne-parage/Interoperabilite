@@ -1,0 +1,6 @@
+IdOffre,IdDemande,prix,delai_propose,statut
+O201,D101,32000,30 jours,Accepte
+O202,D102,45000,20 jours,En attente
+O203,D103,18000,45 jours,Accepte
+O204,D104,31500,60 jours,Accepte
+O205,D105,65000,35 jours,Accepte

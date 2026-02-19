@@ -1,0 +1,8 @@
+<demandes>
+    <demande_sav IdSAV="SAV_901">
+        <IdClient>C001</IdClient>
+        <numero_de_serie>VIN_001</numero_de_serie>
+        <Date_signalement>2026-05-10</Date_signalement>
+        <description>Bruit moteur suspect</description>
+    </demande_sav>
+</demandes>

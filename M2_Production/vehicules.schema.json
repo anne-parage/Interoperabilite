@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "numero_de_serie": { "type": "string" },
+      "IdOF": { "type": "string" },
+      "IdUsine": { "type": "integer" },
+      "modele": { "type": "string" }
+    },
+    "required": ["numero_de_serie", "IdOF", "IdUsine", "modele"]
+  }
+}

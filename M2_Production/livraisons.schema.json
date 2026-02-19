@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "IdLivraison": { "type": "string" },
+      "IdRapport": { "type": "string" },
+      "Date_prevue": { "type": "string", "format": "date" },
+      "Date_effective": {
+        "anyOf": [
+          { "type": "string", "format": "date" },
+          { "type": "null" }
+        ]
+      },
+      "lieu_livraison": { "type": "string" },
+      "Statut_livraison": { "type": "string" }
+    },
+    "required": ["IdLivraison", "IdRapport", "Date_prevue", "lieu_livraison", "Statut_livraison"]
+  }
+}
