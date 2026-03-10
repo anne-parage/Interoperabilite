@@ -169,7 +169,7 @@ class DataInjector:
         print(" Injection M2 terminée avec succès !")
         return True
 
-    # --- M3 : SAV (XML adapté au Diagramme 2) ---
+    # --- M3 : SAV (XML) ---
     def inject_m3_sav(self):
         print("Injection M3: SAV...")
         # 1. Demandes SAV

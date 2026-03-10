@@ -4,9 +4,9 @@ from neo4j import GraphDatabase
 app = Flask(__name__)
 
 # Connexion à la base (Même identifiants que ton script d'injection)
-driver = GraphDatabase.driver("bolt://neo4j:7687", auth=("neo4j", "password123"))
+driver = GraphDatabase.driver("bolt://localhost:7687", auth=("neo4j", "eTyDWf1CD7gvr5Qg1SgMUIBccgzbm0hTYHzNJ3hAq2M"))
 
-# Le design de la page (HTML simple)
+# Le design de la page (HTML)
 HTML_TEMPLATE = """
 <!DOCTYPE html>
 <html>
@@ -51,7 +51,7 @@ HTML_TEMPLATE = """
             <td>{{ row.Usine }}</td>
 			<td>
 				{% if row.Wiki %}
-					<a href="{{row.wiki}}" target="_blank">Voir sur wikidata</a>
+					<a href="{{row.Wiki}}" target="_blank">Voir sur wikidata</a>
 				{% else %}
 					Non lié
 				{% endif %}
@@ -86,19 +86,18 @@ def home():
 
 @app.route('/query', methods=['POST'])
 def run_query():
-    # On ajoute "u.wikidata_url" dans le RETURN
     cypher_query = """
-    MATCH (c:Client)-[:SOUMET]->(d)-[:GENERE]->(o)-[:VALIDE]->(cmd:Commande)
-    MATCH (cmd)-[:DECLENCHE]->(of:OrdreFab)-[:LOCALISE_A]->(u:Usine)
-    MATCH (of)-[:PRODUIT]->(v:Vehicule)
-    OPTIONAL MATCH (v)-[:SUBIT]->(sav:DossierSAV)-[:GENERE_FACT]->(f:FactureSAV)
+    MATCH (c:Client)-[:EMET]->(d:DemandeClient)-[:DONNE_LIEU_A]->(o:OffreCommerciale)-[:ABOUTIT_A]->(bc:BonDeCommande)
+    MATCH (bc)-[:DECLENCHE]->(of:OrdreDeFabrication)-[:PERMET_DE_FABRIQUER]->(v:Vehicule)-[:ASSEMBLE_DANS]->(u:Usine)
+    OPTIONAL MATCH (ds:DemandeSAV)-[:CONCERNE]->(v)
+    OPTIONAL MATCH (v)-[:DONNE_LIEU_A]->(diag:Diagnostic)-[:DECLENCHE]->(rep:Reparation)
     RETURN 
         c.nom AS Client, 
-        v.vin AS Vin, 
-        u.ville AS Usine, 
-        u.wikidata_url AS Wiki,  // <--- ON RÉCUPÈRE LE LIEN ICI
-        COALESCE(sav.description, "Aucun incident") AS Panne,
-        COALESCE(f.total, "0.00") AS Facture
+        v.numero_de_serie AS Vin, 
+        u.localisation AS Usine, 
+        u.wikidata_url AS Wiki,
+        COALESCE(ds.description, "Aucun incident") AS Panne,
+        COALESCE(rep.type_intervention, "Aucune") AS Facture
     """
     with driver.session() as session:
         result = session.run(cypher_query)
@@ -113,7 +112,7 @@ def add_link():
     
     # Ajoute une propriété 'wikidata_url' au nœud Usine correspondant
     cypher_query = """
-    MATCH (u:Usine {ville: $ville})
+    MATCH (u:Usine {localisation: $ville})
     SET u.wikidata_url = 'https://www.wikidata.org/wiki/' + $wiki_id
     RETURN u
     """
