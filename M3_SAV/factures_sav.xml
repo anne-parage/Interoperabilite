@@ -1,6 +1,6 @@
 <interventions>
     <diagnostic IdDiagnostic="DIAG_1">
-        <numero_de_serie>VIN_001</numero_de_serie>
+        <numero_de_serie>VIN123456789</numero_de_serie>
         <resultat>Courroie defectueuse</resultat>
         <Date_diagnostic>2026-05-12</Date_diagnostic>
         <reparation IdReparation="REP_1">
