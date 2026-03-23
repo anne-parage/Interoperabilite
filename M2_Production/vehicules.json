@@ -1,7 +1,602 @@
 [
-  {"numero_de_serie": "VIN123456789", "IdOF": "OF001", "IdUsine": 1, "modele": "Modele A"},
-  {"numero_de_serie": "VIN987654321", "IdOF": "OF002", "IdUsine": 2, "modele": "Modele B"},
-  {"numero_de_serie": "VIN456789123", "IdOF": "OF003", "IdUsine": 1, "modele": "Modele C"},
-  {"numero_de_serie": "VIN789123456", "IdOF": "OF004", "IdUsine": 3, "modele": "Modele A"}
+  {
+    "numero_de_serie": "VIN994253959",
+    "IdOF": "OF001",
+    "IdUsine": 5,
+    "modele": "Modele B"
+  },
+  {
+    "numero_de_serie": "VIN751831074",
+    "IdOF": "OF002",
+    "IdUsine": 6,
+    "modele": "Modele B"
+  },
+  {
+    "numero_de_serie": "VIN783563240",
+    "IdOF": "OF003",
+    "IdUsine": 4,
+    "modele": "Modele E"
+  },
+  {
+    "numero_de_serie": "VIN369108475",
+    "IdOF": "OF004",
+    "IdUsine": 3,
+    "modele": "Modele A"
+  },
+  {
+    "numero_de_serie": "VIN773728014",
+    "IdOF": "OF005",
+    "IdUsine": 1,
+    "modele": "Modele C"
+  },
+  {
+    "numero_de_serie": "VIN946764061",
+    "IdOF": "OF006",
+    "IdUsine": 8,
+    "modele": "Modele A"
+  },
+  {
+    "numero_de_serie": "VIN722312633",
+    "IdOF": "OF007",
+    "IdUsine": 6,
+    "modele": "Modele B"
+  },
+  {
+    "numero_de_serie": "VIN196779973",
+    "IdOF": "OF008",
+    "IdUsine": 5,
+    "modele": "Modele C"
+  },
+  {
+    "numero_de_serie": "VIN902601465",
+    "IdOF": "OF009",
+    "IdUsine": 7,
+    "modele": "Modele B"
+  },
+  {
+    "numero_de_serie": "VIN315601773",
+    "IdOF": "OF010",
+    "IdUsine": 3,
+    "modele": "Modele E"
+  },
+  {
+    "numero_de_serie": "VIN492836532",
+    "IdOF": "OF011",
+    "IdUsine": 9,
+    "modele": "Modele E"
+  },
+  {
+    "numero_de_serie": "VIN392624015",
+    "IdOF": "OF012",
+    "IdUsine": 3,
+    "modele": "Modele C"
+  },
+  {
+    "numero_de_serie": "VIN985503942",
+    "IdOF": "OF013",
+    "IdUsine": 8,
+    "modele": "Modele C"
+  },
+  {
+    "numero_de_serie": "VIN901611993",
+    "IdOF": "OF014",
+    "IdUsine": 6,
+    "modele": "Modele A"
+  },
+  {
+    "numero_de_serie": "VIN602866993",
+    "IdOF": "OF015",
+    "IdUsine": 2,
+    "modele": "Modele B"
+  },
+  {
+    "numero_de_serie": "VIN909763993",
+    "IdOF": "OF016",
+    "IdUsine": 4,
+    "modele": "Modele D"
+  },
+  {
+    "numero_de_serie": "VIN963919401",
+    "IdOF": "OF017",
+    "IdUsine": 9,
+    "modele": "Modele C"
+  },
+  {
+    "numero_de_serie": "VIN196961971",
+    "IdOF": "OF018",
+    "IdUsine": 7,
+    "modele": "Modele A"
+  },
+  {
+    "numero_de_serie": "VIN383960237",
+    "IdOF": "OF019",
+    "IdUsine": 9,
+    "modele": "Modele A"
+  },
+  {
+    "numero_de_serie": "VIN588322781",
+    "IdOF": "OF020",
+    "IdUsine": 6,
+    "modele": "Modele C"
+  },
+  {
+    "numero_de_serie": "VIN727666622",
+    "IdOF": "OF021",
+    "IdUsine": 7,
+    "modele": "Modele C"
+  },
+  {
+    "numero_de_serie": "VIN216335741",
+    "IdOF": "OF022",
+    "IdUsine": 4,
+    "modele": "Modele D"
+  },
+  {
+    "numero_de_serie": "VIN126870011",
+    "IdOF": "OF023",
+    "IdUsine": 10,
+    "modele": "Modele E"
+  },
+  {
+    "numero_de_serie": "VIN452194058",
+    "IdOF": "OF024",
+    "IdUsine": 10,
+    "modele": "Modele B"
+  },
+  {
+    "numero_de_serie": "VIN795411453",
+    "IdOF": "OF025",
+    "IdUsine": 2,
+    "modele": "Modele D"
+  },
+  {
+    "numero_de_serie": "VIN852775879",
+    "IdOF": "OF026",
+    "IdUsine": 5,
+    "modele": "Modele D"
+  },
+  {
+    "numero_de_serie": "VIN225279834",
+    "IdOF": "OF027",
+    "IdUsine": 3,
+    "modele": "Modele A"
+  },
+  {
+    "numero_de_serie": "VIN139956218",
+    "IdOF": "OF028",
+    "IdUsine": 5,
+    "modele": "Modele D"
+  },
+  {
+    "numero_de_serie": "VIN224683417",
+    "IdOF": "OF029",
+    "IdUsine": 2,
+    "modele": "Modele B"
+  },
+  {
+    "numero_de_serie": "VIN677186272",
+    "IdOF": "OF030",
+    "IdUsine": 3,
+    "modele": "Modele D"
+  },
+  {
+    "numero_de_serie": "VIN587096273",
+    "IdOF": "OF031",
+    "IdUsine": 6,
+    "modele": "Modele E"
+  },
+  {
+    "numero_de_serie": "VIN550033924",
+    "IdOF": "OF032",
+    "IdUsine": 10,
+    "modele": "Modele B"
+  },
+  {
+    "numero_de_serie": "VIN545478870",
+    "IdOF": "OF033",
+    "IdUsine": 2,
+    "modele": "Modele D"
+  },
+  {
+    "numero_de_serie": "VIN761051532",
+    "IdOF": "OF034",
+    "IdUsine": 7,
+    "modele": "Modele C"
+  },
+  {
+    "numero_de_serie": "VIN135128844",
+    "IdOF": "OF035",
+    "IdUsine": 6,
+    "modele": "Modele B"
+  },
+  {
+    "numero_de_serie": "VIN576078963",
+    "IdOF": "OF036",
+    "IdUsine": 8,
+    "modele": "Modele B"
+  },
+  {
+    "numero_de_serie": "VIN489431174",
+    "IdOF": "OF037",
+    "IdUsine": 2,
+    "modele": "Modele C"
+  },
+  {
+    "numero_de_serie": "VIN684615760",
+    "IdOF": "OF038",
+    "IdUsine": 6,
+    "modele": "Modele A"
+  },
+  {
+    "numero_de_serie": "VIN527499187",
+    "IdOF": "OF039",
+    "IdUsine": 5,
+    "modele": "Modele B"
+  },
+  {
+    "numero_de_serie": "VIN231167999",
+    "IdOF": "OF040",
+    "IdUsine": 8,
+    "modele": "Modele A"
+  },
+  {
+    "numero_de_serie": "VIN811642514",
+    "IdOF": "OF041",
+    "IdUsine": 4,
+    "modele": "Modele E"
+  },
+  {
+    "numero_de_serie": "VIN122932394",
+    "IdOF": "OF042",
+    "IdUsine": 1,
+    "modele": "Modele C"
+  },
+  {
+    "numero_de_serie": "VIN361530104",
+    "IdOF": "OF043",
+    "IdUsine": 3,
+    "modele": "Modele E"
+  },
+  {
+    "numero_de_serie": "VIN320337809",
+    "IdOF": "OF044",
+    "IdUsine": 2,
+    "modele": "Modele E"
+  },
+  {
+    "numero_de_serie": "VIN322433532",
+    "IdOF": "OF045",
+    "IdUsine": 10,
+    "modele": "Modele B"
+  },
+  {
+    "numero_de_serie": "VIN973008988",
+    "IdOF": "OF046",
+    "IdUsine": 4,
+    "modele": "Modele C"
+  },
+  {
+    "numero_de_serie": "VIN931471931",
+    "IdOF": "OF047",
+    "IdUsine": 3,
+    "modele": "Modele E"
+  },
+  {
+    "numero_de_serie": "VIN103044648",
+    "IdOF": "OF048",
+    "IdUsine": 5,
+    "modele": "Modele B"
+  },
+  {
+    "numero_de_serie": "VIN239577989",
+    "IdOF": "OF049",
+    "IdUsine": 9,
+    "modele": "Modele C"
+  },
+  {
+    "numero_de_serie": "VIN957397689",
+    "IdOF": "OF050",
+    "IdUsine": 3,
+    "modele": "Modele A"
+  },
+  {
+    "numero_de_serie": "VIN809805235",
+    "IdOF": "OF051",
+    "IdUsine": 1,
+    "modele": "Modele B"
+  },
+  {
+    "numero_de_serie": "VIN115956152",
+    "IdOF": "OF052",
+    "IdUsine": 6,
+    "modele": "Modele B"
+  },
+  {
+    "numero_de_serie": "VIN732276010",
+    "IdOF": "OF053",
+    "IdUsine": 6,
+    "modele": "Modele A"
+  },
+  {
+    "numero_de_serie": "VIN287095435",
+    "IdOF": "OF054",
+    "IdUsine": 5,
+    "modele": "Modele A"
+  },
+  {
+    "numero_de_serie": "VIN236105947",
+    "IdOF": "OF055",
+    "IdUsine": 7,
+    "modele": "Modele E"
+  },
+  {
+    "numero_de_serie": "VIN222030010",
+    "IdOF": "OF056",
+    "IdUsine": 2,
+    "modele": "Modele D"
+  },
+  {
+    "numero_de_serie": "VIN581331845",
+    "IdOF": "OF057",
+    "IdUsine": 6,
+    "modele": "Modele E"
+  },
+  {
+    "numero_de_serie": "VIN737444033",
+    "IdOF": "OF058",
+    "IdUsine": 2,
+    "modele": "Modele D"
+  },
+  {
+    "numero_de_serie": "VIN640992677",
+    "IdOF": "OF059",
+    "IdUsine": 4,
+    "modele": "Modele E"
+  },
+  {
+    "numero_de_serie": "VIN146562851",
+    "IdOF": "OF060",
+    "IdUsine": 9,
+    "modele": "Modele C"
+  },
+  {
+    "numero_de_serie": "VIN591819409",
+    "IdOF": "OF061",
+    "IdUsine": 1,
+    "modele": "Modele A"
+  },
+  {
+    "numero_de_serie": "VIN614302907",
+    "IdOF": "OF062",
+    "IdUsine": 7,
+    "modele": "Modele D"
+  },
+  {
+    "numero_de_serie": "VIN836691577",
+    "IdOF": "OF063",
+    "IdUsine": 2,
+    "modele": "Modele D"
+  },
+  {
+    "numero_de_serie": "VIN864935082",
+    "IdOF": "OF064",
+    "IdUsine": 8,
+    "modele": "Modele A"
+  },
+  {
+    "numero_de_serie": "VIN186748119",
+    "IdOF": "OF065",
+    "IdUsine": 6,
+    "modele": "Modele E"
+  },
+  {
+    "numero_de_serie": "VIN259272239",
+    "IdOF": "OF066",
+    "IdUsine": 2,
+    "modele": "Modele B"
+  },
+  {
+    "numero_de_serie": "VIN395296179",
+    "IdOF": "OF067",
+    "IdUsine": 10,
+    "modele": "Modele E"
+  },
+  {
+    "numero_de_serie": "VIN688793237",
+    "IdOF": "OF068",
+    "IdUsine": 6,
+    "modele": "Modele D"
+  },
+  {
+    "numero_de_serie": "VIN741444618",
+    "IdOF": "OF069",
+    "IdUsine": 9,
+    "modele": "Modele C"
+  },
+  {
+    "numero_de_serie": "VIN587173220",
+    "IdOF": "OF070",
+    "IdUsine": 9,
+    "modele": "Modele E"
+  },
+  {
+    "numero_de_serie": "VIN561923010",
+    "IdOF": "OF071",
+    "IdUsine": 2,
+    "modele": "Modele A"
+  },
+  {
+    "numero_de_serie": "VIN802992685",
+    "IdOF": "OF072",
+    "IdUsine": 9,
+    "modele": "Modele B"
+  },
+  {
+    "numero_de_serie": "VIN561784080",
+    "IdOF": "OF073",
+    "IdUsine": 8,
+    "modele": "Modele B"
+  },
+  {
+    "numero_de_serie": "VIN544328940",
+    "IdOF": "OF074",
+    "IdUsine": 6,
+    "modele": "Modele D"
+  },
+  {
+    "numero_de_serie": "VIN528133274",
+    "IdOF": "OF075",
+    "IdUsine": 7,
+    "modele": "Modele A"
+  },
+  {
+    "numero_de_serie": "VIN435596237",
+    "IdOF": "OF076",
+    "IdUsine": 7,
+    "modele": "Modele C"
+  },
+  {
+    "numero_de_serie": "VIN814154134",
+    "IdOF": "OF077",
+    "IdUsine": 5,
+    "modele": "Modele C"
+  },
+  {
+    "numero_de_serie": "VIN263894795",
+    "IdOF": "OF078",
+    "IdUsine": 8,
+    "modele": "Modele A"
+  },
+  {
+    "numero_de_serie": "VIN197951867",
+    "IdOF": "OF079",
+    "IdUsine": 2,
+    "modele": "Modele A"
+  },
+  {
+    "numero_de_serie": "VIN563723880",
+    "IdOF": "OF080",
+    "IdUsine": 2,
+    "modele": "Modele C"
+  },
+  {
+    "numero_de_serie": "VIN971630639",
+    "IdOF": "OF081",
+    "IdUsine": 3,
+    "modele": "Modele E"
+  },
+  {
+    "numero_de_serie": "VIN164404084",
+    "IdOF": "OF082",
+    "IdUsine": 10,
+    "modele": "Modele E"
+  },
+  {
+    "numero_de_serie": "VIN703102938",
+    "IdOF": "OF083",
+    "IdUsine": 6,
+    "modele": "Modele A"
+  },
+  {
+    "numero_de_serie": "VIN541102414",
+    "IdOF": "OF084",
+    "IdUsine": 6,
+    "modele": "Modele D"
+  },
+  {
+    "numero_de_serie": "VIN874233009",
+    "IdOF": "OF085",
+    "IdUsine": 1,
+    "modele": "Modele C"
+  },
+  {
+    "numero_de_serie": "VIN744685429",
+    "IdOF": "OF086",
+    "IdUsine": 5,
+    "modele": "Modele C"
+  },
+  {
+    "numero_de_serie": "VIN211240259",
+    "IdOF": "OF087",
+    "IdUsine": 10,
+    "modele": "Modele E"
+  },
+  {
+    "numero_de_serie": "VIN328426553",
+    "IdOF": "OF088",
+    "IdUsine": 3,
+    "modele": "Modele D"
+  },
+  {
+    "numero_de_serie": "VIN340781088",
+    "IdOF": "OF089",
+    "IdUsine": 2,
+    "modele": "Modele C"
+  },
+  {
+    "numero_de_serie": "VIN697285504",
+    "IdOF": "OF090",
+    "IdUsine": 6,
+    "modele": "Modele A"
+  },
+  {
+    "numero_de_serie": "VIN918841563",
+    "IdOF": "OF091",
+    "IdUsine": 5,
+    "modele": "Modele E"
+  },
+  {
+    "numero_de_serie": "VIN342836476",
+    "IdOF": "OF092",
+    "IdUsine": 7,
+    "modele": "Modele E"
+  },
+  {
+    "numero_de_serie": "VIN924024405",
+    "IdOF": "OF093",
+    "IdUsine": 10,
+    "modele": "Modele E"
+  },
+  {
+    "numero_de_serie": "VIN824750726",
+    "IdOF": "OF094",
+    "IdUsine": 9,
+    "modele": "Modele A"
+  },
+  {
+    "numero_de_serie": "VIN753903309",
+    "IdOF": "OF095",
+    "IdUsine": 5,
+    "modele": "Modele A"
+  },
+  {
+    "numero_de_serie": "VIN293720285",
+    "IdOF": "OF096",
+    "IdUsine": 5,
+    "modele": "Modele C"
+  },
+  {
+    "numero_de_serie": "VIN464883950",
+    "IdOF": "OF097",
+    "IdUsine": 6,
+    "modele": "Modele A"
+  },
+  {
+    "numero_de_serie": "VIN294782734",
+    "IdOF": "OF098",
+    "IdUsine": 3,
+    "modele": "Modele E"
+  },
+  {
+    "numero_de_serie": "VIN805818425",
+    "IdOF": "OF099",
+    "IdUsine": 7,
+    "modele": "Modele A"
+  },
+  {
+    "numero_de_serie": "VIN252336745",
+    "IdOF": "OF100",
+    "IdUsine": 1,
+    "modele": "Modele A"
+  }
 ]
-
