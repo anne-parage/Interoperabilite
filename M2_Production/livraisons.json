@@ -1,802 +1,5874 @@
 [
   {
     "IdLivraison": "LIV001",
-    "IdRapport": "RQ001",
-    "Date_prevue": "2026-03-17",
-    "Date_effective": "2026-03-17",
-    "lieu_livraison": "Lille Europe",
-    "Statut_livraison": "Livree"
+    "IdRapport": "RQ416",
+    "Date_prevue": "2026-02-02",
+    "Date_effective": "2026-02-02",
+    "lieu_livraison": "Rouen",
+    "Statut_livraison": "Livré"
   },
   {
     "IdLivraison": "LIV002",
-    "IdRapport": "RQ002",
-    "Date_prevue": "2026-07-26",
+    "IdRapport": "RQ582",
+    "Date_prevue": "2026-04-19",
     "Date_effective": null,
-    "lieu_livraison": "Lille Europe",
-    "Statut_livraison": "Planifiee"
+    "lieu_livraison": "Toulouse",
+    "Statut_livraison": "En transit"
   },
   {
     "IdLivraison": "LIV003",
-    "IdRapport": "RQ003",
-    "Date_prevue": "2026-06-28",
-    "Date_effective": null,
-    "lieu_livraison": "Paris Centre",
-    "Statut_livraison": "En cours"
+    "IdRapport": "RQ702",
+    "Date_prevue": "2026-10-12",
+    "Date_effective": "2026-10-15",
+    "lieu_livraison": "Nancy",
+    "Statut_livraison": "Livré"
   },
   {
     "IdLivraison": "LIV004",
-    "IdRapport": "RQ004",
-    "Date_prevue": "2026-05-09",
-    "Date_effective": "2026-05-10",
-    "lieu_livraison": "Marseille Gare",
-    "Statut_livraison": "Livree"
+    "IdRapport": "RQ852",
+    "Date_prevue": "2026-11-25",
+    "Date_effective": "2026-11-29",
+    "lieu_livraison": "Nancy",
+    "Statut_livraison": "Livré"
   },
   {
     "IdLivraison": "LIV005",
-    "IdRapport": "RQ005",
-    "Date_prevue": "2026-05-08",
-    "Date_effective": "2026-05-10",
-    "lieu_livraison": "Lyon Sud",
-    "Statut_livraison": "Livree"
+    "IdRapport": "RQ471",
+    "Date_prevue": "2026-12-14",
+    "Date_effective": "2026-12-14",
+    "lieu_livraison": "Le Mans",
+    "Statut_livraison": "Livré"
   },
   {
     "IdLivraison": "LIV006",
-    "IdRapport": "RQ006",
-    "Date_prevue": "2026-04-02",
-    "Date_effective": "2026-04-04",
-    "lieu_livraison": "Bordeaux Lac",
-    "Statut_livraison": "Livree"
+    "IdRapport": "RQ815",
+    "Date_prevue": "2026-07-23",
+    "Date_effective": "2026-07-23",
+    "lieu_livraison": "Le Mans",
+    "Statut_livraison": "Livré"
   },
   {
     "IdLivraison": "LIV007",
-    "IdRapport": "RQ007",
-    "Date_prevue": "2026-08-15",
-    "Date_effective": null,
-    "lieu_livraison": "Paris Nord",
-    "Statut_livraison": "En cours"
+    "IdRapport": "RQ436",
+    "Date_prevue": "2026-10-04",
+    "Date_effective": "2026-10-16",
+    "lieu_livraison": "Lille",
+    "Statut_livraison": "Retardé"
   },
   {
     "IdLivraison": "LIV008",
-    "IdRapport": "RQ008",
-    "Date_prevue": "2026-04-03",
-    "Date_effective": null,
-    "lieu_livraison": "Paris Centre",
-    "Statut_livraison": "En cours"
+    "IdRapport": "RQ042",
+    "Date_prevue": "2026-02-26",
+    "Date_effective": "2026-03-02",
+    "lieu_livraison": "Reims",
+    "Statut_livraison": "Livré"
   },
   {
     "IdLivraison": "LIV009",
-    "IdRapport": "RQ009",
-    "Date_prevue": "2026-04-02",
-    "Date_effective": "2026-04-02",
-    "lieu_livraison": "Bordeaux Lac",
-    "Statut_livraison": "Livree"
+    "IdRapport": "RQ528",
+    "Date_prevue": "2026-06-22",
+    "Date_effective": "2026-06-23",
+    "lieu_livraison": "Toulon",
+    "Statut_livraison": "Livré"
   },
   {
     "IdLivraison": "LIV010",
-    "IdRapport": "RQ010",
-    "Date_prevue": "2026-07-13",
+    "IdRapport": "RQ122",
+    "Date_prevue": "2026-03-22",
     "Date_effective": null,
-    "lieu_livraison": "Strasbourg Gare",
-    "Statut_livraison": "Planifiee"
+    "lieu_livraison": "Lille",
+    "Statut_livraison": "En transit"
   },
   {
     "IdLivraison": "LIV011",
-    "IdRapport": "RQ011",
-    "Date_prevue": "2026-03-25",
-    "Date_effective": "2026-03-26",
-    "lieu_livraison": "Bordeaux Lac",
-    "Statut_livraison": "Livree"
+    "IdRapport": "RQ976",
+    "Date_prevue": "2026-09-17",
+    "Date_effective": "2026-09-17",
+    "lieu_livraison": "Angers",
+    "Statut_livraison": "Livré"
   },
   {
     "IdLivraison": "LIV012",
-    "IdRapport": "RQ012",
-    "Date_prevue": "2026-08-11",
-    "Date_effective": "2026-08-11",
-    "lieu_livraison": "Marseille Gare",
-    "Statut_livraison": "Livree"
+    "IdRapport": "RQ904",
+    "Date_prevue": "2026-03-16",
+    "Date_effective": "2026-03-21",
+    "lieu_livraison": "Brest",
+    "Statut_livraison": "Livré"
   },
   {
     "IdLivraison": "LIV013",
-    "IdRapport": "RQ013",
-    "Date_prevue": "2026-06-13",
-    "Date_effective": null,
-    "lieu_livraison": "Bordeaux Centre",
-    "Statut_livraison": "En cours"
+    "IdRapport": "RQ569",
+    "Date_prevue": "2026-08-09",
+    "Date_effective": "2026-08-11",
+    "lieu_livraison": "Angers",
+    "Statut_livraison": "Livré"
   },
   {
     "IdLivraison": "LIV014",
-    "IdRapport": "RQ014",
-    "Date_prevue": "2026-05-06",
-    "Date_effective": null,
-    "lieu_livraison": "Lyon Sud",
-    "Statut_livraison": "En cours"
+    "IdRapport": "RQ145",
+    "Date_prevue": "2026-11-21",
+    "Date_effective": "2026-12-01",
+    "lieu_livraison": "Toulouse",
+    "Statut_livraison": "Retardé"
   },
   {
     "IdLivraison": "LIV015",
-    "IdRapport": "RQ015",
-    "Date_prevue": "2026-05-26",
-    "Date_effective": null,
-    "lieu_livraison": "Toulouse Sud",
-    "Statut_livraison": "Planifiee"
+    "IdRapport": "RQ997",
+    "Date_prevue": "2026-02-10",
+    "Date_effective": "2026-02-12",
+    "lieu_livraison": "Caen",
+    "Statut_livraison": "Livré"
   },
   {
     "IdLivraison": "LIV016",
-    "IdRapport": "RQ016",
-    "Date_prevue": "2026-08-14",
-    "Date_effective": "2026-08-15",
-    "lieu_livraison": "Rennes Ouest",
-    "Statut_livraison": "Livree"
+    "IdRapport": "RQ013",
+    "Date_prevue": "2026-03-08",
+    "Date_effective": "2026-03-10",
+    "lieu_livraison": "Avignon",
+    "Statut_livraison": "Livré"
   },
   {
     "IdLivraison": "LIV017",
-    "IdRapport": "RQ017",
-    "Date_prevue": "2026-07-10",
-    "Date_effective": "2026-07-10",
-    "lieu_livraison": "Lyon Gare",
-    "Statut_livraison": "Livree"
+    "IdRapport": "RQ245",
+    "Date_prevue": "2026-06-23",
+    "Date_effective": "2026-06-23",
+    "lieu_livraison": "Saint-Etienne",
+    "Statut_livraison": "Livré"
   },
   {
     "IdLivraison": "LIV018",
-    "IdRapport": "RQ018",
-    "Date_prevue": "2026-08-10",
-    "Date_effective": "2026-08-11",
-    "lieu_livraison": "Rennes Ouest",
-    "Statut_livraison": "Livree"
+    "IdRapport": "RQ330",
+    "Date_prevue": "2026-08-12",
+    "Date_effective": "2026-08-27",
+    "lieu_livraison": "Brest",
+    "Statut_livraison": "Retardé"
   },
   {
     "IdLivraison": "LIV019",
-    "IdRapport": "RQ019",
-    "Date_prevue": "2026-04-23",
-    "Date_effective": null,
-    "lieu_livraison": "Bordeaux Lac",
-    "Statut_livraison": "En cours"
+    "IdRapport": "RQ257",
+    "Date_prevue": "2026-06-26",
+    "Date_effective": "2026-07-01",
+    "lieu_livraison": "Rennes",
+    "Statut_livraison": "Livré"
   },
   {
     "IdLivraison": "LIV020",
-    "IdRapport": "RQ020",
-    "Date_prevue": "2026-03-24",
-    "Date_effective": "2026-03-26",
-    "lieu_livraison": "Nantes Atlantique",
-    "Statut_livraison": "Livree"
+    "IdRapport": "RQ884",
+    "Date_prevue": "2026-08-27",
+    "Date_effective": "2026-08-28",
+    "lieu_livraison": "Metz",
+    "Statut_livraison": "Livré"
   },
   {
     "IdLivraison": "LIV021",
-    "IdRapport": "RQ021",
-    "Date_prevue": "2026-08-26",
-    "Date_effective": "2026-08-26",
-    "lieu_livraison": "Paris Nord",
-    "Statut_livraison": "Livree"
+    "IdRapport": "RQ055",
+    "Date_prevue": "2026-03-21",
+    "Date_effective": "2026-03-22",
+    "lieu_livraison": "Rennes",
+    "Statut_livraison": "Livré"
   },
   {
     "IdLivraison": "LIV022",
-    "IdRapport": "RQ022",
-    "Date_prevue": "2026-05-17",
-    "Date_effective": "2026-05-17",
-    "lieu_livraison": "Marseille Port",
-    "Statut_livraison": "Livree"
+    "IdRapport": "RQ903",
+    "Date_prevue": "2026-02-09",
+    "Date_effective": null,
+    "lieu_livraison": "Metz",
+    "Statut_livraison": "En transit"
   },
   {
     "IdLivraison": "LIV023",
-    "IdRapport": "RQ023",
-    "Date_prevue": "2026-08-26",
+    "IdRapport": "RQ789",
+    "Date_prevue": "2026-11-04",
     "Date_effective": null,
-    "lieu_livraison": "Paris Centre",
-    "Statut_livraison": "En cours"
+    "lieu_livraison": "Metz",
+    "Statut_livraison": "En attente"
   },
   {
     "IdLivraison": "LIV024",
-    "IdRapport": "RQ024",
-    "Date_prevue": "2026-03-08",
-    "Date_effective": "2026-03-09",
-    "lieu_livraison": "Nantes Atlantique",
-    "Statut_livraison": "Livree"
+    "IdRapport": "RQ520",
+    "Date_prevue": "2026-04-19",
+    "Date_effective": null,
+    "lieu_livraison": "Clermont-Ferrand",
+    "Statut_livraison": "En attente"
   },
   {
     "IdLivraison": "LIV025",
-    "IdRapport": "RQ025",
-    "Date_prevue": "2026-03-20",
-    "Date_effective": "2026-03-22",
-    "lieu_livraison": "Strasbourg Gare",
-    "Statut_livraison": "Livree"
+    "IdRapport": "RQ228",
+    "Date_prevue": "2026-10-21",
+    "Date_effective": "2026-10-23",
+    "lieu_livraison": "Paris",
+    "Statut_livraison": "Livré"
   },
   {
     "IdLivraison": "LIV026",
-    "IdRapport": "RQ026",
-    "Date_prevue": "2026-05-15",
-    "Date_effective": "2026-05-17",
-    "lieu_livraison": "Marseille Port",
-    "Statut_livraison": "Livree"
+    "IdRapport": "RQ153",
+    "Date_prevue": "2026-08-20",
+    "Date_effective": "2026-08-24",
+    "lieu_livraison": "Grenoble",
+    "Statut_livraison": "Livré"
   },
   {
     "IdLivraison": "LIV027",
-    "IdRapport": "RQ027",
-    "Date_prevue": "2026-05-13",
-    "Date_effective": "2026-05-15",
-    "lieu_livraison": "Toulouse Sud",
-    "Statut_livraison": "Livree"
+    "IdRapport": "RQ513",
+    "Date_prevue": "2026-03-08",
+    "Date_effective": "2026-03-13",
+    "lieu_livraison": "Nice",
+    "Statut_livraison": "Livré"
   },
   {
     "IdLivraison": "LIV028",
-    "IdRapport": "RQ028",
-    "Date_prevue": "2026-03-01",
-    "Date_effective": "2026-03-02",
-    "lieu_livraison": "Lille Europe",
-    "Statut_livraison": "Livree"
+    "IdRapport": "RQ927",
+    "Date_prevue": "2026-04-11",
+    "Date_effective": "2026-04-13",
+    "lieu_livraison": "Clermont-Ferrand",
+    "Statut_livraison": "Livré"
   },
   {
     "IdLivraison": "LIV029",
-    "IdRapport": "RQ029",
-    "Date_prevue": "2026-07-04",
-    "Date_effective": "2026-07-05",
-    "lieu_livraison": "Lyon Sud",
-    "Statut_livraison": "Livree"
+    "IdRapport": "RQ995",
+    "Date_prevue": "2026-05-10",
+    "Date_effective": "2026-05-11",
+    "lieu_livraison": "Lille",
+    "Statut_livraison": "Livré"
   },
   {
     "IdLivraison": "LIV030",
-    "IdRapport": "RQ030",
-    "Date_prevue": "2026-04-20",
-    "Date_effective": "2026-04-22",
-    "lieu_livraison": "Bordeaux Centre",
-    "Statut_livraison": "Livree"
+    "IdRapport": "RQ353",
+    "Date_prevue": "2026-09-21",
+    "Date_effective": "2026-09-23",
+    "lieu_livraison": "Marseille",
+    "Statut_livraison": "Livré"
   },
   {
     "IdLivraison": "LIV031",
-    "IdRapport": "RQ031",
-    "Date_prevue": "2026-04-04",
-    "Date_effective": "2026-04-04",
-    "lieu_livraison": "Strasbourg Gare",
-    "Statut_livraison": "Livree"
+    "IdRapport": "RQ164",
+    "Date_prevue": "2026-12-15",
+    "Date_effective": "2026-12-19",
+    "lieu_livraison": "Toulouse",
+    "Statut_livraison": "Livré"
   },
   {
     "IdLivraison": "LIV032",
-    "IdRapport": "RQ032",
-    "Date_prevue": "2026-08-15",
-    "Date_effective": "2026-08-17",
-    "lieu_livraison": "Toulouse Centre",
-    "Statut_livraison": "Livree"
+    "IdRapport": "RQ565",
+    "Date_prevue": "2026-07-20",
+    "Date_effective": "2026-07-20",
+    "lieu_livraison": "Caen",
+    "Statut_livraison": "Livré"
   },
   {
     "IdLivraison": "LIV033",
-    "IdRapport": "RQ033",
-    "Date_prevue": "2026-08-12",
-    "Date_effective": "2026-08-14",
-    "lieu_livraison": "Lille Europe",
-    "Statut_livraison": "Livree"
+    "IdRapport": "RQ429",
+    "Date_prevue": "2026-03-08",
+    "Date_effective": "2026-03-13",
+    "lieu_livraison": "Nice",
+    "Statut_livraison": "Livré"
   },
   {
     "IdLivraison": "LIV034",
-    "IdRapport": "RQ034",
-    "Date_prevue": "2026-05-28",
-    "Date_effective": "2026-05-28",
-    "lieu_livraison": "Lyon Sud",
-    "Statut_livraison": "Livree"
+    "IdRapport": "RQ355",
+    "Date_prevue": "2026-11-17",
+    "Date_effective": "2026-11-22",
+    "lieu_livraison": "Rouen",
+    "Statut_livraison": "Livré"
   },
   {
     "IdLivraison": "LIV035",
-    "IdRapport": "RQ035",
-    "Date_prevue": "2026-05-17",
-    "Date_effective": "2026-05-17",
-    "lieu_livraison": "Sochaux Depot",
-    "Statut_livraison": "Livree"
+    "IdRapport": "RQ118",
+    "Date_prevue": "2026-02-17",
+    "Date_effective": "2026-02-21",
+    "lieu_livraison": "Nantes",
+    "Statut_livraison": "Livré"
   },
   {
     "IdLivraison": "LIV036",
-    "IdRapport": "RQ036",
-    "Date_prevue": "2026-04-26",
-    "Date_effective": null,
-    "lieu_livraison": "Paris Centre",
-    "Statut_livraison": "En cours"
+    "IdRapport": "RQ225",
+    "Date_prevue": "2026-03-01",
+    "Date_effective": "2026-03-04",
+    "lieu_livraison": "Paris",
+    "Statut_livraison": "Livré"
   },
   {
     "IdLivraison": "LIV037",
-    "IdRapport": "RQ037",
-    "Date_prevue": "2026-07-19",
-    "Date_effective": "2026-07-20",
-    "lieu_livraison": "Marseille Gare",
-    "Statut_livraison": "Livree"
+    "IdRapport": "RQ056",
+    "Date_prevue": "2026-03-16",
+    "Date_effective": "2026-03-17",
+    "lieu_livraison": "Angers",
+    "Statut_livraison": "Livré"
   },
   {
     "IdLivraison": "LIV038",
-    "IdRapport": "RQ038",
-    "Date_prevue": "2026-04-20",
-    "Date_effective": "2026-04-20",
-    "lieu_livraison": "Toulouse Sud",
-    "Statut_livraison": "Livree"
+    "IdRapport": "RQ147",
+    "Date_prevue": "2026-09-23",
+    "Date_effective": "2026-09-23",
+    "lieu_livraison": "Nancy",
+    "Statut_livraison": "Livré"
   },
   {
     "IdLivraison": "LIV039",
-    "IdRapport": "RQ039",
-    "Date_prevue": "2026-08-24",
-    "Date_effective": null,
-    "lieu_livraison": "Lille Europe",
-    "Statut_livraison": "En cours"
+    "IdRapport": "RQ901",
+    "Date_prevue": "2026-05-01",
+    "Date_effective": "2026-05-02",
+    "lieu_livraison": "Reims",
+    "Statut_livraison": "Livré"
   },
   {
     "IdLivraison": "LIV040",
-    "IdRapport": "RQ040",
-    "Date_prevue": "2026-06-27",
-    "Date_effective": null,
-    "lieu_livraison": "Lyon Gare",
-    "Statut_livraison": "Planifiee"
+    "IdRapport": "RQ753",
+    "Date_prevue": "2026-09-07",
+    "Date_effective": "2026-09-07",
+    "lieu_livraison": "Toulouse",
+    "Statut_livraison": "Livré"
   },
   {
     "IdLivraison": "LIV041",
-    "IdRapport": "RQ041",
-    "Date_prevue": "2026-05-21",
-    "Date_effective": "2026-05-22",
-    "lieu_livraison": "Strasbourg Gare",
-    "Statut_livraison": "Livree"
+    "IdRapport": "RQ031",
+    "Date_prevue": "2026-06-16",
+    "Date_effective": "2026-07-03",
+    "lieu_livraison": "Grenoble",
+    "Statut_livraison": "Retardé"
   },
   {
     "IdLivraison": "LIV042",
-    "IdRapport": "RQ042",
-    "Date_prevue": "2026-05-05",
+    "IdRapport": "RQ012",
+    "Date_prevue": "2026-10-13",
     "Date_effective": null,
-    "lieu_livraison": "Paris Nord",
-    "Statut_livraison": "Planifiee"
+    "lieu_livraison": "Toulon",
+    "Statut_livraison": "En transit"
   },
   {
     "IdLivraison": "LIV043",
-    "IdRapport": "RQ043",
-    "Date_prevue": "2026-04-25",
-    "Date_effective": "2026-04-26",
-    "lieu_livraison": "Lille Europe",
-    "Statut_livraison": "Livree"
+    "IdRapport": "RQ770",
+    "Date_prevue": "2026-07-17",
+    "Date_effective": "2026-07-22",
+    "lieu_livraison": "Avignon",
+    "Statut_livraison": "Livré"
   },
   {
     "IdLivraison": "LIV044",
-    "IdRapport": "RQ044",
-    "Date_prevue": "2026-03-17",
-    "Date_effective": "2026-03-18",
-    "lieu_livraison": "Marseille Port",
-    "Statut_livraison": "Livree"
+    "IdRapport": "RQ265",
+    "Date_prevue": "2026-07-10",
+    "Date_effective": "2026-07-10",
+    "lieu_livraison": "Montpellier",
+    "Statut_livraison": "Livré"
   },
   {
     "IdLivraison": "LIV045",
-    "IdRapport": "RQ045",
-    "Date_prevue": "2026-05-23",
-    "Date_effective": "2026-05-24",
-    "lieu_livraison": "Lille Europe",
-    "Statut_livraison": "Livree"
+    "IdRapport": "RQ671",
+    "Date_prevue": "2026-05-02",
+    "Date_effective": null,
+    "lieu_livraison": "Saint-Etienne",
+    "Statut_livraison": "En attente"
   },
   {
     "IdLivraison": "LIV046",
-    "IdRapport": "RQ046",
-    "Date_prevue": "2026-03-09",
-    "Date_effective": "2026-03-11",
-    "lieu_livraison": "Lille Europe",
-    "Statut_livraison": "Livree"
+    "IdRapport": "RQ430",
+    "Date_prevue": "2026-05-24",
+    "Date_effective": null,
+    "lieu_livraison": "Montpellier",
+    "Statut_livraison": "En attente"
   },
   {
     "IdLivraison": "LIV047",
-    "IdRapport": "RQ047",
-    "Date_prevue": "2026-04-21",
-    "Date_effective": "2026-04-23",
-    "lieu_livraison": "Lille Europe",
-    "Statut_livraison": "Livree"
+    "IdRapport": "RQ393",
+    "Date_prevue": "2026-02-13",
+    "Date_effective": "2026-02-13",
+    "lieu_livraison": "Nice",
+    "Statut_livraison": "Livré"
   },
   {
     "IdLivraison": "LIV048",
-    "IdRapport": "RQ048",
-    "Date_prevue": "2026-07-21",
-    "Date_effective": "2026-07-23",
-    "lieu_livraison": "Rennes Ouest",
-    "Statut_livraison": "Livree"
+    "IdRapport": "RQ243",
+    "Date_prevue": "2026-02-04",
+    "Date_effective": "2026-02-09",
+    "lieu_livraison": "Nancy",
+    "Statut_livraison": "Livré"
   },
   {
     "IdLivraison": "LIV049",
-    "IdRapport": "RQ049",
-    "Date_prevue": "2026-04-22",
-    "Date_effective": null,
-    "lieu_livraison": "Lyon Sud",
-    "Statut_livraison": "Planifiee"
+    "IdRapport": "RQ818",
+    "Date_prevue": "2026-05-16",
+    "Date_effective": "2026-05-26",
+    "lieu_livraison": "Dijon",
+    "Statut_livraison": "Retardé"
   },
   {
     "IdLivraison": "LIV050",
-    "IdRapport": "RQ050",
-    "Date_prevue": "2026-05-27",
-    "Date_effective": null,
-    "lieu_livraison": "Paris Centre",
-    "Statut_livraison": "Planifiee"
+    "IdRapport": "RQ866",
+    "Date_prevue": "2026-04-18",
+    "Date_effective": "2026-04-20",
+    "lieu_livraison": "Le Mans",
+    "Statut_livraison": "Livré"
   },
   {
     "IdLivraison": "LIV051",
-    "IdRapport": "RQ051",
-    "Date_prevue": "2026-03-02",
-    "Date_effective": null,
-    "lieu_livraison": "Toulouse Sud",
-    "Statut_livraison": "Planifiee"
+    "IdRapport": "RQ985",
+    "Date_prevue": "2026-09-04",
+    "Date_effective": "2026-09-07",
+    "lieu_livraison": "Le Mans",
+    "Statut_livraison": "Livré"
   },
   {
     "IdLivraison": "LIV052",
-    "IdRapport": "RQ052",
-    "Date_prevue": "2026-07-14",
-    "Date_effective": null,
-    "lieu_livraison": "Paris Nord",
-    "Statut_livraison": "Planifiee"
+    "IdRapport": "RQ174",
+    "Date_prevue": "2026-04-25",
+    "Date_effective": "2026-05-13",
+    "lieu_livraison": "Bordeaux",
+    "Statut_livraison": "Retardé"
   },
   {
     "IdLivraison": "LIV053",
-    "IdRapport": "RQ053",
-    "Date_prevue": "2026-06-21",
+    "IdRapport": "RQ768",
+    "Date_prevue": "2026-04-06",
     "Date_effective": null,
-    "lieu_livraison": "Toulouse Sud",
-    "Statut_livraison": "Planifiee"
+    "lieu_livraison": "Caen",
+    "Statut_livraison": "En transit"
   },
   {
     "IdLivraison": "LIV054",
-    "IdRapport": "RQ054",
-    "Date_prevue": "2026-06-08",
-    "Date_effective": null,
-    "lieu_livraison": "Toulouse Sud",
-    "Statut_livraison": "En cours"
+    "IdRapport": "RQ976",
+    "Date_prevue": "2026-05-05",
+    "Date_effective": "2026-05-05",
+    "lieu_livraison": "Angers",
+    "Statut_livraison": "Livré"
   },
   {
     "IdLivraison": "LIV055",
-    "IdRapport": "RQ055",
-    "Date_prevue": "2026-03-23",
-    "Date_effective": "2026-03-23",
-    "lieu_livraison": "Strasbourg Gare",
-    "Statut_livraison": "Livree"
+    "IdRapport": "RQ402",
+    "Date_prevue": "2026-09-03",
+    "Date_effective": null,
+    "lieu_livraison": "Rouen",
+    "Statut_livraison": "En transit"
   },
   {
     "IdLivraison": "LIV056",
-    "IdRapport": "RQ056",
-    "Date_prevue": "2026-06-15",
-    "Date_effective": "2026-06-16",
-    "lieu_livraison": "Rennes Ouest",
-    "Statut_livraison": "Livree"
+    "IdRapport": "RQ958",
+    "Date_prevue": "2026-07-30",
+    "Date_effective": "2026-08-17",
+    "lieu_livraison": "Rouen",
+    "Statut_livraison": "Retardé"
   },
   {
     "IdLivraison": "LIV057",
-    "IdRapport": "RQ057",
-    "Date_prevue": "2026-05-28",
-    "Date_effective": "2026-05-28",
-    "lieu_livraison": "Toulouse Centre",
-    "Statut_livraison": "Livree"
+    "IdRapport": "RQ976",
+    "Date_prevue": "2026-04-20",
+    "Date_effective": null,
+    "lieu_livraison": "Rennes",
+    "Statut_livraison": "En attente"
   },
   {
     "IdLivraison": "LIV058",
-    "IdRapport": "RQ058",
-    "Date_prevue": "2026-06-05",
-    "Date_effective": "2026-06-07",
-    "lieu_livraison": "Lille Europe",
-    "Statut_livraison": "Livree"
+    "IdRapport": "RQ079",
+    "Date_prevue": "2026-09-15",
+    "Date_effective": null,
+    "lieu_livraison": "Toulon",
+    "Statut_livraison": "En attente"
   },
   {
     "IdLivraison": "LIV059",
-    "IdRapport": "RQ059",
-    "Date_prevue": "2026-05-08",
-    "Date_effective": null,
-    "lieu_livraison": "Lyon Gare",
-    "Statut_livraison": "En cours"
+    "IdRapport": "RQ873",
+    "Date_prevue": "2026-11-07",
+    "Date_effective": "2026-11-09",
+    "lieu_livraison": "Brest",
+    "Statut_livraison": "Livré"
   },
   {
     "IdLivraison": "LIV060",
-    "IdRapport": "RQ060",
-    "Date_prevue": "2026-06-08",
-    "Date_effective": "2026-06-08",
-    "lieu_livraison": "Paris Centre",
-    "Statut_livraison": "Livree"
+    "IdRapport": "RQ301",
+    "Date_prevue": "2026-10-01",
+    "Date_effective": "2026-10-01",
+    "lieu_livraison": "Caen",
+    "Statut_livraison": "Livré"
   },
   {
     "IdLivraison": "LIV061",
-    "IdRapport": "RQ061",
-    "Date_prevue": "2026-06-28",
-    "Date_effective": null,
-    "lieu_livraison": "Nantes Atlantique",
-    "Statut_livraison": "Planifiee"
+    "IdRapport": "RQ164",
+    "Date_prevue": "2026-11-24",
+    "Date_effective": "2026-11-25",
+    "lieu_livraison": "Grenoble",
+    "Statut_livraison": "Livré"
   },
   {
     "IdLivraison": "LIV062",
-    "IdRapport": "RQ062",
-    "Date_prevue": "2026-04-27",
-    "Date_effective": "2026-04-28",
-    "lieu_livraison": "Lyon Sud",
-    "Statut_livraison": "Livree"
+    "IdRapport": "RQ016",
+    "Date_prevue": "2026-02-19",
+    "Date_effective": "2026-02-19",
+    "lieu_livraison": "Angers",
+    "Statut_livraison": "Livré"
   },
   {
     "IdLivraison": "LIV063",
-    "IdRapport": "RQ063",
-    "Date_prevue": "2026-04-25",
-    "Date_effective": "2026-04-26",
-    "lieu_livraison": "Lille Europe",
-    "Statut_livraison": "Livree"
+    "IdRapport": "RQ311",
+    "Date_prevue": "2026-10-15",
+    "Date_effective": "2026-10-17",
+    "lieu_livraison": "Toulouse",
+    "Statut_livraison": "Livré"
   },
   {
     "IdLivraison": "LIV064",
-    "IdRapport": "RQ064",
-    "Date_prevue": "2026-06-10",
-    "Date_effective": null,
-    "lieu_livraison": "Paris Centre",
-    "Statut_livraison": "En cours"
+    "IdRapport": "RQ129",
+    "Date_prevue": "2026-06-01",
+    "Date_effective": "2026-06-03",
+    "lieu_livraison": "Strasbourg",
+    "Statut_livraison": "Livré"
   },
   {
     "IdLivraison": "LIV065",
-    "IdRapport": "RQ065",
-    "Date_prevue": "2026-06-17",
-    "Date_effective": null,
-    "lieu_livraison": "Sochaux Depot",
-    "Statut_livraison": "En cours"
+    "IdRapport": "RQ315",
+    "Date_prevue": "2026-02-28",
+    "Date_effective": "2026-03-03",
+    "lieu_livraison": "Nancy",
+    "Statut_livraison": "Livré"
   },
   {
     "IdLivraison": "LIV066",
-    "IdRapport": "RQ066",
-    "Date_prevue": "2026-07-12",
-    "Date_effective": "2026-07-12",
-    "lieu_livraison": "Toulouse Sud",
-    "Statut_livraison": "Livree"
+    "IdRapport": "RQ772",
+    "Date_prevue": "2026-08-13",
+    "Date_effective": "2026-08-13",
+    "lieu_livraison": "Toulouse",
+    "Statut_livraison": "Livré"
   },
   {
     "IdLivraison": "LIV067",
-    "IdRapport": "RQ067",
-    "Date_prevue": "2026-07-27",
+    "IdRapport": "RQ089",
+    "Date_prevue": "2026-07-23",
     "Date_effective": null,
-    "lieu_livraison": "Toulouse Sud",
-    "Statut_livraison": "En cours"
+    "lieu_livraison": "Toulon",
+    "Statut_livraison": "En transit"
   },
   {
     "IdLivraison": "LIV068",
-    "IdRapport": "RQ068",
-    "Date_prevue": "2026-03-28",
-    "Date_effective": "2026-03-28",
-    "lieu_livraison": "Marseille Port",
-    "Statut_livraison": "Livree"
+    "IdRapport": "RQ864",
+    "Date_prevue": "2026-06-10",
+    "Date_effective": "2026-06-12",
+    "lieu_livraison": "Nantes",
+    "Statut_livraison": "Livré"
   },
   {
     "IdLivraison": "LIV069",
-    "IdRapport": "RQ069",
-    "Date_prevue": "2026-08-12",
-    "Date_effective": null,
-    "lieu_livraison": "Bordeaux Lac",
-    "Statut_livraison": "En cours"
+    "IdRapport": "RQ366",
+    "Date_prevue": "2026-06-12",
+    "Date_effective": "2026-06-13",
+    "lieu_livraison": "Paris",
+    "Statut_livraison": "Livré"
   },
   {
     "IdLivraison": "LIV070",
-    "IdRapport": "RQ070",
-    "Date_prevue": "2026-06-02",
-    "Date_effective": null,
-    "lieu_livraison": "Lille Europe",
-    "Statut_livraison": "Planifiee"
+    "IdRapport": "RQ994",
+    "Date_prevue": "2026-08-24",
+    "Date_effective": "2026-08-26",
+    "lieu_livraison": "Montpellier",
+    "Statut_livraison": "Livré"
   },
   {
     "IdLivraison": "LIV071",
-    "IdRapport": "RQ071",
-    "Date_prevue": "2026-05-18",
-    "Date_effective": "2026-05-18",
-    "lieu_livraison": "Nantes Atlantique",
-    "Statut_livraison": "Livree"
+    "IdRapport": "RQ659",
+    "Date_prevue": "2026-03-18",
+    "Date_effective": null,
+    "lieu_livraison": "Bordeaux",
+    "Statut_livraison": "En transit"
   },
   {
     "IdLivraison": "LIV072",
-    "IdRapport": "RQ072",
-    "Date_prevue": "2026-06-25",
-    "Date_effective": null,
-    "lieu_livraison": "Toulouse Sud",
-    "Statut_livraison": "Planifiee"
+    "IdRapport": "RQ687",
+    "Date_prevue": "2026-12-11",
+    "Date_effective": "2026-12-12",
+    "lieu_livraison": "Le Mans",
+    "Statut_livraison": "Livré"
   },
   {
     "IdLivraison": "LIV073",
-    "IdRapport": "RQ073",
-    "Date_prevue": "2026-08-20",
-    "Date_effective": "2026-08-20",
-    "lieu_livraison": "Lyon Gare",
-    "Statut_livraison": "Livree"
+    "IdRapport": "RQ564",
+    "Date_prevue": "2026-03-14",
+    "Date_effective": "2026-03-17",
+    "lieu_livraison": "Lille",
+    "Statut_livraison": "Livré"
   },
   {
     "IdLivraison": "LIV074",
-    "IdRapport": "RQ074",
-    "Date_prevue": "2026-05-26",
-    "Date_effective": "2026-05-28",
-    "lieu_livraison": "Bordeaux Lac",
-    "Statut_livraison": "Livree"
+    "IdRapport": "RQ003",
+    "Date_prevue": "2026-09-08",
+    "Date_effective": "2026-09-09",
+    "lieu_livraison": "Nice",
+    "Statut_livraison": "Livré"
   },
   {
     "IdLivraison": "LIV075",
-    "IdRapport": "RQ075",
-    "Date_prevue": "2026-04-20",
+    "IdRapport": "RQ694",
+    "Date_prevue": "2026-11-28",
     "Date_effective": null,
-    "lieu_livraison": "Nantes Atlantique",
-    "Statut_livraison": "Planifiee"
+    "lieu_livraison": "Angers",
+    "Statut_livraison": "En transit"
   },
   {
     "IdLivraison": "LIV076",
-    "IdRapport": "RQ076",
-    "Date_prevue": "2026-03-02",
-    "Date_effective": "2026-03-02",
-    "lieu_livraison": "Lyon Sud",
-    "Statut_livraison": "Livree"
+    "IdRapport": "RQ896",
+    "Date_prevue": "2026-10-16",
+    "Date_effective": null,
+    "lieu_livraison": "Nancy",
+    "Statut_livraison": "En transit"
   },
   {
     "IdLivraison": "LIV077",
-    "IdRapport": "RQ077",
-    "Date_prevue": "2026-06-17",
-    "Date_effective": null,
-    "lieu_livraison": "Marseille Port",
-    "Statut_livraison": "En cours"
+    "IdRapport": "RQ067",
+    "Date_prevue": "2026-10-29",
+    "Date_effective": "2026-11-02",
+    "lieu_livraison": "Toulon",
+    "Statut_livraison": "Livré"
   },
   {
     "IdLivraison": "LIV078",
-    "IdRapport": "RQ078",
-    "Date_prevue": "2026-07-05",
-    "Date_effective": "2026-07-07",
-    "lieu_livraison": "Bordeaux Lac",
-    "Statut_livraison": "Livree"
+    "IdRapport": "RQ550",
+    "Date_prevue": "2026-02-12",
+    "Date_effective": "2026-02-24",
+    "lieu_livraison": "Rennes",
+    "Statut_livraison": "Retardé"
   },
   {
     "IdLivraison": "LIV079",
-    "IdRapport": "RQ079",
-    "Date_prevue": "2026-06-20",
-    "Date_effective": "2026-06-22",
-    "lieu_livraison": "Bordeaux Lac",
-    "Statut_livraison": "Livree"
+    "IdRapport": "RQ887",
+    "Date_prevue": "2026-02-10",
+    "Date_effective": "2026-02-10",
+    "lieu_livraison": "Bordeaux",
+    "Statut_livraison": "Livré"
   },
   {
     "IdLivraison": "LIV080",
-    "IdRapport": "RQ080",
-    "Date_prevue": "2026-07-18",
-    "Date_effective": null,
-    "lieu_livraison": "Lyon Sud",
-    "Statut_livraison": "En cours"
+    "IdRapport": "RQ045",
+    "Date_prevue": "2026-05-05",
+    "Date_effective": "2026-05-07",
+    "lieu_livraison": "Montpellier",
+    "Statut_livraison": "Livré"
   },
   {
     "IdLivraison": "LIV081",
-    "IdRapport": "RQ081",
-    "Date_prevue": "2026-05-16",
-    "Date_effective": "2026-05-17",
-    "lieu_livraison": "Bordeaux Lac",
-    "Statut_livraison": "Livree"
+    "IdRapport": "RQ201",
+    "Date_prevue": "2026-06-23",
+    "Date_effective": "2026-06-28",
+    "lieu_livraison": "Nantes",
+    "Statut_livraison": "Livré"
   },
   {
     "IdLivraison": "LIV082",
-    "IdRapport": "RQ082",
-    "Date_prevue": "2026-06-19",
-    "Date_effective": "2026-06-21",
-    "lieu_livraison": "Toulouse Centre",
-    "Statut_livraison": "Livree"
+    "IdRapport": "RQ254",
+    "Date_prevue": "2026-02-16",
+    "Date_effective": "2026-02-19",
+    "lieu_livraison": "Lyon",
+    "Statut_livraison": "Livré"
   },
   {
     "IdLivraison": "LIV083",
-    "IdRapport": "RQ083",
-    "Date_prevue": "2026-07-16",
-    "Date_effective": "2026-07-18",
-    "lieu_livraison": "Marseille Gare",
-    "Statut_livraison": "Livree"
+    "IdRapport": "RQ319",
+    "Date_prevue": "2026-12-10",
+    "Date_effective": null,
+    "lieu_livraison": "Angers",
+    "Statut_livraison": "En transit"
   },
   {
     "IdLivraison": "LIV084",
-    "IdRapport": "RQ084",
-    "Date_prevue": "2026-07-08",
-    "Date_effective": "2026-07-10",
-    "lieu_livraison": "Strasbourg Gare",
-    "Statut_livraison": "Livree"
+    "IdRapport": "RQ435",
+    "Date_prevue": "2026-02-03",
+    "Date_effective": null,
+    "lieu_livraison": "Lille",
+    "Statut_livraison": "En transit"
   },
   {
     "IdLivraison": "LIV085",
-    "IdRapport": "RQ085",
-    "Date_prevue": "2026-07-21",
-    "Date_effective": null,
-    "lieu_livraison": "Marseille Gare",
-    "Statut_livraison": "Planifiee"
+    "IdRapport": "RQ509",
+    "Date_prevue": "2026-04-14",
+    "Date_effective": "2026-04-19",
+    "lieu_livraison": "Clermont-Ferrand",
+    "Statut_livraison": "Livré"
   },
   {
     "IdLivraison": "LIV086",
-    "IdRapport": "RQ086",
-    "Date_prevue": "2026-04-27",
-    "Date_effective": "2026-04-27",
-    "lieu_livraison": "Rennes Ouest",
-    "Statut_livraison": "Livree"
+    "IdRapport": "RQ894",
+    "Date_prevue": "2026-10-17",
+    "Date_effective": "2026-10-17",
+    "lieu_livraison": "Strasbourg",
+    "Statut_livraison": "Livré"
   },
   {
     "IdLivraison": "LIV087",
-    "IdRapport": "RQ087",
-    "Date_prevue": "2026-04-01",
-    "Date_effective": null,
-    "lieu_livraison": "Bordeaux Lac",
-    "Statut_livraison": "En cours"
+    "IdRapport": "RQ168",
+    "Date_prevue": "2026-03-04",
+    "Date_effective": "2026-03-13",
+    "lieu_livraison": "Bordeaux",
+    "Statut_livraison": "Retardé"
   },
   {
     "IdLivraison": "LIV088",
-    "IdRapport": "RQ088",
-    "Date_prevue": "2026-04-14",
-    "Date_effective": "2026-04-15",
-    "lieu_livraison": "Lille Europe",
-    "Statut_livraison": "Livree"
+    "IdRapport": "RQ609",
+    "Date_prevue": "2026-09-17",
+    "Date_effective": "2026-09-21",
+    "lieu_livraison": "Brest",
+    "Statut_livraison": "Livré"
   },
   {
     "IdLivraison": "LIV089",
-    "IdRapport": "RQ089",
-    "Date_prevue": "2026-06-28",
-    "Date_effective": "2026-06-28",
-    "lieu_livraison": "Marseille Port",
-    "Statut_livraison": "Livree"
+    "IdRapport": "RQ619",
+    "Date_prevue": "2026-02-26",
+    "Date_effective": "2026-02-28",
+    "lieu_livraison": "Lyon",
+    "Statut_livraison": "Livré"
   },
   {
     "IdLivraison": "LIV090",
-    "IdRapport": "RQ090",
-    "Date_prevue": "2026-04-18",
-    "Date_effective": "2026-04-20",
-    "lieu_livraison": "Strasbourg Gare",
-    "Statut_livraison": "Livree"
+    "IdRapport": "RQ961",
+    "Date_prevue": "2026-02-07",
+    "Date_effective": "2026-02-10",
+    "lieu_livraison": "Bordeaux",
+    "Statut_livraison": "Livré"
   },
   {
     "IdLivraison": "LIV091",
-    "IdRapport": "RQ091",
-    "Date_prevue": "2026-06-11",
-    "Date_effective": "2026-06-12",
-    "lieu_livraison": "Bordeaux Centre",
-    "Statut_livraison": "Livree"
+    "IdRapport": "RQ247",
+    "Date_prevue": "2026-03-27",
+    "Date_effective": null,
+    "lieu_livraison": "Dijon",
+    "Statut_livraison": "En transit"
   },
   {
     "IdLivraison": "LIV092",
-    "IdRapport": "RQ092",
-    "Date_prevue": "2026-05-18",
-    "Date_effective": "2026-05-20",
-    "lieu_livraison": "Marseille Gare",
-    "Statut_livraison": "Livree"
+    "IdRapport": "RQ766",
+    "Date_prevue": "2026-03-23",
+    "Date_effective": "2026-03-26",
+    "lieu_livraison": "Avignon",
+    "Statut_livraison": "Livré"
   },
   {
     "IdLivraison": "LIV093",
-    "IdRapport": "RQ093",
-    "Date_prevue": "2026-07-16",
-    "Date_effective": "2026-07-16",
-    "lieu_livraison": "Toulouse Sud",
-    "Statut_livraison": "Livree"
+    "IdRapport": "RQ668",
+    "Date_prevue": "2026-11-12",
+    "Date_effective": "2026-11-17",
+    "lieu_livraison": "Bordeaux",
+    "Statut_livraison": "Livré"
   },
   {
     "IdLivraison": "LIV094",
-    "IdRapport": "RQ094",
-    "Date_prevue": "2026-05-08",
-    "Date_effective": "2026-05-09",
-    "lieu_livraison": "Lyon Sud",
-    "Statut_livraison": "Livree"
+    "IdRapport": "RQ906",
+    "Date_prevue": "2026-08-18",
+    "Date_effective": null,
+    "lieu_livraison": "Toulouse",
+    "Statut_livraison": "En attente"
   },
   {
     "IdLivraison": "LIV095",
-    "IdRapport": "RQ095",
-    "Date_prevue": "2026-08-23",
-    "Date_effective": null,
-    "lieu_livraison": "Bordeaux Lac",
-    "Statut_livraison": "En cours"
+    "IdRapport": "RQ779",
+    "Date_prevue": "2026-08-01",
+    "Date_effective": "2026-08-05",
+    "lieu_livraison": "Avignon",
+    "Statut_livraison": "Livré"
   },
   {
     "IdLivraison": "LIV096",
-    "IdRapport": "RQ096",
-    "Date_prevue": "2026-05-18",
-    "Date_effective": "2026-05-19",
-    "lieu_livraison": "Lyon Gare",
-    "Statut_livraison": "Livree"
+    "IdRapport": "RQ053",
+    "Date_prevue": "2026-10-18",
+    "Date_effective": "2026-10-22",
+    "lieu_livraison": "Clermont-Ferrand",
+    "Statut_livraison": "Livré"
   },
   {
     "IdLivraison": "LIV097",
-    "IdRapport": "RQ097",
-    "Date_prevue": "2026-08-18",
+    "IdRapport": "RQ292",
+    "Date_prevue": "2026-09-27",
     "Date_effective": null,
-    "lieu_livraison": "Bordeaux Centre",
-    "Statut_livraison": "En cours"
+    "lieu_livraison": "Nice",
+    "Statut_livraison": "En transit"
   },
   {
     "IdLivraison": "LIV098",
-    "IdRapport": "RQ098",
-    "Date_prevue": "2026-05-25",
-    "Date_effective": "2026-05-26",
-    "lieu_livraison": "Paris Centre",
-    "Statut_livraison": "Livree"
+    "IdRapport": "RQ889",
+    "Date_prevue": "2026-08-06",
+    "Date_effective": null,
+    "lieu_livraison": "Clermont-Ferrand",
+    "Statut_livraison": "En attente"
   },
   {
     "IdLivraison": "LIV099",
-    "IdRapport": "RQ099",
-    "Date_prevue": "2026-08-03",
-    "Date_effective": "2026-08-04",
-    "lieu_livraison": "Paris Nord",
-    "Statut_livraison": "Livree"
+    "IdRapport": "RQ124",
+    "Date_prevue": "2026-03-12",
+    "Date_effective": "2026-03-15",
+    "lieu_livraison": "Nice",
+    "Statut_livraison": "Livré"
   },
   {
     "IdLivraison": "LIV100",
-    "IdRapport": "RQ100",
+    "IdRapport": "RQ229",
+    "Date_prevue": "2026-07-23",
+    "Date_effective": "2026-07-28",
+    "lieu_livraison": "Bordeaux",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV101",
+    "IdRapport": "RQ024",
+    "Date_prevue": "2026-09-30",
+    "Date_effective": null,
+    "lieu_livraison": "Le Mans",
+    "Statut_livraison": "En attente"
+  },
+  {
+    "IdLivraison": "LIV102",
+    "IdRapport": "RQ542",
+    "Date_prevue": "2026-09-16",
+    "Date_effective": "2026-09-16",
+    "lieu_livraison": "Dijon",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV103",
+    "IdRapport": "RQ141",
+    "Date_prevue": "2026-09-28",
+    "Date_effective": "2026-09-28",
+    "lieu_livraison": "Metz",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV104",
+    "IdRapport": "RQ233",
+    "Date_prevue": "2026-09-28",
+    "Date_effective": "2026-10-01",
+    "lieu_livraison": "Bordeaux",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV105",
+    "IdRapport": "RQ437",
+    "Date_prevue": "2026-02-15",
+    "Date_effective": "2026-02-19",
+    "lieu_livraison": "Bordeaux",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV106",
+    "IdRapport": "RQ798",
+    "Date_prevue": "2026-12-13",
+    "Date_effective": "2026-12-14",
+    "lieu_livraison": "Toulouse",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV107",
+    "IdRapport": "RQ916",
+    "Date_prevue": "2026-05-15",
+    "Date_effective": "2026-05-19",
+    "lieu_livraison": "Clermont-Ferrand",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV108",
+    "IdRapport": "RQ394",
+    "Date_prevue": "2026-06-09",
+    "Date_effective": "2026-06-09",
+    "lieu_livraison": "Le Mans",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV109",
+    "IdRapport": "RQ203",
+    "Date_prevue": "2026-10-07",
+    "Date_effective": "2026-10-08",
+    "lieu_livraison": "Lyon",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV110",
+    "IdRapport": "RQ459",
+    "Date_prevue": "2026-09-03",
+    "Date_effective": "2026-09-03",
+    "lieu_livraison": "Paris",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV111",
+    "IdRapport": "RQ187",
+    "Date_prevue": "2026-06-27",
+    "Date_effective": "2026-07-02",
+    "lieu_livraison": "Nancy",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV112",
+    "IdRapport": "RQ734",
+    "Date_prevue": "2026-11-09",
+    "Date_effective": "2026-11-11",
+    "lieu_livraison": "Saint-Etienne",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV113",
+    "IdRapport": "RQ888",
+    "Date_prevue": "2026-10-15",
+    "Date_effective": "2026-10-16",
+    "lieu_livraison": "Clermont-Ferrand",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV114",
+    "IdRapport": "RQ264",
+    "Date_prevue": "2026-07-01",
+    "Date_effective": "2026-07-02",
+    "lieu_livraison": "Strasbourg",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV115",
+    "IdRapport": "RQ898",
+    "Date_prevue": "2026-08-22",
+    "Date_effective": "2026-08-30",
+    "lieu_livraison": "Bordeaux",
+    "Statut_livraison": "Retardé"
+  },
+  {
+    "IdLivraison": "LIV116",
+    "IdRapport": "RQ401",
+    "Date_prevue": "2026-11-27",
+    "Date_effective": "2026-11-30",
+    "lieu_livraison": "Brest",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV117",
+    "IdRapport": "RQ685",
+    "Date_prevue": "2026-08-15",
+    "Date_effective": "2026-08-18",
+    "lieu_livraison": "Rennes",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV118",
+    "IdRapport": "RQ408",
+    "Date_prevue": "2026-09-30",
+    "Date_effective": "2026-10-03",
+    "lieu_livraison": "Caen",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV119",
+    "IdRapport": "RQ700",
+    "Date_prevue": "2026-08-02",
+    "Date_effective": "2026-08-06",
+    "lieu_livraison": "Metz",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV120",
+    "IdRapport": "RQ122",
+    "Date_prevue": "2026-06-06",
+    "Date_effective": "2026-06-08",
+    "lieu_livraison": "Metz",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV121",
+    "IdRapport": "RQ767",
+    "Date_prevue": "2026-04-14",
+    "Date_effective": "2026-04-14",
+    "lieu_livraison": "Nancy",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV122",
+    "IdRapport": "RQ119",
+    "Date_prevue": "2026-08-28",
+    "Date_effective": null,
+    "lieu_livraison": "Toulouse",
+    "Statut_livraison": "En attente"
+  },
+  {
+    "IdLivraison": "LIV123",
+    "IdRapport": "RQ398",
+    "Date_prevue": "2026-03-10",
+    "Date_effective": "2026-03-10",
+    "lieu_livraison": "Strasbourg",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV124",
+    "IdRapport": "RQ203",
+    "Date_prevue": "2026-08-06",
+    "Date_effective": "2026-08-11",
+    "lieu_livraison": "Angers",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV125",
+    "IdRapport": "RQ786",
+    "Date_prevue": "2026-06-13",
+    "Date_effective": null,
+    "lieu_livraison": "Nantes",
+    "Statut_livraison": "En attente"
+  },
+  {
+    "IdLivraison": "LIV126",
+    "IdRapport": "RQ289",
+    "Date_prevue": "2026-05-20",
+    "Date_effective": null,
+    "lieu_livraison": "Metz",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV127",
+    "IdRapport": "RQ116",
+    "Date_prevue": "2026-12-15",
+    "Date_effective": "2026-12-16",
+    "lieu_livraison": "Reims",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV128",
+    "IdRapport": "RQ141",
+    "Date_prevue": "2026-06-28",
+    "Date_effective": "2026-06-30",
+    "lieu_livraison": "Angers",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV129",
+    "IdRapport": "RQ068",
+    "Date_prevue": "2026-05-24",
+    "Date_effective": "2026-05-26",
+    "lieu_livraison": "Bordeaux",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV130",
+    "IdRapport": "RQ757",
+    "Date_prevue": "2026-09-06",
+    "Date_effective": "2026-09-06",
+    "lieu_livraison": "Paris",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV131",
+    "IdRapport": "RQ324",
+    "Date_prevue": "2026-05-29",
+    "Date_effective": "2026-05-29",
+    "lieu_livraison": "Grenoble",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV132",
+    "IdRapport": "RQ934",
+    "Date_prevue": "2026-03-09",
+    "Date_effective": "2026-03-14",
+    "lieu_livraison": "Grenoble",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV133",
+    "IdRapport": "RQ782",
+    "Date_prevue": "2026-11-09",
+    "Date_effective": "2026-11-26",
+    "lieu_livraison": "Montpellier",
+    "Statut_livraison": "Retardé"
+  },
+  {
+    "IdLivraison": "LIV134",
+    "IdRapport": "RQ414",
+    "Date_prevue": "2026-06-06",
+    "Date_effective": "2026-06-10",
+    "lieu_livraison": "Nice",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV135",
+    "IdRapport": "RQ239",
+    "Date_prevue": "2026-07-09",
+    "Date_effective": "2026-07-09",
+    "lieu_livraison": "Paris",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV136",
+    "IdRapport": "RQ334",
+    "Date_prevue": "2026-02-09",
+    "Date_effective": null,
+    "lieu_livraison": "Avignon",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV137",
+    "IdRapport": "RQ283",
+    "Date_prevue": "2026-10-14",
+    "Date_effective": "2026-10-15",
+    "lieu_livraison": "Dijon",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV138",
+    "IdRapport": "RQ518",
+    "Date_prevue": "2026-11-27",
+    "Date_effective": null,
+    "lieu_livraison": "Bordeaux",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV139",
+    "IdRapport": "RQ328",
+    "Date_prevue": "2026-09-30",
+    "Date_effective": "2026-10-02",
+    "lieu_livraison": "Nice",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV140",
+    "IdRapport": "RQ763",
+    "Date_prevue": "2026-03-29",
+    "Date_effective": "2026-03-29",
+    "lieu_livraison": "Saint-Etienne",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV141",
+    "IdRapport": "RQ930",
+    "Date_prevue": "2026-10-11",
+    "Date_effective": "2026-10-11",
+    "lieu_livraison": "Toulouse",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV142",
+    "IdRapport": "RQ240",
+    "Date_prevue": "2026-12-01",
+    "Date_effective": "2026-12-05",
+    "lieu_livraison": "Dijon",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV143",
+    "IdRapport": "RQ519",
+    "Date_prevue": "2026-03-23",
+    "Date_effective": "2026-03-25",
+    "lieu_livraison": "Toulouse",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV144",
+    "IdRapport": "RQ386",
+    "Date_prevue": "2026-02-24",
+    "Date_effective": null,
+    "lieu_livraison": "Brest",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV145",
+    "IdRapport": "RQ473",
+    "Date_prevue": "2026-04-24",
+    "Date_effective": "2026-04-27",
+    "lieu_livraison": "Paris",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV146",
+    "IdRapport": "RQ158",
+    "Date_prevue": "2026-07-02",
+    "Date_effective": null,
+    "lieu_livraison": "Toulon",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV147",
+    "IdRapport": "RQ777",
+    "Date_prevue": "2026-08-09",
+    "Date_effective": null,
+    "lieu_livraison": "Toulon",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV148",
+    "IdRapport": "RQ792",
+    "Date_prevue": "2026-09-25",
+    "Date_effective": "2026-09-25",
+    "lieu_livraison": "Grenoble",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV149",
+    "IdRapport": "RQ067",
+    "Date_prevue": "2026-09-15",
+    "Date_effective": "2026-09-18",
+    "lieu_livraison": "Strasbourg",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV150",
+    "IdRapport": "RQ063",
+    "Date_prevue": "2026-10-15",
+    "Date_effective": "2026-10-17",
+    "lieu_livraison": "Rouen",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV151",
+    "IdRapport": "RQ825",
+    "Date_prevue": "2026-06-15",
+    "Date_effective": null,
+    "lieu_livraison": "Dijon",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV152",
+    "IdRapport": "RQ545",
+    "Date_prevue": "2026-05-29",
+    "Date_effective": "2026-06-03",
+    "lieu_livraison": "Lyon",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV153",
+    "IdRapport": "RQ222",
+    "Date_prevue": "2026-03-23",
+    "Date_effective": "2026-03-25",
+    "lieu_livraison": "Lille",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV154",
+    "IdRapport": "RQ543",
+    "Date_prevue": "2026-02-09",
+    "Date_effective": null,
+    "lieu_livraison": "Saint-Etienne",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV155",
+    "IdRapport": "RQ304",
+    "Date_prevue": "2026-03-10",
+    "Date_effective": null,
+    "lieu_livraison": "Angers",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV156",
+    "IdRapport": "RQ867",
+    "Date_prevue": "2026-07-17",
+    "Date_effective": null,
+    "lieu_livraison": "Caen",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV157",
+    "IdRapport": "RQ186",
+    "Date_prevue": "2026-08-16",
+    "Date_effective": "2026-08-20",
+    "lieu_livraison": "Nantes",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV158",
+    "IdRapport": "RQ341",
+    "Date_prevue": "2026-06-13",
+    "Date_effective": null,
+    "lieu_livraison": "Rouen",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV159",
+    "IdRapport": "RQ702",
+    "Date_prevue": "2026-10-29",
+    "Date_effective": "2026-10-30",
+    "lieu_livraison": "Saint-Etienne",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV160",
+    "IdRapport": "RQ191",
+    "Date_prevue": "2026-11-12",
+    "Date_effective": "2026-11-14",
+    "lieu_livraison": "Lyon",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV161",
+    "IdRapport": "RQ460",
+    "Date_prevue": "2026-09-02",
+    "Date_effective": "2026-09-03",
+    "lieu_livraison": "Paris",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV162",
+    "IdRapport": "RQ457",
+    "Date_prevue": "2026-08-13",
+    "Date_effective": "2026-08-14",
+    "lieu_livraison": "Dijon",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV163",
+    "IdRapport": "RQ969",
+    "Date_prevue": "2026-03-07",
+    "Date_effective": null,
+    "lieu_livraison": "Metz",
+    "Statut_livraison": "En attente"
+  },
+  {
+    "IdLivraison": "LIV164",
+    "IdRapport": "RQ212",
+    "Date_prevue": "2026-07-24",
+    "Date_effective": "2026-07-28",
+    "lieu_livraison": "Rouen",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV165",
+    "IdRapport": "RQ488",
+    "Date_prevue": "2026-09-02",
+    "Date_effective": "2026-09-04",
+    "lieu_livraison": "Brest",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV166",
+    "IdRapport": "RQ129",
+    "Date_prevue": "2026-05-23",
+    "Date_effective": null,
+    "lieu_livraison": "Toulon",
+    "Statut_livraison": "En attente"
+  },
+  {
+    "IdLivraison": "LIV167",
+    "IdRapport": "RQ740",
+    "Date_prevue": "2026-10-17",
+    "Date_effective": null,
+    "lieu_livraison": "Brest",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV168",
+    "IdRapport": "RQ054",
+    "Date_prevue": "2026-08-28",
+    "Date_effective": null,
+    "lieu_livraison": "Metz",
+    "Statut_livraison": "En attente"
+  },
+  {
+    "IdLivraison": "LIV169",
+    "IdRapport": "RQ031",
+    "Date_prevue": "2026-06-15",
+    "Date_effective": "2026-06-19",
+    "lieu_livraison": "Rouen",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV170",
+    "IdRapport": "RQ606",
+    "Date_prevue": "2026-05-31",
+    "Date_effective": "2026-06-05",
+    "lieu_livraison": "Nice",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV171",
+    "IdRapport": "RQ799",
+    "Date_prevue": "2026-08-09",
+    "Date_effective": null,
+    "lieu_livraison": "Rennes",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV172",
+    "IdRapport": "RQ007",
+    "Date_prevue": "2026-07-28",
+    "Date_effective": null,
+    "lieu_livraison": "Caen",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV173",
+    "IdRapport": "RQ538",
+    "Date_prevue": "2026-12-07",
+    "Date_effective": null,
+    "lieu_livraison": "Dijon",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV174",
+    "IdRapport": "RQ205",
+    "Date_prevue": "2026-11-23",
+    "Date_effective": "2026-11-23",
+    "lieu_livraison": "Nice",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV175",
+    "IdRapport": "RQ611",
+    "Date_prevue": "2026-09-19",
+    "Date_effective": "2026-09-21",
+    "lieu_livraison": "Avignon",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV176",
+    "IdRapport": "RQ010",
+    "Date_prevue": "2026-07-11",
+    "Date_effective": "2026-07-16",
+    "lieu_livraison": "Nancy",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV177",
+    "IdRapport": "RQ330",
+    "Date_prevue": "2026-08-30",
+    "Date_effective": "2026-09-04",
+    "lieu_livraison": "Dijon",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV178",
+    "IdRapport": "RQ513",
+    "Date_prevue": "2026-12-02",
+    "Date_effective": null,
+    "lieu_livraison": "Dijon",
+    "Statut_livraison": "En attente"
+  },
+  {
+    "IdLivraison": "LIV179",
+    "IdRapport": "RQ728",
+    "Date_prevue": "2026-07-24",
+    "Date_effective": "2026-07-25",
+    "lieu_livraison": "Toulon",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV180",
+    "IdRapport": "RQ871",
+    "Date_prevue": "2026-03-12",
+    "Date_effective": "2026-03-12",
+    "lieu_livraison": "Lille",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV181",
+    "IdRapport": "RQ852",
+    "Date_prevue": "2026-10-28",
+    "Date_effective": "2026-10-29",
+    "lieu_livraison": "Dijon",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV182",
+    "IdRapport": "RQ216",
+    "Date_prevue": "2026-08-26",
+    "Date_effective": null,
+    "lieu_livraison": "Toulouse",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV183",
+    "IdRapport": "RQ467",
+    "Date_prevue": "2026-05-17",
+    "Date_effective": "2026-05-22",
+    "lieu_livraison": "Nantes",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV184",
+    "IdRapport": "RQ180",
+    "Date_prevue": "2026-04-17",
+    "Date_effective": "2026-04-17",
+    "lieu_livraison": "Avignon",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV185",
+    "IdRapport": "RQ077",
+    "Date_prevue": "2026-09-26",
+    "Date_effective": null,
+    "lieu_livraison": "Clermont-Ferrand",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV186",
+    "IdRapport": "RQ909",
+    "Date_prevue": "2026-10-09",
+    "Date_effective": "2026-10-09",
+    "lieu_livraison": "Dijon",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV187",
+    "IdRapport": "RQ110",
+    "Date_prevue": "2026-09-05",
+    "Date_effective": "2026-09-07",
+    "lieu_livraison": "Nantes",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV188",
+    "IdRapport": "RQ632",
+    "Date_prevue": "2026-11-06",
+    "Date_effective": "2026-11-08",
+    "lieu_livraison": "Rennes",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV189",
+    "IdRapport": "RQ858",
+    "Date_prevue": "2026-11-10",
+    "Date_effective": "2026-11-14",
+    "lieu_livraison": "Lille",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV190",
+    "IdRapport": "RQ034",
+    "Date_prevue": "2026-08-11",
+    "Date_effective": "2026-08-11",
+    "lieu_livraison": "Toulon",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV191",
+    "IdRapport": "RQ979",
+    "Date_prevue": "2026-11-24",
+    "Date_effective": "2026-11-28",
+    "lieu_livraison": "Nantes",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV192",
+    "IdRapport": "RQ192",
+    "Date_prevue": "2026-02-16",
+    "Date_effective": null,
+    "lieu_livraison": "Nancy",
+    "Statut_livraison": "En attente"
+  },
+  {
+    "IdLivraison": "LIV193",
+    "IdRapport": "RQ424",
+    "Date_prevue": "2026-11-19",
+    "Date_effective": null,
+    "lieu_livraison": "Paris",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV194",
+    "IdRapport": "RQ098",
+    "Date_prevue": "2026-06-17",
+    "Date_effective": "2026-06-20",
+    "lieu_livraison": "Rennes",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV195",
+    "IdRapport": "RQ508",
+    "Date_prevue": "2026-03-12",
+    "Date_effective": "2026-03-16",
+    "lieu_livraison": "Paris",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV196",
+    "IdRapport": "RQ890",
+    "Date_prevue": "2026-03-09",
+    "Date_effective": "2026-03-09",
+    "lieu_livraison": "Strasbourg",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV197",
+    "IdRapport": "RQ826",
+    "Date_prevue": "2026-03-14",
+    "Date_effective": "2026-03-15",
+    "lieu_livraison": "Saint-Etienne",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV198",
+    "IdRapport": "RQ909",
+    "Date_prevue": "2026-02-21",
+    "Date_effective": null,
+    "lieu_livraison": "Caen",
+    "Statut_livraison": "En attente"
+  },
+  {
+    "IdLivraison": "LIV199",
+    "IdRapport": "RQ012",
+    "Date_prevue": "2026-02-17",
+    "Date_effective": "2026-02-18",
+    "lieu_livraison": "Strasbourg",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV200",
+    "IdRapport": "RQ190",
+    "Date_prevue": "2026-08-31",
+    "Date_effective": null,
+    "lieu_livraison": "Nantes",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV201",
+    "IdRapport": "RQ260",
+    "Date_prevue": "2026-06-24",
+    "Date_effective": "2026-06-25",
+    "lieu_livraison": "Bordeaux",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV202",
+    "IdRapport": "RQ884",
+    "Date_prevue": "2026-09-14",
+    "Date_effective": "2026-09-16",
+    "lieu_livraison": "Saint-Etienne",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV203",
+    "IdRapport": "RQ444",
+    "Date_prevue": "2026-06-04",
+    "Date_effective": null,
+    "lieu_livraison": "Paris",
+    "Statut_livraison": "En attente"
+  },
+  {
+    "IdLivraison": "LIV204",
+    "IdRapport": "RQ553",
+    "Date_prevue": "2026-05-25",
+    "Date_effective": "2026-05-31",
+    "lieu_livraison": "Nancy",
+    "Statut_livraison": "Retardé"
+  },
+  {
+    "IdLivraison": "LIV205",
+    "IdRapport": "RQ408",
+    "Date_prevue": "2026-07-17",
+    "Date_effective": "2026-07-18",
+    "lieu_livraison": "Grenoble",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV206",
+    "IdRapport": "RQ631",
+    "Date_prevue": "2026-12-11",
+    "Date_effective": null,
+    "lieu_livraison": "Le Mans",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV207",
+    "IdRapport": "RQ333",
+    "Date_prevue": "2026-03-28",
+    "Date_effective": "2026-03-29",
+    "lieu_livraison": "Nancy",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV208",
+    "IdRapport": "RQ620",
+    "Date_prevue": "2026-05-27",
+    "Date_effective": "2026-06-01",
+    "lieu_livraison": "Nantes",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV209",
+    "IdRapport": "RQ777",
+    "Date_prevue": "2026-10-11",
+    "Date_effective": "2026-10-11",
+    "lieu_livraison": "Nantes",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV210",
+    "IdRapport": "RQ917",
+    "Date_prevue": "2026-11-21",
+    "Date_effective": "2026-11-24",
+    "lieu_livraison": "Lille",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV211",
+    "IdRapport": "RQ357",
+    "Date_prevue": "2026-02-25",
+    "Date_effective": "2026-03-01",
+    "lieu_livraison": "Toulon",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV212",
+    "IdRapport": "RQ061",
+    "Date_prevue": "2026-04-06",
+    "Date_effective": null,
+    "lieu_livraison": "Metz",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV213",
+    "IdRapport": "RQ430",
+    "Date_prevue": "2026-09-20",
+    "Date_effective": "2026-09-22",
+    "lieu_livraison": "Nantes",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV214",
+    "IdRapport": "RQ465",
+    "Date_prevue": "2026-04-27",
+    "Date_effective": "2026-04-29",
+    "lieu_livraison": "Grenoble",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV215",
+    "IdRapport": "RQ211",
+    "Date_prevue": "2026-11-29",
+    "Date_effective": "2026-12-03",
+    "lieu_livraison": "Nancy",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV216",
+    "IdRapport": "RQ642",
+    "Date_prevue": "2026-11-28",
+    "Date_effective": "2026-12-01",
+    "lieu_livraison": "Nancy",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV217",
+    "IdRapport": "RQ001",
+    "Date_prevue": "2026-10-17",
+    "Date_effective": null,
+    "lieu_livraison": "Toulon",
+    "Statut_livraison": "En attente"
+  },
+  {
+    "IdLivraison": "LIV218",
+    "IdRapport": "RQ309",
+    "Date_prevue": "2026-02-02",
+    "Date_effective": "2026-02-05",
+    "lieu_livraison": "Grenoble",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV219",
+    "IdRapport": "RQ772",
+    "Date_prevue": "2026-08-31",
+    "Date_effective": null,
+    "lieu_livraison": "Paris",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV220",
+    "IdRapport": "RQ174",
+    "Date_prevue": "2026-02-23",
+    "Date_effective": "2026-02-28",
+    "lieu_livraison": "Metz",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV221",
+    "IdRapport": "RQ945",
+    "Date_prevue": "2026-03-25",
+    "Date_effective": "2026-03-26",
+    "lieu_livraison": "Brest",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV222",
+    "IdRapport": "RQ048",
+    "Date_prevue": "2026-04-26",
+    "Date_effective": "2026-04-26",
+    "lieu_livraison": "Grenoble",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV223",
+    "IdRapport": "RQ796",
+    "Date_prevue": "2026-07-04",
+    "Date_effective": null,
+    "lieu_livraison": "Lille",
+    "Statut_livraison": "En attente"
+  },
+  {
+    "IdLivraison": "LIV224",
+    "IdRapport": "RQ635",
+    "Date_prevue": "2026-02-17",
+    "Date_effective": "2026-02-21",
+    "lieu_livraison": "Reims",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV225",
+    "IdRapport": "RQ936",
+    "Date_prevue": "2026-02-18",
+    "Date_effective": "2026-02-19",
+    "lieu_livraison": "Nantes",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV226",
+    "IdRapport": "RQ357",
+    "Date_prevue": "2026-05-10",
+    "Date_effective": "2026-05-11",
+    "lieu_livraison": "Paris",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV227",
+    "IdRapport": "RQ981",
+    "Date_prevue": "2026-04-27",
+    "Date_effective": "2026-04-27",
+    "lieu_livraison": "Lyon",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV228",
+    "IdRapport": "RQ158",
+    "Date_prevue": "2026-08-11",
+    "Date_effective": null,
+    "lieu_livraison": "Nice",
+    "Statut_livraison": "En attente"
+  },
+  {
+    "IdLivraison": "LIV229",
+    "IdRapport": "RQ353",
+    "Date_prevue": "2026-03-03",
+    "Date_effective": "2026-03-08",
+    "lieu_livraison": "Lille",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV230",
+    "IdRapport": "RQ346",
+    "Date_prevue": "2026-06-26",
+    "Date_effective": "2026-07-01",
+    "lieu_livraison": "Caen",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV231",
+    "IdRapport": "RQ920",
+    "Date_prevue": "2026-02-18",
+    "Date_effective": "2026-02-21",
+    "lieu_livraison": "Reims",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV232",
+    "IdRapport": "RQ517",
+    "Date_prevue": "2026-11-11",
+    "Date_effective": null,
+    "lieu_livraison": "Montpellier",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV233",
+    "IdRapport": "RQ712",
+    "Date_prevue": "2026-05-18",
+    "Date_effective": "2026-05-19",
+    "lieu_livraison": "Strasbourg",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV234",
+    "IdRapport": "RQ897",
+    "Date_prevue": "2026-04-25",
+    "Date_effective": "2026-04-26",
+    "lieu_livraison": "Rouen",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV235",
+    "IdRapport": "RQ942",
+    "Date_prevue": "2026-04-25",
+    "Date_effective": "2026-04-26",
+    "lieu_livraison": "Paris",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV236",
+    "IdRapport": "RQ832",
+    "Date_prevue": "2026-11-03",
+    "Date_effective": "2026-11-07",
+    "lieu_livraison": "Nancy",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV237",
+    "IdRapport": "RQ759",
+    "Date_prevue": "2026-11-03",
+    "Date_effective": "2026-11-12",
+    "lieu_livraison": "Bordeaux",
+    "Statut_livraison": "Retardé"
+  },
+  {
+    "IdLivraison": "LIV238",
+    "IdRapport": "RQ130",
+    "Date_prevue": "2026-06-18",
+    "Date_effective": null,
+    "lieu_livraison": "Marseille",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV239",
+    "IdRapport": "RQ166",
+    "Date_prevue": "2026-11-24",
+    "Date_effective": "2026-11-26",
+    "lieu_livraison": "Avignon",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV240",
+    "IdRapport": "RQ613",
+    "Date_prevue": "2026-08-21",
+    "Date_effective": "2026-08-25",
+    "lieu_livraison": "Brest",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV241",
+    "IdRapport": "RQ630",
+    "Date_prevue": "2026-04-10",
+    "Date_effective": "2026-04-17",
+    "lieu_livraison": "Toulouse",
+    "Statut_livraison": "Retardé"
+  },
+  {
+    "IdLivraison": "LIV242",
+    "IdRapport": "RQ249",
+    "Date_prevue": "2026-10-13",
+    "Date_effective": "2026-10-13",
+    "lieu_livraison": "Dijon",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV243",
+    "IdRapport": "RQ471",
+    "Date_prevue": "2026-07-09",
+    "Date_effective": "2026-07-11",
+    "lieu_livraison": "Nantes",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV244",
+    "IdRapport": "RQ068",
+    "Date_prevue": "2026-02-08",
+    "Date_effective": "2026-02-12",
+    "lieu_livraison": "Avignon",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV245",
+    "IdRapport": "RQ888",
+    "Date_prevue": "2026-06-18",
+    "Date_effective": "2026-06-22",
+    "lieu_livraison": "Strasbourg",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV246",
+    "IdRapport": "RQ924",
+    "Date_prevue": "2026-09-18",
+    "Date_effective": "2026-09-18",
+    "lieu_livraison": "Reims",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV247",
+    "IdRapport": "RQ136",
+    "Date_prevue": "2026-05-04",
+    "Date_effective": "2026-05-04",
+    "lieu_livraison": "Metz",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV248",
+    "IdRapport": "RQ235",
+    "Date_prevue": "2026-03-24",
+    "Date_effective": "2026-03-25",
+    "lieu_livraison": "Nancy",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV249",
+    "IdRapport": "RQ411",
+    "Date_prevue": "2026-04-07",
+    "Date_effective": "2026-04-26",
+    "lieu_livraison": "Rennes",
+    "Statut_livraison": "Retardé"
+  },
+  {
+    "IdLivraison": "LIV250",
+    "IdRapport": "RQ485",
+    "Date_prevue": "2026-07-14",
+    "Date_effective": "2026-07-18",
+    "lieu_livraison": "Clermont-Ferrand",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV251",
+    "IdRapport": "RQ940",
+    "Date_prevue": "2026-08-24",
+    "Date_effective": "2026-08-24",
+    "lieu_livraison": "Toulouse",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV252",
+    "IdRapport": "RQ719",
+    "Date_prevue": "2026-02-14",
+    "Date_effective": null,
+    "lieu_livraison": "Toulon",
+    "Statut_livraison": "En attente"
+  },
+  {
+    "IdLivraison": "LIV253",
+    "IdRapport": "RQ124",
+    "Date_prevue": "2026-09-18",
+    "Date_effective": null,
+    "lieu_livraison": "Lille",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV254",
+    "IdRapport": "RQ028",
+    "Date_prevue": "2026-02-03",
+    "Date_effective": "2026-02-04",
+    "lieu_livraison": "Caen",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV255",
+    "IdRapport": "RQ760",
+    "Date_prevue": "2026-10-31",
+    "Date_effective": null,
+    "lieu_livraison": "Nice",
+    "Statut_livraison": "En attente"
+  },
+  {
+    "IdLivraison": "LIV256",
+    "IdRapport": "RQ896",
+    "Date_prevue": "2026-04-12",
+    "Date_effective": "2026-04-13",
+    "lieu_livraison": "Nantes",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV257",
+    "IdRapport": "RQ723",
+    "Date_prevue": "2026-03-27",
+    "Date_effective": "2026-04-01",
+    "lieu_livraison": "Lille",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV258",
+    "IdRapport": "RQ881",
+    "Date_prevue": "2026-07-20",
+    "Date_effective": "2026-07-22",
+    "lieu_livraison": "Bordeaux",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV259",
+    "IdRapport": "RQ278",
+    "Date_prevue": "2026-05-19",
+    "Date_effective": null,
+    "lieu_livraison": "Toulouse",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV260",
+    "IdRapport": "RQ103",
+    "Date_prevue": "2026-11-25",
+    "Date_effective": "2026-11-27",
+    "lieu_livraison": "Lille",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV261",
+    "IdRapport": "RQ683",
+    "Date_prevue": "2026-02-26",
+    "Date_effective": "2026-03-01",
+    "lieu_livraison": "Dijon",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV262",
+    "IdRapport": "RQ940",
+    "Date_prevue": "2026-11-30",
+    "Date_effective": "2026-12-01",
+    "lieu_livraison": "Rennes",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV263",
+    "IdRapport": "RQ478",
+    "Date_prevue": "2026-12-07",
+    "Date_effective": "2026-12-18",
+    "lieu_livraison": "Metz",
+    "Statut_livraison": "Retardé"
+  },
+  {
+    "IdLivraison": "LIV264",
+    "IdRapport": "RQ760",
+    "Date_prevue": "2026-06-09",
+    "Date_effective": null,
+    "lieu_livraison": "Toulouse",
+    "Statut_livraison": "En attente"
+  },
+  {
+    "IdLivraison": "LIV265",
+    "IdRapport": "RQ995",
+    "Date_prevue": "2026-03-20",
+    "Date_effective": "2026-03-21",
+    "lieu_livraison": "Metz",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV266",
+    "IdRapport": "RQ839",
+    "Date_prevue": "2026-06-11",
+    "Date_effective": "2026-06-16",
+    "lieu_livraison": "Nice",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV267",
+    "IdRapport": "RQ718",
+    "Date_prevue": "2026-11-04",
+    "Date_effective": null,
+    "lieu_livraison": "Reims",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV268",
+    "IdRapport": "RQ185",
+    "Date_prevue": "2026-02-04",
+    "Date_effective": "2026-02-08",
+    "lieu_livraison": "Dijon",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV269",
+    "IdRapport": "RQ505",
+    "Date_prevue": "2026-02-22",
+    "Date_effective": "2026-02-27",
+    "lieu_livraison": "Rouen",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV270",
+    "IdRapport": "RQ850",
+    "Date_prevue": "2026-11-22",
+    "Date_effective": "2026-11-23",
+    "lieu_livraison": "Lille",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV271",
+    "IdRapport": "RQ776",
+    "Date_prevue": "2026-04-29",
+    "Date_effective": "2026-05-03",
+    "lieu_livraison": "Toulon",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV272",
+    "IdRapport": "RQ363",
+    "Date_prevue": "2026-03-21",
+    "Date_effective": "2026-03-25",
+    "lieu_livraison": "Lyon",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV273",
+    "IdRapport": "RQ170",
+    "Date_prevue": "2026-07-25",
+    "Date_effective": "2026-07-29",
+    "lieu_livraison": "Caen",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV274",
+    "IdRapport": "RQ297",
+    "Date_prevue": "2026-09-10",
+    "Date_effective": "2026-09-14",
+    "lieu_livraison": "Nice",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV275",
+    "IdRapport": "RQ652",
+    "Date_prevue": "2026-10-16",
+    "Date_effective": null,
+    "lieu_livraison": "Grenoble",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV276",
+    "IdRapport": "RQ753",
+    "Date_prevue": "2026-10-28",
+    "Date_effective": "2026-11-02",
+    "lieu_livraison": "Le Mans",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV277",
+    "IdRapport": "RQ176",
+    "Date_prevue": "2026-07-15",
+    "Date_effective": "2026-07-20",
+    "lieu_livraison": "Dijon",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV278",
+    "IdRapport": "RQ139",
+    "Date_prevue": "2026-08-27",
+    "Date_effective": null,
+    "lieu_livraison": "Paris",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV279",
+    "IdRapport": "RQ758",
+    "Date_prevue": "2026-10-19",
+    "Date_effective": "2026-10-22",
+    "lieu_livraison": "Toulouse",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV280",
+    "IdRapport": "RQ675",
+    "Date_prevue": "2026-11-27",
+    "Date_effective": null,
+    "lieu_livraison": "Grenoble",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV281",
+    "IdRapport": "RQ313",
+    "Date_prevue": "2026-05-22",
+    "Date_effective": null,
+    "lieu_livraison": "Clermont-Ferrand",
+    "Statut_livraison": "En attente"
+  },
+  {
+    "IdLivraison": "LIV282",
+    "IdRapport": "RQ896",
+    "Date_prevue": "2026-07-14",
+    "Date_effective": null,
+    "lieu_livraison": "Marseille",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV283",
+    "IdRapport": "RQ805",
+    "Date_prevue": "2026-11-27",
+    "Date_effective": "2026-12-01",
+    "lieu_livraison": "Nantes",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV284",
+    "IdRapport": "RQ177",
+    "Date_prevue": "2026-05-05",
+    "Date_effective": null,
+    "lieu_livraison": "Paris",
+    "Statut_livraison": "En attente"
+  },
+  {
+    "IdLivraison": "LIV285",
+    "IdRapport": "RQ774",
+    "Date_prevue": "2026-03-27",
+    "Date_effective": "2026-03-29",
+    "lieu_livraison": "Nancy",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV286",
+    "IdRapport": "RQ815",
+    "Date_prevue": "2026-08-27",
+    "Date_effective": "2026-08-29",
+    "lieu_livraison": "Saint-Etienne",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV287",
+    "IdRapport": "RQ177",
+    "Date_prevue": "2026-11-10",
+    "Date_effective": "2026-11-14",
+    "lieu_livraison": "Avignon",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV288",
+    "IdRapport": "RQ258",
+    "Date_prevue": "2026-05-04",
+    "Date_effective": "2026-05-04",
+    "lieu_livraison": "Nantes",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV289",
+    "IdRapport": "RQ812",
+    "Date_prevue": "2026-04-25",
+    "Date_effective": "2026-04-27",
+    "lieu_livraison": "Marseille",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV290",
+    "IdRapport": "RQ295",
+    "Date_prevue": "2026-11-19",
+    "Date_effective": "2026-11-23",
+    "lieu_livraison": "Paris",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV291",
+    "IdRapport": "RQ807",
+    "Date_prevue": "2026-02-07",
+    "Date_effective": "2026-02-12",
+    "lieu_livraison": "Toulon",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV292",
+    "IdRapport": "RQ404",
+    "Date_prevue": "2026-04-29",
+    "Date_effective": null,
+    "lieu_livraison": "Saint-Etienne",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV293",
+    "IdRapport": "RQ041",
+    "Date_prevue": "2026-04-10",
+    "Date_effective": "2026-04-10",
+    "lieu_livraison": "Rennes",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV294",
+    "IdRapport": "RQ941",
+    "Date_prevue": "2026-07-26",
+    "Date_effective": null,
+    "lieu_livraison": "Lyon",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV295",
+    "IdRapport": "RQ986",
+    "Date_prevue": "2026-11-25",
+    "Date_effective": "2026-11-26",
+    "lieu_livraison": "Nantes",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV296",
+    "IdRapport": "RQ069",
+    "Date_prevue": "2026-10-03",
+    "Date_effective": null,
+    "lieu_livraison": "Clermont-Ferrand",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV297",
+    "IdRapport": "RQ041",
+    "Date_prevue": "2026-02-10",
+    "Date_effective": null,
+    "lieu_livraison": "Brest",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV298",
+    "IdRapport": "RQ077",
+    "Date_prevue": "2026-02-26",
+    "Date_effective": null,
+    "lieu_livraison": "Marseille",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV299",
+    "IdRapport": "RQ589",
+    "Date_prevue": "2026-05-24",
+    "Date_effective": "2026-05-25",
+    "lieu_livraison": "Le Mans",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV300",
+    "IdRapport": "RQ635",
+    "Date_prevue": "2026-05-02",
+    "Date_effective": "2026-05-04",
+    "lieu_livraison": "Saint-Etienne",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV301",
+    "IdRapport": "RQ096",
+    "Date_prevue": "2026-03-17",
+    "Date_effective": "2026-03-26",
+    "lieu_livraison": "Rouen",
+    "Statut_livraison": "Retardé"
+  },
+  {
+    "IdLivraison": "LIV302",
+    "IdRapport": "RQ873",
+    "Date_prevue": "2026-02-03",
+    "Date_effective": "2026-02-06",
+    "lieu_livraison": "Paris",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV303",
+    "IdRapport": "RQ955",
+    "Date_prevue": "2026-10-29",
+    "Date_effective": "2026-11-01",
+    "lieu_livraison": "Caen",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV304",
+    "IdRapport": "RQ039",
+    "Date_prevue": "2026-07-15",
+    "Date_effective": "2026-07-18",
+    "lieu_livraison": "Bordeaux",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV305",
+    "IdRapport": "RQ946",
+    "Date_prevue": "2026-09-03",
+    "Date_effective": null,
+    "lieu_livraison": "Lyon",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV306",
+    "IdRapport": "RQ486",
+    "Date_prevue": "2026-09-12",
+    "Date_effective": null,
+    "lieu_livraison": "Rouen",
+    "Statut_livraison": "En attente"
+  },
+  {
+    "IdLivraison": "LIV307",
+    "IdRapport": "RQ289",
+    "Date_prevue": "2026-05-23",
+    "Date_effective": null,
+    "lieu_livraison": "Metz",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV308",
+    "IdRapport": "RQ962",
+    "Date_prevue": "2026-08-01",
+    "Date_effective": "2026-08-05",
+    "lieu_livraison": "Nice",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV309",
+    "IdRapport": "RQ234",
+    "Date_prevue": "2026-09-26",
+    "Date_effective": "2026-09-28",
+    "lieu_livraison": "Toulon",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV310",
+    "IdRapport": "RQ093",
+    "Date_prevue": "2026-09-16",
+    "Date_effective": null,
+    "lieu_livraison": "Caen",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV311",
+    "IdRapport": "RQ151",
+    "Date_prevue": "2026-05-26",
+    "Date_effective": "2026-05-27",
+    "lieu_livraison": "Strasbourg",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV312",
+    "IdRapport": "RQ806",
+    "Date_prevue": "2026-08-30",
+    "Date_effective": "2026-09-04",
+    "lieu_livraison": "Brest",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV313",
+    "IdRapport": "RQ266",
+    "Date_prevue": "2026-06-25",
+    "Date_effective": null,
+    "lieu_livraison": "Toulon",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV314",
+    "IdRapport": "RQ307",
+    "Date_prevue": "2026-04-12",
+    "Date_effective": "2026-04-29",
+    "lieu_livraison": "Bordeaux",
+    "Statut_livraison": "Retardé"
+  },
+  {
+    "IdLivraison": "LIV315",
+    "IdRapport": "RQ399",
+    "Date_prevue": "2026-07-29",
+    "Date_effective": "2026-07-31",
+    "lieu_livraison": "Bordeaux",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV316",
+    "IdRapport": "RQ938",
+    "Date_prevue": "2026-05-12",
+    "Date_effective": "2026-05-15",
+    "lieu_livraison": "Dijon",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV317",
+    "IdRapport": "RQ675",
+    "Date_prevue": "2026-08-18",
+    "Date_effective": "2026-08-21",
+    "lieu_livraison": "Toulon",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV318",
+    "IdRapport": "RQ916",
+    "Date_prevue": "2026-02-17",
+    "Date_effective": "2026-02-22",
+    "lieu_livraison": "Strasbourg",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV319",
+    "IdRapport": "RQ810",
+    "Date_prevue": "2026-06-09",
+    "Date_effective": "2026-06-10",
+    "lieu_livraison": "Brest",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV320",
+    "IdRapport": "RQ999",
+    "Date_prevue": "2026-02-24",
+    "Date_effective": null,
+    "lieu_livraison": "Toulon",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV321",
+    "IdRapport": "RQ829",
+    "Date_prevue": "2026-03-08",
+    "Date_effective": "2026-03-10",
+    "lieu_livraison": "Bordeaux",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV322",
+    "IdRapport": "RQ524",
+    "Date_prevue": "2026-11-09",
+    "Date_effective": "2026-11-09",
+    "lieu_livraison": "Dijon",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV323",
+    "IdRapport": "RQ635",
+    "Date_prevue": "2026-12-13",
+    "Date_effective": "2026-12-14",
+    "lieu_livraison": "Montpellier",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV324",
+    "IdRapport": "RQ715",
+    "Date_prevue": "2026-05-05",
+    "Date_effective": "2026-05-06",
+    "lieu_livraison": "Montpellier",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV325",
+    "IdRapport": "RQ574",
+    "Date_prevue": "2026-05-24",
+    "Date_effective": "2026-05-26",
+    "lieu_livraison": "Avignon",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV326",
+    "IdRapport": "RQ274",
+    "Date_prevue": "2026-03-12",
+    "Date_effective": null,
+    "lieu_livraison": "Nantes",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV327",
+    "IdRapport": "RQ225",
+    "Date_prevue": "2026-06-18",
+    "Date_effective": "2026-06-20",
+    "lieu_livraison": "Strasbourg",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV328",
+    "IdRapport": "RQ514",
+    "Date_prevue": "2026-08-19",
+    "Date_effective": "2026-08-22",
+    "lieu_livraison": "Reims",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV329",
+    "IdRapport": "RQ780",
+    "Date_prevue": "2026-02-06",
+    "Date_effective": "2026-02-08",
+    "lieu_livraison": "Avignon",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV330",
+    "IdRapport": "RQ549",
+    "Date_prevue": "2026-08-09",
+    "Date_effective": null,
+    "lieu_livraison": "Rouen",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV331",
+    "IdRapport": "RQ863",
+    "Date_prevue": "2026-04-12",
+    "Date_effective": "2026-04-16",
+    "lieu_livraison": "Lyon",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV332",
+    "IdRapport": "RQ288",
+    "Date_prevue": "2026-09-28",
+    "Date_effective": "2026-10-02",
+    "lieu_livraison": "Toulon",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV333",
+    "IdRapport": "RQ752",
+    "Date_prevue": "2026-06-17",
+    "Date_effective": "2026-06-17",
+    "lieu_livraison": "Paris",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV334",
+    "IdRapport": "RQ610",
+    "Date_prevue": "2026-07-24",
+    "Date_effective": "2026-07-26",
+    "lieu_livraison": "Clermont-Ferrand",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV335",
+    "IdRapport": "RQ907",
+    "Date_prevue": "2026-07-11",
+    "Date_effective": "2026-07-13",
+    "lieu_livraison": "Nantes",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV336",
+    "IdRapport": "RQ094",
+    "Date_prevue": "2026-08-20",
+    "Date_effective": null,
+    "lieu_livraison": "Lille",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV337",
+    "IdRapport": "RQ329",
+    "Date_prevue": "2026-11-30",
+    "Date_effective": "2026-11-30",
+    "lieu_livraison": "Reims",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV338",
+    "IdRapport": "RQ800",
+    "Date_prevue": "2026-05-24",
+    "Date_effective": "2026-05-24",
+    "lieu_livraison": "Rennes",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV339",
+    "IdRapport": "RQ689",
+    "Date_prevue": "2026-09-07",
+    "Date_effective": "2026-09-10",
+    "lieu_livraison": "Clermont-Ferrand",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV340",
+    "IdRapport": "RQ651",
+    "Date_prevue": "2026-08-30",
+    "Date_effective": null,
+    "lieu_livraison": "Montpellier",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV341",
+    "IdRapport": "RQ228",
+    "Date_prevue": "2026-09-22",
+    "Date_effective": "2026-09-26",
+    "lieu_livraison": "Rennes",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV342",
+    "IdRapport": "RQ283",
+    "Date_prevue": "2026-05-20",
+    "Date_effective": "2026-05-23",
+    "lieu_livraison": "Nancy",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV343",
+    "IdRapport": "RQ385",
+    "Date_prevue": "2026-03-15",
+    "Date_effective": "2026-03-18",
+    "lieu_livraison": "Clermont-Ferrand",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV344",
+    "IdRapport": "RQ987",
+    "Date_prevue": "2026-07-30",
+    "Date_effective": null,
+    "lieu_livraison": "Rennes",
+    "Statut_livraison": "En attente"
+  },
+  {
+    "IdLivraison": "LIV345",
+    "IdRapport": "RQ918",
+    "Date_prevue": "2026-09-01",
+    "Date_effective": null,
+    "lieu_livraison": "Toulouse",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV346",
+    "IdRapport": "RQ696",
+    "Date_prevue": "2026-08-18",
+    "Date_effective": null,
+    "lieu_livraison": "Rouen",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV347",
+    "IdRapport": "RQ567",
+    "Date_prevue": "2026-03-07",
+    "Date_effective": "2026-03-09",
+    "lieu_livraison": "Metz",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV348",
+    "IdRapport": "RQ090",
+    "Date_prevue": "2026-10-24",
+    "Date_effective": "2026-10-28",
+    "lieu_livraison": "Nancy",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV349",
+    "IdRapport": "RQ624",
+    "Date_prevue": "2026-11-20",
+    "Date_effective": "2026-11-20",
+    "lieu_livraison": "Toulouse",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV350",
+    "IdRapport": "RQ464",
+    "Date_prevue": "2026-10-02",
+    "Date_effective": null,
+    "lieu_livraison": "Nantes",
+    "Statut_livraison": "En attente"
+  },
+  {
+    "IdLivraison": "LIV351",
+    "IdRapport": "RQ591",
+    "Date_prevue": "2026-03-29",
+    "Date_effective": "2026-04-02",
+    "lieu_livraison": "Montpellier",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV352",
+    "IdRapport": "RQ343",
+    "Date_prevue": "2026-02-21",
+    "Date_effective": "2026-02-26",
+    "lieu_livraison": "Le Mans",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV353",
+    "IdRapport": "RQ395",
+    "Date_prevue": "2026-02-11",
+    "Date_effective": "2026-02-12",
+    "lieu_livraison": "Grenoble",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV354",
+    "IdRapport": "RQ422",
+    "Date_prevue": "2026-09-08",
+    "Date_effective": "2026-09-08",
+    "lieu_livraison": "Lille",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV355",
+    "IdRapport": "RQ723",
+    "Date_prevue": "2026-06-07",
+    "Date_effective": "2026-06-10",
+    "lieu_livraison": "Reims",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV356",
+    "IdRapport": "RQ522",
+    "Date_prevue": "2026-06-06",
+    "Date_effective": "2026-06-09",
+    "lieu_livraison": "Dijon",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV357",
+    "IdRapport": "RQ661",
+    "Date_prevue": "2026-09-14",
+    "Date_effective": "2026-09-14",
+    "lieu_livraison": "Rouen",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV358",
+    "IdRapport": "RQ483",
+    "Date_prevue": "2026-04-03",
+    "Date_effective": "2026-04-04",
+    "lieu_livraison": "Nantes",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV359",
+    "IdRapport": "RQ753",
+    "Date_prevue": "2026-05-05",
+    "Date_effective": "2026-05-08",
+    "lieu_livraison": "Reims",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV360",
+    "IdRapport": "RQ658",
+    "Date_prevue": "2026-06-24",
+    "Date_effective": null,
+    "lieu_livraison": "Brest",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV361",
+    "IdRapport": "RQ017",
+    "Date_prevue": "2026-10-21",
+    "Date_effective": "2026-10-26",
+    "lieu_livraison": "Angers",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV362",
+    "IdRapport": "RQ442",
+    "Date_prevue": "2026-07-19",
+    "Date_effective": "2026-07-21",
+    "lieu_livraison": "Caen",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV363",
+    "IdRapport": "RQ613",
+    "Date_prevue": "2026-02-24",
+    "Date_effective": "2026-02-25",
+    "lieu_livraison": "Reims",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV364",
+    "IdRapport": "RQ425",
+    "Date_prevue": "2026-05-16",
+    "Date_effective": "2026-05-17",
+    "lieu_livraison": "Metz",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV365",
+    "IdRapport": "RQ528",
+    "Date_prevue": "2026-12-14",
+    "Date_effective": null,
+    "lieu_livraison": "Angers",
+    "Statut_livraison": "En attente"
+  },
+  {
+    "IdLivraison": "LIV366",
+    "IdRapport": "RQ775",
+    "Date_prevue": "2026-10-05",
+    "Date_effective": "2026-10-11",
+    "lieu_livraison": "Nancy",
+    "Statut_livraison": "Retardé"
+  },
+  {
+    "IdLivraison": "LIV367",
+    "IdRapport": "RQ865",
+    "Date_prevue": "2026-07-12",
+    "Date_effective": null,
+    "lieu_livraison": "Clermont-Ferrand",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV368",
+    "IdRapport": "RQ331",
+    "Date_prevue": "2026-02-12",
+    "Date_effective": null,
+    "lieu_livraison": "Clermont-Ferrand",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV369",
+    "IdRapport": "RQ310",
+    "Date_prevue": "2026-11-20",
+    "Date_effective": "2026-11-20",
+    "lieu_livraison": "Metz",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV370",
+    "IdRapport": "RQ467",
+    "Date_prevue": "2026-03-03",
+    "Date_effective": "2026-03-07",
+    "lieu_livraison": "Toulon",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV371",
+    "IdRapport": "RQ784",
+    "Date_prevue": "2026-03-12",
+    "Date_effective": "2026-03-15",
+    "lieu_livraison": "Caen",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV372",
+    "IdRapport": "RQ741",
+    "Date_prevue": "2026-09-15",
+    "Date_effective": "2026-09-18",
+    "lieu_livraison": "Strasbourg",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV373",
+    "IdRapport": "RQ192",
+    "Date_prevue": "2026-03-04",
+    "Date_effective": null,
+    "lieu_livraison": "Rouen",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV374",
+    "IdRapport": "RQ782",
+    "Date_prevue": "2026-04-25",
+    "Date_effective": "2026-04-30",
+    "lieu_livraison": "Paris",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV375",
+    "IdRapport": "RQ486",
+    "Date_prevue": "2026-05-10",
+    "Date_effective": "2026-05-25",
+    "lieu_livraison": "Reims",
+    "Statut_livraison": "Retardé"
+  },
+  {
+    "IdLivraison": "LIV376",
+    "IdRapport": "RQ182",
+    "Date_prevue": "2026-10-19",
+    "Date_effective": null,
+    "lieu_livraison": "Marseille",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV377",
+    "IdRapport": "RQ690",
+    "Date_prevue": "2026-11-18",
+    "Date_effective": null,
+    "lieu_livraison": "Nantes",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV378",
+    "IdRapport": "RQ503",
+    "Date_prevue": "2026-04-03",
+    "Date_effective": "2026-04-06",
+    "lieu_livraison": "Metz",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV379",
+    "IdRapport": "RQ331",
+    "Date_prevue": "2026-05-16",
+    "Date_effective": null,
+    "lieu_livraison": "Lille",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV380",
+    "IdRapport": "RQ475",
+    "Date_prevue": "2026-03-19",
+    "Date_effective": "2026-03-19",
+    "lieu_livraison": "Le Mans",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV381",
+    "IdRapport": "RQ434",
+    "Date_prevue": "2026-07-08",
+    "Date_effective": "2026-07-09",
+    "lieu_livraison": "Rouen",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV382",
+    "IdRapport": "RQ602",
+    "Date_prevue": "2026-06-30",
+    "Date_effective": "2026-07-01",
+    "lieu_livraison": "Metz",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV383",
+    "IdRapport": "RQ713",
+    "Date_prevue": "2026-11-30",
+    "Date_effective": "2026-12-05",
+    "lieu_livraison": "Lille",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV384",
+    "IdRapport": "RQ996",
+    "Date_prevue": "2026-03-17",
+    "Date_effective": "2026-03-18",
+    "lieu_livraison": "Nice",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV385",
+    "IdRapport": "RQ310",
+    "Date_prevue": "2026-12-05",
+    "Date_effective": "2026-12-05",
+    "lieu_livraison": "Montpellier",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV386",
+    "IdRapport": "RQ368",
+    "Date_prevue": "2026-11-17",
+    "Date_effective": "2026-11-20",
+    "lieu_livraison": "Saint-Etienne",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV387",
+    "IdRapport": "RQ028",
+    "Date_prevue": "2026-08-14",
+    "Date_effective": "2026-08-14",
+    "lieu_livraison": "Brest",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV388",
+    "IdRapport": "RQ349",
+    "Date_prevue": "2026-11-03",
+    "Date_effective": "2026-11-03",
+    "lieu_livraison": "Grenoble",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV389",
+    "IdRapport": "RQ265",
+    "Date_prevue": "2026-12-08",
+    "Date_effective": "2026-12-10",
+    "lieu_livraison": "Lille",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV390",
+    "IdRapport": "RQ575",
+    "Date_prevue": "2026-10-21",
+    "Date_effective": null,
+    "lieu_livraison": "Rennes",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV391",
+    "IdRapport": "RQ675",
+    "Date_prevue": "2026-06-06",
+    "Date_effective": null,
+    "lieu_livraison": "Metz",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV392",
+    "IdRapport": "RQ151",
+    "Date_prevue": "2026-03-11",
+    "Date_effective": "2026-03-15",
+    "lieu_livraison": "Bordeaux",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV393",
+    "IdRapport": "RQ425",
+    "Date_prevue": "2026-09-30",
+    "Date_effective": "2026-09-30",
+    "lieu_livraison": "Rouen",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV394",
+    "IdRapport": "RQ650",
+    "Date_prevue": "2026-08-12",
+    "Date_effective": "2026-08-22",
+    "lieu_livraison": "Caen",
+    "Statut_livraison": "Retardé"
+  },
+  {
+    "IdLivraison": "LIV395",
+    "IdRapport": "RQ228",
+    "Date_prevue": "2026-03-31",
+    "Date_effective": "2026-04-05",
+    "lieu_livraison": "Angers",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV396",
+    "IdRapport": "RQ594",
+    "Date_prevue": "2026-02-27",
+    "Date_effective": "2026-03-04",
+    "lieu_livraison": "Rennes",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV397",
+    "IdRapport": "RQ904",
+    "Date_prevue": "2026-11-25",
+    "Date_effective": null,
+    "lieu_livraison": "Caen",
+    "Statut_livraison": "En attente"
+  },
+  {
+    "IdLivraison": "LIV398",
+    "IdRapport": "RQ146",
+    "Date_prevue": "2026-10-20",
+    "Date_effective": "2026-10-20",
+    "lieu_livraison": "Strasbourg",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV399",
+    "IdRapport": "RQ963",
+    "Date_prevue": "2026-09-18",
+    "Date_effective": null,
+    "lieu_livraison": "Bordeaux",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV400",
+    "IdRapport": "RQ488",
+    "Date_prevue": "2026-02-28",
+    "Date_effective": "2026-03-08",
+    "lieu_livraison": "Toulon",
+    "Statut_livraison": "Retardé"
+  },
+  {
+    "IdLivraison": "LIV401",
+    "IdRapport": "RQ646",
+    "Date_prevue": "2026-07-03",
+    "Date_effective": "2026-07-03",
+    "lieu_livraison": "Strasbourg",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV402",
+    "IdRapport": "RQ032",
+    "Date_prevue": "2026-10-21",
+    "Date_effective": "2026-10-21",
+    "lieu_livraison": "Angers",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV403",
+    "IdRapport": "RQ656",
+    "Date_prevue": "2026-03-06",
+    "Date_effective": "2026-03-09",
+    "lieu_livraison": "Toulouse",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV404",
+    "IdRapport": "RQ542",
+    "Date_prevue": "2026-04-26",
+    "Date_effective": "2026-04-29",
+    "lieu_livraison": "Le Mans",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV405",
+    "IdRapport": "RQ179",
+    "Date_prevue": "2026-07-02",
+    "Date_effective": null,
+    "lieu_livraison": "Angers",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV406",
+    "IdRapport": "RQ335",
+    "Date_prevue": "2026-02-16",
+    "Date_effective": "2026-02-16",
+    "lieu_livraison": "Saint-Etienne",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV407",
+    "IdRapport": "RQ151",
+    "Date_prevue": "2026-10-23",
+    "Date_effective": "2026-10-27",
+    "lieu_livraison": "Nice",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV408",
+    "IdRapport": "RQ975",
+    "Date_prevue": "2026-11-17",
+    "Date_effective": "2026-11-22",
+    "lieu_livraison": "Saint-Etienne",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV409",
+    "IdRapport": "RQ647",
+    "Date_prevue": "2026-06-22",
+    "Date_effective": "2026-06-25",
+    "lieu_livraison": "Le Mans",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV410",
+    "IdRapport": "RQ003",
+    "Date_prevue": "2026-09-05",
+    "Date_effective": "2026-09-21",
+    "lieu_livraison": "Bordeaux",
+    "Statut_livraison": "Retardé"
+  },
+  {
+    "IdLivraison": "LIV411",
+    "IdRapport": "RQ737",
+    "Date_prevue": "2026-12-05",
+    "Date_effective": null,
+    "lieu_livraison": "Rouen",
+    "Statut_livraison": "En attente"
+  },
+  {
+    "IdLivraison": "LIV412",
+    "IdRapport": "RQ880",
+    "Date_prevue": "2026-03-29",
+    "Date_effective": "2026-04-01",
+    "lieu_livraison": "Rouen",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV413",
+    "IdRapport": "RQ402",
+    "Date_prevue": "2026-04-09",
+    "Date_effective": "2026-04-09",
+    "lieu_livraison": "Angers",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV414",
+    "IdRapport": "RQ137",
+    "Date_prevue": "2026-02-09",
+    "Date_effective": "2026-02-09",
+    "lieu_livraison": "Saint-Etienne",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV415",
+    "IdRapport": "RQ059",
+    "Date_prevue": "2026-05-01",
+    "Date_effective": "2026-05-13",
+    "lieu_livraison": "Strasbourg",
+    "Statut_livraison": "Retardé"
+  },
+  {
+    "IdLivraison": "LIV416",
+    "IdRapport": "RQ689",
+    "Date_prevue": "2026-06-16",
+    "Date_effective": "2026-06-17",
+    "lieu_livraison": "Nice",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV417",
+    "IdRapport": "RQ823",
+    "Date_prevue": "2026-12-02",
+    "Date_effective": "2026-12-07",
+    "lieu_livraison": "Nantes",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV418",
+    "IdRapport": "RQ658",
+    "Date_prevue": "2026-06-10",
+    "Date_effective": "2026-06-14",
+    "lieu_livraison": "Caen",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV419",
+    "IdRapport": "RQ842",
+    "Date_prevue": "2026-10-07",
+    "Date_effective": null,
+    "lieu_livraison": "Marseille",
+    "Statut_livraison": "En attente"
+  },
+  {
+    "IdLivraison": "LIV420",
+    "IdRapport": "RQ183",
+    "Date_prevue": "2026-02-06",
+    "Date_effective": null,
+    "lieu_livraison": "Montpellier",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV421",
+    "IdRapport": "RQ830",
+    "Date_prevue": "2026-04-15",
+    "Date_effective": "2026-04-20",
+    "lieu_livraison": "Grenoble",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV422",
+    "IdRapport": "RQ221",
+    "Date_prevue": "2026-08-28",
+    "Date_effective": "2026-09-01",
+    "lieu_livraison": "Marseille",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV423",
+    "IdRapport": "RQ962",
+    "Date_prevue": "2026-04-21",
+    "Date_effective": "2026-05-04",
+    "lieu_livraison": "Grenoble",
+    "Statut_livraison": "Retardé"
+  },
+  {
+    "IdLivraison": "LIV424",
+    "IdRapport": "RQ255",
+    "Date_prevue": "2026-02-05",
+    "Date_effective": "2026-02-07",
+    "lieu_livraison": "Reims",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV425",
+    "IdRapport": "RQ463",
+    "Date_prevue": "2026-08-27",
+    "Date_effective": null,
+    "lieu_livraison": "Metz",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV426",
+    "IdRapport": "RQ061",
+    "Date_prevue": "2026-06-08",
+    "Date_effective": "2026-06-13",
+    "lieu_livraison": "Avignon",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV427",
+    "IdRapport": "RQ460",
+    "Date_prevue": "2026-02-01",
+    "Date_effective": "2026-02-03",
+    "lieu_livraison": "Lille",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV428",
+    "IdRapport": "RQ385",
+    "Date_prevue": "2026-07-13",
+    "Date_effective": "2026-07-18",
+    "lieu_livraison": "Montpellier",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV429",
+    "IdRapport": "RQ044",
+    "Date_prevue": "2026-07-31",
+    "Date_effective": "2026-08-05",
+    "lieu_livraison": "Avignon",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV430",
+    "IdRapport": "RQ436",
+    "Date_prevue": "2026-06-11",
+    "Date_effective": "2026-06-11",
+    "lieu_livraison": "Metz",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV431",
+    "IdRapport": "RQ546",
+    "Date_prevue": "2026-09-14",
+    "Date_effective": null,
+    "lieu_livraison": "Avignon",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV432",
+    "IdRapport": "RQ965",
+    "Date_prevue": "2026-06-23",
+    "Date_effective": "2026-06-24",
+    "lieu_livraison": "Rouen",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV433",
+    "IdRapport": "RQ847",
+    "Date_prevue": "2026-06-20",
+    "Date_effective": null,
+    "lieu_livraison": "Angers",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV434",
+    "IdRapport": "RQ560",
+    "Date_prevue": "2026-04-17",
+    "Date_effective": "2026-04-22",
+    "lieu_livraison": "Reims",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV435",
+    "IdRapport": "RQ463",
+    "Date_prevue": "2026-10-14",
+    "Date_effective": "2026-10-16",
+    "lieu_livraison": "Rennes",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV436",
+    "IdRapport": "RQ962",
+    "Date_prevue": "2026-08-24",
+    "Date_effective": "2026-08-25",
+    "lieu_livraison": "Toulouse",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV437",
+    "IdRapport": "RQ237",
+    "Date_prevue": "2026-09-08",
+    "Date_effective": "2026-09-11",
+    "lieu_livraison": "Saint-Etienne",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV438",
+    "IdRapport": "RQ619",
+    "Date_prevue": "2026-10-29",
+    "Date_effective": "2026-11-02",
+    "lieu_livraison": "Marseille",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV439",
+    "IdRapport": "RQ133",
+    "Date_prevue": "2026-08-10",
+    "Date_effective": "2026-08-14",
+    "lieu_livraison": "Dijon",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV440",
+    "IdRapport": "RQ992",
+    "Date_prevue": "2026-05-01",
+    "Date_effective": "2026-05-01",
+    "lieu_livraison": "Rennes",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV441",
+    "IdRapport": "RQ191",
+    "Date_prevue": "2026-12-07",
+    "Date_effective": "2026-12-08",
+    "lieu_livraison": "Nantes",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV442",
+    "IdRapport": "RQ985",
+    "Date_prevue": "2026-08-30",
+    "Date_effective": "2026-08-31",
+    "lieu_livraison": "Paris",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV443",
+    "IdRapport": "RQ394",
+    "Date_prevue": "2026-09-02",
+    "Date_effective": "2026-09-05",
+    "lieu_livraison": "Reims",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV444",
+    "IdRapport": "RQ598",
+    "Date_prevue": "2026-08-28",
+    "Date_effective": "2026-08-30",
+    "lieu_livraison": "Rouen",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV445",
+    "IdRapport": "RQ625",
+    "Date_prevue": "2026-11-30",
+    "Date_effective": null,
+    "lieu_livraison": "Brest",
+    "Statut_livraison": "En attente"
+  },
+  {
+    "IdLivraison": "LIV446",
+    "IdRapport": "RQ674",
+    "Date_prevue": "2026-04-21",
+    "Date_effective": "2026-04-26",
+    "lieu_livraison": "Brest",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV447",
+    "IdRapport": "RQ811",
+    "Date_prevue": "2026-11-08",
+    "Date_effective": "2026-11-10",
+    "lieu_livraison": "Avignon",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV448",
+    "IdRapport": "RQ567",
+    "Date_prevue": "2026-10-03",
+    "Date_effective": null,
+    "lieu_livraison": "Rouen",
+    "Statut_livraison": "En attente"
+  },
+  {
+    "IdLivraison": "LIV449",
+    "IdRapport": "RQ570",
+    "Date_prevue": "2026-10-22",
+    "Date_effective": "2026-10-25",
+    "lieu_livraison": "Saint-Etienne",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV450",
+    "IdRapport": "RQ626",
+    "Date_prevue": "2026-05-07",
+    "Date_effective": "2026-05-10",
+    "lieu_livraison": "Paris",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV451",
+    "IdRapport": "RQ309",
+    "Date_prevue": "2026-04-04",
+    "Date_effective": "2026-04-08",
+    "lieu_livraison": "Nantes",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV452",
+    "IdRapport": "RQ051",
+    "Date_prevue": "2026-10-26",
+    "Date_effective": "2026-11-13",
+    "lieu_livraison": "Rennes",
+    "Statut_livraison": "Retardé"
+  },
+  {
+    "IdLivraison": "LIV453",
+    "IdRapport": "RQ917",
+    "Date_prevue": "2026-12-09",
+    "Date_effective": null,
+    "lieu_livraison": "Bordeaux",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV454",
+    "IdRapport": "RQ336",
+    "Date_prevue": "2026-05-14",
+    "Date_effective": "2026-05-19",
+    "lieu_livraison": "Strasbourg",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV455",
+    "IdRapport": "RQ1000",
+    "Date_prevue": "2026-12-04",
+    "Date_effective": "2026-12-05",
+    "lieu_livraison": "Rouen",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV456",
+    "IdRapport": "RQ011",
+    "Date_prevue": "2026-02-16",
+    "Date_effective": "2026-02-16",
+    "lieu_livraison": "Montpellier",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV457",
+    "IdRapport": "RQ305",
+    "Date_prevue": "2026-02-26",
+    "Date_effective": "2026-03-03",
+    "lieu_livraison": "Metz",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV458",
+    "IdRapport": "RQ478",
+    "Date_prevue": "2026-08-24",
+    "Date_effective": "2026-08-28",
+    "lieu_livraison": "Nancy",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV459",
+    "IdRapport": "RQ765",
+    "Date_prevue": "2026-03-07",
+    "Date_effective": "2026-03-17",
+    "lieu_livraison": "Nancy",
+    "Statut_livraison": "Retardé"
+  },
+  {
+    "IdLivraison": "LIV460",
+    "IdRapport": "RQ668",
+    "Date_prevue": "2026-05-28",
+    "Date_effective": null,
+    "lieu_livraison": "Montpellier",
+    "Statut_livraison": "En attente"
+  },
+  {
+    "IdLivraison": "LIV461",
+    "IdRapport": "RQ749",
+    "Date_prevue": "2026-11-16",
+    "Date_effective": "2026-11-18",
+    "lieu_livraison": "Bordeaux",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV462",
+    "IdRapport": "RQ018",
+    "Date_prevue": "2026-05-16",
+    "Date_effective": "2026-05-20",
+    "lieu_livraison": "Dijon",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV463",
+    "IdRapport": "RQ330",
+    "Date_prevue": "2026-04-19",
+    "Date_effective": null,
+    "lieu_livraison": "Le Mans",
+    "Statut_livraison": "En attente"
+  },
+  {
+    "IdLivraison": "LIV464",
+    "IdRapport": "RQ482",
+    "Date_prevue": "2026-04-09",
+    "Date_effective": "2026-04-13",
+    "lieu_livraison": "Le Mans",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV465",
+    "IdRapport": "RQ446",
+    "Date_prevue": "2026-07-18",
+    "Date_effective": null,
+    "lieu_livraison": "Rouen",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV466",
+    "IdRapport": "RQ305",
+    "Date_prevue": "2026-04-23",
+    "Date_effective": null,
+    "lieu_livraison": "Caen",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV467",
+    "IdRapport": "RQ963",
+    "Date_prevue": "2026-04-11",
+    "Date_effective": "2026-04-11",
+    "lieu_livraison": "Nice",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV468",
+    "IdRapport": "RQ636",
+    "Date_prevue": "2026-04-19",
+    "Date_effective": "2026-04-20",
+    "lieu_livraison": "Lille",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV469",
+    "IdRapport": "RQ345",
+    "Date_prevue": "2026-05-30",
+    "Date_effective": "2026-06-02",
+    "lieu_livraison": "Toulon",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV470",
+    "IdRapport": "RQ439",
+    "Date_prevue": "2026-12-09",
+    "Date_effective": "2026-12-16",
+    "lieu_livraison": "Brest",
+    "Statut_livraison": "Retardé"
+  },
+  {
+    "IdLivraison": "LIV471",
+    "IdRapport": "RQ966",
+    "Date_prevue": "2026-06-14",
+    "Date_effective": "2026-06-18",
+    "lieu_livraison": "Rouen",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV472",
+    "IdRapport": "RQ129",
+    "Date_prevue": "2026-11-19",
+    "Date_effective": "2026-12-08",
+    "lieu_livraison": "Avignon",
+    "Statut_livraison": "Retardé"
+  },
+  {
+    "IdLivraison": "LIV473",
+    "IdRapport": "RQ559",
+    "Date_prevue": "2026-02-18",
+    "Date_effective": "2026-02-20",
+    "lieu_livraison": "Rouen",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV474",
+    "IdRapport": "RQ547",
+    "Date_prevue": "2026-04-09",
+    "Date_effective": null,
+    "lieu_livraison": "Marseille",
+    "Statut_livraison": "En attente"
+  },
+  {
+    "IdLivraison": "LIV475",
+    "IdRapport": "RQ486",
+    "Date_prevue": "2026-08-06",
+    "Date_effective": "2026-08-06",
+    "lieu_livraison": "Saint-Etienne",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV476",
+    "IdRapport": "RQ631",
+    "Date_prevue": "2026-08-29",
+    "Date_effective": "2026-09-02",
+    "lieu_livraison": "Toulon",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV477",
+    "IdRapport": "RQ586",
+    "Date_prevue": "2026-07-21",
+    "Date_effective": "2026-07-29",
+    "lieu_livraison": "Avignon",
+    "Statut_livraison": "Retardé"
+  },
+  {
+    "IdLivraison": "LIV478",
+    "IdRapport": "RQ783",
+    "Date_prevue": "2026-06-29",
+    "Date_effective": null,
+    "lieu_livraison": "Paris",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV479",
+    "IdRapport": "RQ318",
+    "Date_prevue": "2026-06-07",
+    "Date_effective": null,
+    "lieu_livraison": "Montpellier",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV480",
+    "IdRapport": "RQ503",
+    "Date_prevue": "2026-06-12",
+    "Date_effective": "2026-06-13",
+    "lieu_livraison": "Nice",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV481",
+    "IdRapport": "RQ231",
+    "Date_prevue": "2026-03-10",
+    "Date_effective": "2026-03-13",
+    "lieu_livraison": "Caen",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV482",
+    "IdRapport": "RQ634",
+    "Date_prevue": "2026-07-12",
+    "Date_effective": null,
+    "lieu_livraison": "Bordeaux",
+    "Statut_livraison": "En attente"
+  },
+  {
+    "IdLivraison": "LIV483",
+    "IdRapport": "RQ014",
+    "Date_prevue": "2026-02-27",
+    "Date_effective": "2026-03-02",
+    "lieu_livraison": "Strasbourg",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV484",
+    "IdRapport": "RQ658",
+    "Date_prevue": "2026-04-28",
+    "Date_effective": "2026-04-30",
+    "lieu_livraison": "Lyon",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV485",
+    "IdRapport": "RQ232",
+    "Date_prevue": "2026-09-03",
+    "Date_effective": "2026-09-07",
+    "lieu_livraison": "Avignon",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV486",
+    "IdRapport": "RQ680",
+    "Date_prevue": "2026-05-03",
+    "Date_effective": "2026-05-11",
+    "lieu_livraison": "Metz",
+    "Statut_livraison": "Retardé"
+  },
+  {
+    "IdLivraison": "LIV487",
+    "IdRapport": "RQ342",
+    "Date_prevue": "2026-11-26",
+    "Date_effective": "2026-11-26",
+    "lieu_livraison": "Reims",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV488",
+    "IdRapport": "RQ204",
+    "Date_prevue": "2026-10-23",
+    "Date_effective": "2026-10-24",
+    "lieu_livraison": "Saint-Etienne",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV489",
+    "IdRapport": "RQ042",
+    "Date_prevue": "2026-05-09",
+    "Date_effective": "2026-05-10",
+    "lieu_livraison": "Montpellier",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV490",
+    "IdRapport": "RQ873",
+    "Date_prevue": "2026-07-09",
+    "Date_effective": "2026-07-12",
+    "lieu_livraison": "Montpellier",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV491",
+    "IdRapport": "RQ564",
+    "Date_prevue": "2026-12-09",
+    "Date_effective": "2026-12-11",
+    "lieu_livraison": "Dijon",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV492",
+    "IdRapport": "RQ442",
+    "Date_prevue": "2026-02-14",
+    "Date_effective": "2026-02-18",
+    "lieu_livraison": "Toulon",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV493",
+    "IdRapport": "RQ887",
+    "Date_prevue": "2026-04-07",
+    "Date_effective": null,
+    "lieu_livraison": "Nice",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV494",
+    "IdRapport": "RQ068",
+    "Date_prevue": "2026-02-03",
+    "Date_effective": "2026-02-06",
+    "lieu_livraison": "Toulon",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV495",
+    "IdRapport": "RQ330",
+    "Date_prevue": "2026-03-12",
+    "Date_effective": null,
+    "lieu_livraison": "Brest",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV496",
+    "IdRapport": "RQ074",
+    "Date_prevue": "2026-09-30",
+    "Date_effective": "2026-10-05",
+    "lieu_livraison": "Le Mans",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV497",
+    "IdRapport": "RQ874",
+    "Date_prevue": "2026-08-02",
+    "Date_effective": "2026-08-07",
+    "lieu_livraison": "Lille",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV498",
+    "IdRapport": "RQ985",
+    "Date_prevue": "2026-04-27",
+    "Date_effective": null,
+    "lieu_livraison": "Reims",
+    "Statut_livraison": "En attente"
+  },
+  {
+    "IdLivraison": "LIV499",
+    "IdRapport": "RQ356",
+    "Date_prevue": "2026-03-13",
+    "Date_effective": "2026-03-16",
+    "lieu_livraison": "Strasbourg",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV500",
+    "IdRapport": "RQ995",
+    "Date_prevue": "2026-06-11",
+    "Date_effective": "2026-06-11",
+    "lieu_livraison": "Le Mans",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV501",
+    "IdRapport": "RQ814",
+    "Date_prevue": "2026-08-01",
+    "Date_effective": "2026-08-03",
+    "lieu_livraison": "Grenoble",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV502",
+    "IdRapport": "RQ558",
+    "Date_prevue": "2026-03-13",
+    "Date_effective": null,
+    "lieu_livraison": "Bordeaux",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV503",
+    "IdRapport": "RQ329",
+    "Date_prevue": "2026-09-20",
+    "Date_effective": "2026-09-25",
+    "lieu_livraison": "Brest",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV504",
+    "IdRapport": "RQ402",
+    "Date_prevue": "2026-08-07",
+    "Date_effective": "2026-08-12",
+    "lieu_livraison": "Bordeaux",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV505",
+    "IdRapport": "RQ944",
+    "Date_prevue": "2026-08-23",
+    "Date_effective": "2026-08-26",
+    "lieu_livraison": "Dijon",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV506",
+    "IdRapport": "RQ003",
+    "Date_prevue": "2026-02-26",
+    "Date_effective": "2026-03-02",
+    "lieu_livraison": "Lille",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV507",
+    "IdRapport": "RQ914",
+    "Date_prevue": "2026-02-07",
+    "Date_effective": null,
+    "lieu_livraison": "Nice",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV508",
+    "IdRapport": "RQ915",
+    "Date_prevue": "2026-07-10",
+    "Date_effective": "2026-07-12",
+    "lieu_livraison": "Paris",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV509",
+    "IdRapport": "RQ780",
+    "Date_prevue": "2026-06-08",
+    "Date_effective": "2026-06-13",
+    "lieu_livraison": "Le Mans",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV510",
+    "IdRapport": "RQ154",
+    "Date_prevue": "2026-05-03",
+    "Date_effective": "2026-05-07",
+    "lieu_livraison": "Paris",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV511",
+    "IdRapport": "RQ698",
+    "Date_prevue": "2026-05-19",
+    "Date_effective": "2026-05-22",
+    "lieu_livraison": "Avignon",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV512",
+    "IdRapport": "RQ165",
+    "Date_prevue": "2026-02-21",
+    "Date_effective": "2026-02-23",
+    "lieu_livraison": "Le Mans",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV513",
+    "IdRapport": "RQ568",
+    "Date_prevue": "2026-08-24",
+    "Date_effective": "2026-08-26",
+    "lieu_livraison": "Clermont-Ferrand",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV514",
+    "IdRapport": "RQ996",
+    "Date_prevue": "2026-02-11",
+    "Date_effective": "2026-02-15",
+    "lieu_livraison": "Le Mans",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV515",
+    "IdRapport": "RQ013",
+    "Date_prevue": "2026-04-19",
+    "Date_effective": "2026-04-20",
+    "lieu_livraison": "Brest",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV516",
+    "IdRapport": "RQ715",
+    "Date_prevue": "2026-07-24",
+    "Date_effective": "2026-07-27",
+    "lieu_livraison": "Montpellier",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV517",
+    "IdRapport": "RQ709",
+    "Date_prevue": "2026-09-12",
+    "Date_effective": null,
+    "lieu_livraison": "Strasbourg",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV518",
+    "IdRapport": "RQ888",
+    "Date_prevue": "2026-05-16",
+    "Date_effective": null,
+    "lieu_livraison": "Nice",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV519",
+    "IdRapport": "RQ739",
+    "Date_prevue": "2026-09-02",
+    "Date_effective": "2026-09-02",
+    "lieu_livraison": "Strasbourg",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV520",
+    "IdRapport": "RQ620",
+    "Date_prevue": "2026-09-28",
+    "Date_effective": "2026-09-28",
+    "lieu_livraison": "Angers",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV521",
+    "IdRapport": "RQ930",
+    "Date_prevue": "2026-10-18",
+    "Date_effective": null,
+    "lieu_livraison": "Avignon",
+    "Statut_livraison": "En attente"
+  },
+  {
+    "IdLivraison": "LIV522",
+    "IdRapport": "RQ788",
+    "Date_prevue": "2026-09-10",
+    "Date_effective": "2026-09-14",
+    "lieu_livraison": "Nancy",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV523",
+    "IdRapport": "RQ989",
+    "Date_prevue": "2026-12-07",
+    "Date_effective": "2026-12-07",
+    "lieu_livraison": "Brest",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV524",
+    "IdRapport": "RQ173",
+    "Date_prevue": "2026-02-22",
+    "Date_effective": "2026-03-11",
+    "lieu_livraison": "Bordeaux",
+    "Statut_livraison": "Retardé"
+  },
+  {
+    "IdLivraison": "LIV525",
+    "IdRapport": "RQ614",
+    "Date_prevue": "2026-12-12",
+    "Date_effective": "2026-12-17",
+    "lieu_livraison": "Metz",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV526",
+    "IdRapport": "RQ645",
+    "Date_prevue": "2026-06-25",
+    "Date_effective": null,
+    "lieu_livraison": "Marseille",
+    "Statut_livraison": "En attente"
+  },
+  {
+    "IdLivraison": "LIV527",
+    "IdRapport": "RQ095",
+    "Date_prevue": "2026-05-14",
+    "Date_effective": "2026-05-15",
+    "lieu_livraison": "Rouen",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV528",
+    "IdRapport": "RQ388",
+    "Date_prevue": "2026-03-24",
+    "Date_effective": "2026-03-28",
+    "lieu_livraison": "Rennes",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV529",
+    "IdRapport": "RQ567",
+    "Date_prevue": "2026-07-24",
+    "Date_effective": "2026-07-26",
+    "lieu_livraison": "Nantes",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV530",
+    "IdRapport": "RQ820",
+    "Date_prevue": "2026-08-24",
+    "Date_effective": "2026-08-29",
+    "lieu_livraison": "Bordeaux",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV531",
+    "IdRapport": "RQ115",
+    "Date_prevue": "2026-12-02",
+    "Date_effective": "2026-12-02",
+    "lieu_livraison": "Montpellier",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV532",
+    "IdRapport": "RQ466",
+    "Date_prevue": "2026-04-23",
+    "Date_effective": "2026-04-25",
+    "lieu_livraison": "Lille",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV533",
+    "IdRapport": "RQ616",
+    "Date_prevue": "2026-09-29",
+    "Date_effective": "2026-10-02",
+    "lieu_livraison": "Dijon",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV534",
+    "IdRapport": "RQ975",
+    "Date_prevue": "2026-06-20",
+    "Date_effective": "2026-06-22",
+    "lieu_livraison": "Montpellier",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV535",
+    "IdRapport": "RQ492",
+    "Date_prevue": "2026-03-02",
+    "Date_effective": null,
+    "lieu_livraison": "Caen",
+    "Statut_livraison": "En attente"
+  },
+  {
+    "IdLivraison": "LIV536",
+    "IdRapport": "RQ914",
+    "Date_prevue": "2026-04-12",
+    "Date_effective": null,
+    "lieu_livraison": "Strasbourg",
+    "Statut_livraison": "En attente"
+  },
+  {
+    "IdLivraison": "LIV537",
+    "IdRapport": "RQ082",
+    "Date_prevue": "2026-09-16",
+    "Date_effective": null,
+    "lieu_livraison": "Montpellier",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV538",
+    "IdRapport": "RQ400",
+    "Date_prevue": "2026-03-10",
+    "Date_effective": null,
+    "lieu_livraison": "Reims",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV539",
+    "IdRapport": "RQ348",
+    "Date_prevue": "2026-06-05",
+    "Date_effective": "2026-06-08",
+    "lieu_livraison": "Dijon",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV540",
+    "IdRapport": "RQ824",
+    "Date_prevue": "2026-08-18",
+    "Date_effective": "2026-08-26",
+    "lieu_livraison": "Toulon",
+    "Statut_livraison": "Retardé"
+  },
+  {
+    "IdLivraison": "LIV541",
+    "IdRapport": "RQ185",
+    "Date_prevue": "2026-06-08",
+    "Date_effective": "2026-06-12",
+    "lieu_livraison": "Rouen",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV542",
+    "IdRapport": "RQ945",
+    "Date_prevue": "2026-02-02",
+    "Date_effective": "2026-02-02",
+    "lieu_livraison": "Toulouse",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV543",
+    "IdRapport": "RQ768",
+    "Date_prevue": "2026-08-16",
+    "Date_effective": "2026-08-20",
+    "lieu_livraison": "Montpellier",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV544",
+    "IdRapport": "RQ017",
+    "Date_prevue": "2026-04-08",
+    "Date_effective": "2026-04-12",
+    "lieu_livraison": "Saint-Etienne",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV545",
+    "IdRapport": "RQ007",
+    "Date_prevue": "2026-05-22",
+    "Date_effective": null,
+    "lieu_livraison": "Angers",
+    "Statut_livraison": "En attente"
+  },
+  {
+    "IdLivraison": "LIV546",
+    "IdRapport": "RQ411",
+    "Date_prevue": "2026-02-25",
+    "Date_effective": "2026-02-25",
+    "lieu_livraison": "Rouen",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV547",
+    "IdRapport": "RQ243",
+    "Date_prevue": "2026-02-22",
+    "Date_effective": "2026-02-23",
+    "lieu_livraison": "Toulon",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV548",
+    "IdRapport": "RQ850",
+    "Date_prevue": "2026-02-05",
+    "Date_effective": "2026-02-06",
+    "lieu_livraison": "Nancy",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV549",
+    "IdRapport": "RQ544",
+    "Date_prevue": "2026-03-17",
+    "Date_effective": "2026-03-20",
+    "lieu_livraison": "Rennes",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV550",
+    "IdRapport": "RQ858",
+    "Date_prevue": "2026-02-05",
+    "Date_effective": "2026-02-09",
+    "lieu_livraison": "Bordeaux",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV551",
+    "IdRapport": "RQ012",
+    "Date_prevue": "2026-05-22",
+    "Date_effective": "2026-05-26",
+    "lieu_livraison": "Bordeaux",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV552",
+    "IdRapport": "RQ169",
+    "Date_prevue": "2026-03-03",
+    "Date_effective": null,
+    "lieu_livraison": "Lille",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV553",
+    "IdRapport": "RQ655",
+    "Date_prevue": "2026-02-15",
+    "Date_effective": "2026-02-16",
+    "lieu_livraison": "Paris",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV554",
+    "IdRapport": "RQ623",
+    "Date_prevue": "2026-06-15",
+    "Date_effective": "2026-06-20",
+    "lieu_livraison": "Strasbourg",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV555",
+    "IdRapport": "RQ786",
+    "Date_prevue": "2026-09-24",
+    "Date_effective": null,
+    "lieu_livraison": "Reims",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV556",
+    "IdRapport": "RQ479",
+    "Date_prevue": "2026-12-03",
+    "Date_effective": "2026-12-03",
+    "lieu_livraison": "Reims",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV557",
+    "IdRapport": "RQ665",
+    "Date_prevue": "2026-05-07",
+    "Date_effective": "2026-05-13",
+    "lieu_livraison": "Lyon",
+    "Statut_livraison": "Retardé"
+  },
+  {
+    "IdLivraison": "LIV558",
+    "IdRapport": "RQ639",
+    "Date_prevue": "2026-11-01",
+    "Date_effective": "2026-11-02",
+    "lieu_livraison": "Saint-Etienne",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV559",
+    "IdRapport": "RQ358",
+    "Date_prevue": "2026-10-11",
+    "Date_effective": "2026-10-27",
+    "lieu_livraison": "Nice",
+    "Statut_livraison": "Retardé"
+  },
+  {
+    "IdLivraison": "LIV560",
+    "IdRapport": "RQ264",
+    "Date_prevue": "2026-06-20",
+    "Date_effective": "2026-07-05",
+    "lieu_livraison": "Toulouse",
+    "Statut_livraison": "Retardé"
+  },
+  {
+    "IdLivraison": "LIV561",
+    "IdRapport": "RQ045",
+    "Date_prevue": "2026-07-14",
+    "Date_effective": "2026-07-18",
+    "lieu_livraison": "Brest",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV562",
+    "IdRapport": "RQ289",
+    "Date_prevue": "2026-06-27",
+    "Date_effective": null,
+    "lieu_livraison": "Lille",
+    "Statut_livraison": "En attente"
+  },
+  {
+    "IdLivraison": "LIV563",
+    "IdRapport": "RQ527",
+    "Date_prevue": "2026-03-19",
+    "Date_effective": "2026-03-19",
+    "lieu_livraison": "Clermont-Ferrand",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV564",
+    "IdRapport": "RQ575",
+    "Date_prevue": "2026-04-03",
+    "Date_effective": null,
+    "lieu_livraison": "Brest",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV565",
+    "IdRapport": "RQ399",
+    "Date_prevue": "2026-07-29",
+    "Date_effective": "2026-08-02",
+    "lieu_livraison": "Strasbourg",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV566",
+    "IdRapport": "RQ291",
+    "Date_prevue": "2026-06-25",
+    "Date_effective": null,
+    "lieu_livraison": "Rouen",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV567",
+    "IdRapport": "RQ416",
+    "Date_prevue": "2026-04-22",
+    "Date_effective": null,
+    "lieu_livraison": "Brest",
+    "Statut_livraison": "En attente"
+  },
+  {
+    "IdLivraison": "LIV568",
+    "IdRapport": "RQ814",
+    "Date_prevue": "2026-08-09",
+    "Date_effective": "2026-08-12",
+    "lieu_livraison": "Brest",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV569",
+    "IdRapport": "RQ507",
+    "Date_prevue": "2026-02-27",
+    "Date_effective": "2026-03-02",
+    "lieu_livraison": "Rouen",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV570",
+    "IdRapport": "RQ013",
+    "Date_prevue": "2026-06-01",
+    "Date_effective": "2026-06-13",
+    "lieu_livraison": "Bordeaux",
+    "Statut_livraison": "Retardé"
+  },
+  {
+    "IdLivraison": "LIV571",
+    "IdRapport": "RQ831",
+    "Date_prevue": "2026-09-04",
+    "Date_effective": null,
+    "lieu_livraison": "Montpellier",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV572",
+    "IdRapport": "RQ555",
+    "Date_prevue": "2026-09-05",
+    "Date_effective": "2026-09-05",
+    "lieu_livraison": "Montpellier",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV573",
+    "IdRapport": "RQ460",
+    "Date_prevue": "2026-04-20",
+    "Date_effective": null,
+    "lieu_livraison": "Rouen",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV574",
+    "IdRapport": "RQ017",
+    "Date_prevue": "2026-04-09",
+    "Date_effective": "2026-04-09",
+    "lieu_livraison": "Grenoble",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV575",
+    "IdRapport": "RQ517",
+    "Date_prevue": "2026-08-06",
+    "Date_effective": "2026-08-08",
+    "lieu_livraison": "Strasbourg",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV576",
+    "IdRapport": "RQ698",
+    "Date_prevue": "2026-02-03",
+    "Date_effective": "2026-02-04",
+    "lieu_livraison": "Caen",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV577",
+    "IdRapport": "RQ744",
+    "Date_prevue": "2026-03-19",
+    "Date_effective": "2026-03-19",
+    "lieu_livraison": "Nice",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV578",
+    "IdRapport": "RQ434",
+    "Date_prevue": "2026-02-28",
+    "Date_effective": "2026-03-03",
+    "lieu_livraison": "Reims",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV579",
+    "IdRapport": "RQ064",
+    "Date_prevue": "2026-08-11",
+    "Date_effective": "2026-08-13",
+    "lieu_livraison": "Montpellier",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV580",
+    "IdRapport": "RQ077",
+    "Date_prevue": "2026-05-19",
+    "Date_effective": "2026-05-21",
+    "lieu_livraison": "Montpellier",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV581",
+    "IdRapport": "RQ453",
+    "Date_prevue": "2026-11-18",
+    "Date_effective": "2026-11-23",
+    "lieu_livraison": "Rouen",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV582",
+    "IdRapport": "RQ992",
+    "Date_prevue": "2026-06-16",
+    "Date_effective": null,
+    "lieu_livraison": "Grenoble",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV583",
+    "IdRapport": "RQ219",
+    "Date_prevue": "2026-03-22",
+    "Date_effective": "2026-03-24",
+    "lieu_livraison": "Metz",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV584",
+    "IdRapport": "RQ962",
+    "Date_prevue": "2026-09-28",
+    "Date_effective": "2026-09-30",
+    "lieu_livraison": "Nancy",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV585",
+    "IdRapport": "RQ472",
+    "Date_prevue": "2026-04-05",
+    "Date_effective": "2026-04-10",
+    "lieu_livraison": "Marseille",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV586",
+    "IdRapport": "RQ777",
+    "Date_prevue": "2026-10-27",
+    "Date_effective": "2026-10-31",
+    "lieu_livraison": "Rouen",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV587",
+    "IdRapport": "RQ446",
+    "Date_prevue": "2026-07-04",
+    "Date_effective": null,
+    "lieu_livraison": "Rouen",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV588",
+    "IdRapport": "RQ595",
+    "Date_prevue": "2026-05-21",
+    "Date_effective": "2026-05-24",
+    "lieu_livraison": "Bordeaux",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV589",
+    "IdRapport": "RQ568",
+    "Date_prevue": "2026-06-01",
+    "Date_effective": "2026-06-03",
+    "lieu_livraison": "Metz",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV590",
+    "IdRapport": "RQ622",
+    "Date_prevue": "2026-10-12",
+    "Date_effective": "2026-10-17",
+    "lieu_livraison": "Le Mans",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV591",
+    "IdRapport": "RQ472",
+    "Date_prevue": "2026-08-22",
+    "Date_effective": "2026-08-22",
+    "lieu_livraison": "Grenoble",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV592",
+    "IdRapport": "RQ704",
+    "Date_prevue": "2026-09-28",
+    "Date_effective": "2026-09-29",
+    "lieu_livraison": "Lille",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV593",
+    "IdRapport": "RQ764",
+    "Date_prevue": "2026-10-03",
+    "Date_effective": null,
+    "lieu_livraison": "Nancy",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV594",
+    "IdRapport": "RQ091",
+    "Date_prevue": "2026-11-05",
+    "Date_effective": "2026-11-05",
+    "lieu_livraison": "Clermont-Ferrand",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV595",
+    "IdRapport": "RQ103",
+    "Date_prevue": "2026-11-16",
+    "Date_effective": "2026-11-16",
+    "lieu_livraison": "Brest",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV596",
+    "IdRapport": "RQ369",
+    "Date_prevue": "2026-09-10",
+    "Date_effective": "2026-09-11",
+    "lieu_livraison": "Strasbourg",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV597",
+    "IdRapport": "RQ871",
+    "Date_prevue": "2026-04-15",
+    "Date_effective": "2026-04-19",
+    "lieu_livraison": "Metz",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV598",
+    "IdRapport": "RQ491",
+    "Date_prevue": "2026-05-20",
+    "Date_effective": null,
+    "lieu_livraison": "Toulouse",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV599",
+    "IdRapport": "RQ216",
+    "Date_prevue": "2026-11-17",
+    "Date_effective": "2026-11-29",
+    "lieu_livraison": "Montpellier",
+    "Statut_livraison": "Retardé"
+  },
+  {
+    "IdLivraison": "LIV600",
+    "IdRapport": "RQ266",
+    "Date_prevue": "2026-02-21",
+    "Date_effective": "2026-02-25",
+    "lieu_livraison": "Toulouse",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV601",
+    "IdRapport": "RQ330",
+    "Date_prevue": "2026-06-03",
+    "Date_effective": null,
+    "lieu_livraison": "Rouen",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV602",
+    "IdRapport": "RQ958",
+    "Date_prevue": "2026-09-24",
+    "Date_effective": "2026-09-28",
+    "lieu_livraison": "Clermont-Ferrand",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV603",
+    "IdRapport": "RQ192",
+    "Date_prevue": "2026-06-13",
+    "Date_effective": "2026-06-16",
+    "lieu_livraison": "Lille",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV604",
+    "IdRapport": "RQ637",
+    "Date_prevue": "2026-04-23",
+    "Date_effective": "2026-04-27",
+    "lieu_livraison": "Nice",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV605",
+    "IdRapport": "RQ668",
+    "Date_prevue": "2026-04-14",
+    "Date_effective": "2026-04-15",
+    "lieu_livraison": "Caen",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV606",
+    "IdRapport": "RQ187",
+    "Date_prevue": "2026-02-12",
+    "Date_effective": "2026-02-14",
+    "lieu_livraison": "Metz",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV607",
+    "IdRapport": "RQ001",
+    "Date_prevue": "2026-03-06",
+    "Date_effective": "2026-03-07",
+    "lieu_livraison": "Lille",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV608",
+    "IdRapport": "RQ780",
+    "Date_prevue": "2026-05-01",
+    "Date_effective": "2026-05-03",
+    "lieu_livraison": "Toulouse",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV609",
+    "IdRapport": "RQ218",
+    "Date_prevue": "2026-07-03",
+    "Date_effective": "2026-07-03",
+    "lieu_livraison": "Brest",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV610",
+    "IdRapport": "RQ606",
+    "Date_prevue": "2026-10-27",
+    "Date_effective": "2026-10-31",
+    "lieu_livraison": "Paris",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV611",
+    "IdRapport": "RQ819",
+    "Date_prevue": "2026-10-06",
+    "Date_effective": "2026-10-08",
+    "lieu_livraison": "Marseille",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV612",
+    "IdRapport": "RQ337",
+    "Date_prevue": "2026-06-18",
+    "Date_effective": "2026-06-19",
+    "lieu_livraison": "Rouen",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV613",
+    "IdRapport": "RQ059",
+    "Date_prevue": "2026-09-15",
+    "Date_effective": "2026-09-19",
+    "lieu_livraison": "Metz",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV614",
+    "IdRapport": "RQ624",
+    "Date_prevue": "2026-03-08",
+    "Date_effective": "2026-03-09",
+    "lieu_livraison": "Bordeaux",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV615",
+    "IdRapport": "RQ031",
+    "Date_prevue": "2026-02-02",
+    "Date_effective": null,
+    "lieu_livraison": "Rouen",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV616",
+    "IdRapport": "RQ808",
+    "Date_prevue": "2026-06-26",
+    "Date_effective": "2026-07-05",
+    "lieu_livraison": "Caen",
+    "Statut_livraison": "Retardé"
+  },
+  {
+    "IdLivraison": "LIV617",
+    "IdRapport": "RQ159",
+    "Date_prevue": "2026-05-06",
+    "Date_effective": null,
+    "lieu_livraison": "Toulon",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV618",
+    "IdRapport": "RQ641",
+    "Date_prevue": "2026-04-19",
+    "Date_effective": null,
+    "lieu_livraison": "Dijon",
+    "Statut_livraison": "En attente"
+  },
+  {
+    "IdLivraison": "LIV619",
+    "IdRapport": "RQ461",
+    "Date_prevue": "2026-09-28",
+    "Date_effective": "2026-09-29",
+    "lieu_livraison": "Marseille",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV620",
+    "IdRapport": "RQ425",
+    "Date_prevue": "2026-10-18",
+    "Date_effective": "2026-10-18",
+    "lieu_livraison": "Rouen",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV621",
+    "IdRapport": "RQ412",
+    "Date_prevue": "2026-07-03",
+    "Date_effective": null,
+    "lieu_livraison": "Paris",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV622",
+    "IdRapport": "RQ948",
+    "Date_prevue": "2026-09-15",
+    "Date_effective": "2026-09-19",
+    "lieu_livraison": "Grenoble",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV623",
+    "IdRapport": "RQ054",
+    "Date_prevue": "2026-06-02",
+    "Date_effective": "2026-06-02",
+    "lieu_livraison": "Nice",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV624",
+    "IdRapport": "RQ630",
+    "Date_prevue": "2026-07-11",
+    "Date_effective": "2026-07-15",
+    "lieu_livraison": "Montpellier",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV625",
+    "IdRapport": "RQ139",
+    "Date_prevue": "2026-06-28",
+    "Date_effective": "2026-06-28",
+    "lieu_livraison": "Clermont-Ferrand",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV626",
+    "IdRapport": "RQ485",
+    "Date_prevue": "2026-07-03",
+    "Date_effective": null,
+    "lieu_livraison": "Toulouse",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV627",
+    "IdRapport": "RQ920",
+    "Date_prevue": "2026-10-12",
+    "Date_effective": "2026-10-17",
+    "lieu_livraison": "Clermont-Ferrand",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV628",
+    "IdRapport": "RQ890",
+    "Date_prevue": "2026-09-11",
+    "Date_effective": "2026-09-13",
+    "lieu_livraison": "Angers",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV629",
+    "IdRapport": "RQ172",
+    "Date_prevue": "2026-09-08",
+    "Date_effective": "2026-09-09",
+    "lieu_livraison": "Grenoble",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV630",
+    "IdRapport": "RQ583",
+    "Date_prevue": "2026-02-02",
+    "Date_effective": null,
+    "lieu_livraison": "Toulon",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV631",
+    "IdRapport": "RQ851",
+    "Date_prevue": "2026-04-23",
+    "Date_effective": "2026-04-23",
+    "lieu_livraison": "Lille",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV632",
+    "IdRapport": "RQ724",
+    "Date_prevue": "2026-08-27",
+    "Date_effective": "2026-08-31",
+    "lieu_livraison": "Caen",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV633",
+    "IdRapport": "RQ366",
+    "Date_prevue": "2026-08-26",
+    "Date_effective": null,
+    "lieu_livraison": "Rennes",
+    "Statut_livraison": "En attente"
+  },
+  {
+    "IdLivraison": "LIV634",
+    "IdRapport": "RQ969",
+    "Date_prevue": "2026-08-30",
+    "Date_effective": null,
+    "lieu_livraison": "Montpellier",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV635",
+    "IdRapport": "RQ588",
+    "Date_prevue": "2026-09-18",
+    "Date_effective": "2026-09-22",
+    "lieu_livraison": "Dijon",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV636",
+    "IdRapport": "RQ662",
+    "Date_prevue": "2026-11-28",
+    "Date_effective": "2026-12-02",
+    "lieu_livraison": "Strasbourg",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV637",
+    "IdRapport": "RQ602",
+    "Date_prevue": "2026-11-20",
+    "Date_effective": "2026-11-25",
+    "lieu_livraison": "Reims",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV638",
+    "IdRapport": "RQ859",
+    "Date_prevue": "2026-11-05",
+    "Date_effective": null,
+    "lieu_livraison": "Brest",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV639",
+    "IdRapport": "RQ809",
+    "Date_prevue": "2026-03-12",
+    "Date_effective": "2026-03-17",
+    "lieu_livraison": "Angers",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV640",
+    "IdRapport": "RQ438",
+    "Date_prevue": "2026-02-18",
+    "Date_effective": "2026-02-22",
+    "lieu_livraison": "Nice",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV641",
+    "IdRapport": "RQ834",
+    "Date_prevue": "2026-07-11",
+    "Date_effective": "2026-07-13",
+    "lieu_livraison": "Brest",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV642",
+    "IdRapport": "RQ720",
+    "Date_prevue": "2026-05-18",
+    "Date_effective": "2026-05-21",
+    "lieu_livraison": "Avignon",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV643",
+    "IdRapport": "RQ894",
+    "Date_prevue": "2026-09-12",
+    "Date_effective": "2026-09-13",
+    "lieu_livraison": "Toulouse",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV644",
+    "IdRapport": "RQ764",
+    "Date_prevue": "2026-05-25",
+    "Date_effective": "2026-06-04",
+    "lieu_livraison": "Rouen",
+    "Statut_livraison": "Retardé"
+  },
+  {
+    "IdLivraison": "LIV645",
+    "IdRapport": "RQ104",
+    "Date_prevue": "2026-04-08",
+    "Date_effective": "2026-04-13",
+    "lieu_livraison": "Le Mans",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV646",
+    "IdRapport": "RQ600",
+    "Date_prevue": "2026-11-01",
+    "Date_effective": null,
+    "lieu_livraison": "Marseille",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV647",
+    "IdRapport": "RQ677",
+    "Date_prevue": "2026-03-26",
+    "Date_effective": "2026-03-28",
+    "lieu_livraison": "Le Mans",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV648",
+    "IdRapport": "RQ956",
+    "Date_prevue": "2026-07-24",
+    "Date_effective": "2026-07-24",
+    "lieu_livraison": "Paris",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV649",
+    "IdRapport": "RQ717",
+    "Date_prevue": "2026-03-10",
+    "Date_effective": "2026-03-13",
+    "lieu_livraison": "Toulon",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV650",
+    "IdRapport": "RQ760",
+    "Date_prevue": "2026-04-25",
+    "Date_effective": "2026-04-26",
+    "lieu_livraison": "Reims",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV651",
+    "IdRapport": "RQ996",
+    "Date_prevue": "2026-10-30",
+    "Date_effective": null,
+    "lieu_livraison": "Montpellier",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV652",
+    "IdRapport": "RQ962",
+    "Date_prevue": "2026-10-13",
+    "Date_effective": "2026-10-18",
+    "lieu_livraison": "Nantes",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV653",
+    "IdRapport": "RQ350",
+    "Date_prevue": "2026-08-23",
+    "Date_effective": null,
+    "lieu_livraison": "Nancy",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV654",
+    "IdRapport": "RQ517",
+    "Date_prevue": "2026-10-10",
+    "Date_effective": "2026-10-14",
+    "lieu_livraison": "Avignon",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV655",
+    "IdRapport": "RQ514",
+    "Date_prevue": "2026-10-28",
+    "Date_effective": "2026-10-29",
+    "lieu_livraison": "Strasbourg",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV656",
+    "IdRapport": "RQ462",
+    "Date_prevue": "2026-10-28",
+    "Date_effective": "2026-11-02",
+    "lieu_livraison": "Dijon",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV657",
+    "IdRapport": "RQ060",
+    "Date_prevue": "2026-07-19",
+    "Date_effective": "2026-07-21",
+    "lieu_livraison": "Marseille",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV658",
+    "IdRapport": "RQ398",
+    "Date_prevue": "2026-10-26",
+    "Date_effective": "2026-10-31",
+    "lieu_livraison": "Marseille",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV659",
+    "IdRapport": "RQ749",
+    "Date_prevue": "2026-05-14",
+    "Date_effective": "2026-05-16",
+    "lieu_livraison": "Reims",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV660",
+    "IdRapport": "RQ658",
+    "Date_prevue": "2026-08-09",
+    "Date_effective": "2026-08-12",
+    "lieu_livraison": "Nancy",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV661",
+    "IdRapport": "RQ589",
+    "Date_prevue": "2026-12-04",
+    "Date_effective": "2026-12-06",
+    "lieu_livraison": "Rouen",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV662",
+    "IdRapport": "RQ026",
+    "Date_prevue": "2026-07-17",
+    "Date_effective": "2026-07-22",
+    "lieu_livraison": "Saint-Etienne",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV663",
+    "IdRapport": "RQ639",
+    "Date_prevue": "2026-06-18",
+    "Date_effective": "2026-06-21",
+    "lieu_livraison": "Strasbourg",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV664",
+    "IdRapport": "RQ905",
+    "Date_prevue": "2026-11-05",
+    "Date_effective": "2026-11-05",
+    "lieu_livraison": "Brest",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV665",
+    "IdRapport": "RQ879",
+    "Date_prevue": "2026-09-16",
+    "Date_effective": "2026-09-19",
+    "lieu_livraison": "Bordeaux",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV666",
+    "IdRapport": "RQ052",
+    "Date_prevue": "2026-11-06",
+    "Date_effective": "2026-11-07",
+    "lieu_livraison": "Toulon",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV667",
+    "IdRapport": "RQ086",
     "Date_prevue": "2026-08-16",
     "Date_effective": "2026-08-16",
-    "lieu_livraison": "Toulouse Centre",
-    "Statut_livraison": "Livree"
+    "lieu_livraison": "Bordeaux",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV668",
+    "IdRapport": "RQ429",
+    "Date_prevue": "2026-07-16",
+    "Date_effective": "2026-07-18",
+    "lieu_livraison": "Nancy",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV669",
+    "IdRapport": "RQ461",
+    "Date_prevue": "2026-10-18",
+    "Date_effective": "2026-10-20",
+    "lieu_livraison": "Nice",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV670",
+    "IdRapport": "RQ512",
+    "Date_prevue": "2026-10-26",
+    "Date_effective": "2026-11-06",
+    "lieu_livraison": "Nice",
+    "Statut_livraison": "Retardé"
+  },
+  {
+    "IdLivraison": "LIV671",
+    "IdRapport": "RQ770",
+    "Date_prevue": "2026-08-03",
+    "Date_effective": null,
+    "lieu_livraison": "Grenoble",
+    "Statut_livraison": "En attente"
+  },
+  {
+    "IdLivraison": "LIV672",
+    "IdRapport": "RQ103",
+    "Date_prevue": "2026-04-30",
+    "Date_effective": "2026-05-03",
+    "lieu_livraison": "Rennes",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV673",
+    "IdRapport": "RQ006",
+    "Date_prevue": "2026-02-04",
+    "Date_effective": "2026-02-08",
+    "lieu_livraison": "Saint-Etienne",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV674",
+    "IdRapport": "RQ346",
+    "Date_prevue": "2026-10-25",
+    "Date_effective": null,
+    "lieu_livraison": "Toulon",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV675",
+    "IdRapport": "RQ828",
+    "Date_prevue": "2026-10-30",
+    "Date_effective": null,
+    "lieu_livraison": "Montpellier",
+    "Statut_livraison": "En attente"
+  },
+  {
+    "IdLivraison": "LIV676",
+    "IdRapport": "RQ700",
+    "Date_prevue": "2026-03-02",
+    "Date_effective": "2026-03-05",
+    "lieu_livraison": "Rouen",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV677",
+    "IdRapport": "RQ362",
+    "Date_prevue": "2026-06-11",
+    "Date_effective": "2026-06-12",
+    "lieu_livraison": "Nantes",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV678",
+    "IdRapport": "RQ914",
+    "Date_prevue": "2026-06-12",
+    "Date_effective": null,
+    "lieu_livraison": "Rennes",
+    "Statut_livraison": "En attente"
+  },
+  {
+    "IdLivraison": "LIV679",
+    "IdRapport": "RQ071",
+    "Date_prevue": "2026-10-21",
+    "Date_effective": "2026-10-24",
+    "lieu_livraison": "Montpellier",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV680",
+    "IdRapport": "RQ006",
+    "Date_prevue": "2026-04-15",
+    "Date_effective": null,
+    "lieu_livraison": "Strasbourg",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV681",
+    "IdRapport": "RQ207",
+    "Date_prevue": "2026-10-29",
+    "Date_effective": "2026-11-02",
+    "lieu_livraison": "Toulon",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV682",
+    "IdRapport": "RQ018",
+    "Date_prevue": "2026-10-21",
+    "Date_effective": null,
+    "lieu_livraison": "Nice",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV683",
+    "IdRapport": "RQ841",
+    "Date_prevue": "2026-09-29",
+    "Date_effective": null,
+    "lieu_livraison": "Nancy",
+    "Statut_livraison": "En attente"
+  },
+  {
+    "IdLivraison": "LIV684",
+    "IdRapport": "RQ066",
+    "Date_prevue": "2026-09-20",
+    "Date_effective": "2026-09-21",
+    "lieu_livraison": "Toulon",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV685",
+    "IdRapport": "RQ199",
+    "Date_prevue": "2026-02-24",
+    "Date_effective": null,
+    "lieu_livraison": "Montpellier",
+    "Statut_livraison": "En attente"
+  },
+  {
+    "IdLivraison": "LIV686",
+    "IdRapport": "RQ830",
+    "Date_prevue": "2026-06-18",
+    "Date_effective": "2026-06-19",
+    "lieu_livraison": "Angers",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV687",
+    "IdRapport": "RQ659",
+    "Date_prevue": "2026-08-30",
+    "Date_effective": "2026-08-30",
+    "lieu_livraison": "Metz",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV688",
+    "IdRapport": "RQ341",
+    "Date_prevue": "2026-02-25",
+    "Date_effective": "2026-03-02",
+    "lieu_livraison": "Le Mans",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV689",
+    "IdRapport": "RQ229",
+    "Date_prevue": "2026-02-16",
+    "Date_effective": "2026-03-06",
+    "lieu_livraison": "Rennes",
+    "Statut_livraison": "Retardé"
+  },
+  {
+    "IdLivraison": "LIV690",
+    "IdRapport": "RQ765",
+    "Date_prevue": "2026-03-08",
+    "Date_effective": "2026-03-13",
+    "lieu_livraison": "Reims",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV691",
+    "IdRapport": "RQ013",
+    "Date_prevue": "2026-11-26",
+    "Date_effective": null,
+    "lieu_livraison": "Clermont-Ferrand",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV692",
+    "IdRapport": "RQ068",
+    "Date_prevue": "2026-12-08",
+    "Date_effective": "2026-12-11",
+    "lieu_livraison": "Reims",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV693",
+    "IdRapport": "RQ899",
+    "Date_prevue": "2026-10-08",
+    "Date_effective": "2026-10-10",
+    "lieu_livraison": "Nice",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV694",
+    "IdRapport": "RQ157",
+    "Date_prevue": "2026-11-12",
+    "Date_effective": "2026-11-13",
+    "lieu_livraison": "Grenoble",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV695",
+    "IdRapport": "RQ399",
+    "Date_prevue": "2026-12-10",
+    "Date_effective": "2026-12-10",
+    "lieu_livraison": "Montpellier",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV696",
+    "IdRapport": "RQ326",
+    "Date_prevue": "2026-02-22",
+    "Date_effective": "2026-02-24",
+    "lieu_livraison": "Avignon",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV697",
+    "IdRapport": "RQ789",
+    "Date_prevue": "2026-08-13",
+    "Date_effective": null,
+    "lieu_livraison": "Dijon",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV698",
+    "IdRapport": "RQ307",
+    "Date_prevue": "2026-10-19",
+    "Date_effective": "2026-10-25",
+    "lieu_livraison": "Reims",
+    "Statut_livraison": "Retardé"
+  },
+  {
+    "IdLivraison": "LIV699",
+    "IdRapport": "RQ330",
+    "Date_prevue": "2026-10-14",
+    "Date_effective": "2026-10-15",
+    "lieu_livraison": "Reims",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV700",
+    "IdRapport": "RQ258",
+    "Date_prevue": "2026-02-10",
+    "Date_effective": null,
+    "lieu_livraison": "Reims",
+    "Statut_livraison": "En attente"
+  },
+  {
+    "IdLivraison": "LIV701",
+    "IdRapport": "RQ849",
+    "Date_prevue": "2026-11-08",
+    "Date_effective": "2026-11-13",
+    "lieu_livraison": "Toulon",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV702",
+    "IdRapport": "RQ002",
+    "Date_prevue": "2026-04-28",
+    "Date_effective": null,
+    "lieu_livraison": "Rennes",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV703",
+    "IdRapport": "RQ277",
+    "Date_prevue": "2026-04-17",
+    "Date_effective": "2026-04-17",
+    "lieu_livraison": "Lille",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV704",
+    "IdRapport": "RQ993",
+    "Date_prevue": "2026-03-19",
+    "Date_effective": "2026-03-23",
+    "lieu_livraison": "Brest",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV705",
+    "IdRapport": "RQ999",
+    "Date_prevue": "2026-04-13",
+    "Date_effective": "2026-04-15",
+    "lieu_livraison": "Brest",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV706",
+    "IdRapport": "RQ862",
+    "Date_prevue": "2026-02-09",
+    "Date_effective": "2026-02-11",
+    "lieu_livraison": "Toulouse",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV707",
+    "IdRapport": "RQ042",
+    "Date_prevue": "2026-05-28",
+    "Date_effective": "2026-06-02",
+    "lieu_livraison": "Saint-Etienne",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV708",
+    "IdRapport": "RQ681",
+    "Date_prevue": "2026-09-24",
+    "Date_effective": "2026-09-28",
+    "lieu_livraison": "Toulon",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV709",
+    "IdRapport": "RQ472",
+    "Date_prevue": "2026-08-05",
+    "Date_effective": "2026-08-05",
+    "lieu_livraison": "Caen",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV710",
+    "IdRapport": "RQ317",
+    "Date_prevue": "2026-03-07",
+    "Date_effective": "2026-03-10",
+    "lieu_livraison": "Nancy",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV711",
+    "IdRapport": "RQ274",
+    "Date_prevue": "2026-10-26",
+    "Date_effective": null,
+    "lieu_livraison": "Strasbourg",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV712",
+    "IdRapport": "RQ004",
+    "Date_prevue": "2026-10-15",
+    "Date_effective": "2026-10-20",
+    "lieu_livraison": "Toulouse",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV713",
+    "IdRapport": "RQ860",
+    "Date_prevue": "2026-12-08",
+    "Date_effective": "2026-12-13",
+    "lieu_livraison": "Angers",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV714",
+    "IdRapport": "RQ895",
+    "Date_prevue": "2026-08-22",
+    "Date_effective": "2026-08-24",
+    "lieu_livraison": "Bordeaux",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV715",
+    "IdRapport": "RQ585",
+    "Date_prevue": "2026-09-04",
+    "Date_effective": "2026-09-09",
+    "lieu_livraison": "Avignon",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV716",
+    "IdRapport": "RQ226",
+    "Date_prevue": "2026-04-28",
+    "Date_effective": "2026-05-10",
+    "lieu_livraison": "Paris",
+    "Statut_livraison": "Retardé"
+  },
+  {
+    "IdLivraison": "LIV717",
+    "IdRapport": "RQ755",
+    "Date_prevue": "2026-08-04",
+    "Date_effective": null,
+    "lieu_livraison": "Rouen",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV718",
+    "IdRapport": "RQ734",
+    "Date_prevue": "2026-06-24",
+    "Date_effective": "2026-06-27",
+    "lieu_livraison": "Dijon",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV719",
+    "IdRapport": "RQ300",
+    "Date_prevue": "2026-10-23",
+    "Date_effective": "2026-10-26",
+    "lieu_livraison": "Strasbourg",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV720",
+    "IdRapport": "RQ717",
+    "Date_prevue": "2026-02-02",
+    "Date_effective": "2026-02-03",
+    "lieu_livraison": "Reims",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV721",
+    "IdRapport": "RQ219",
+    "Date_prevue": "2026-03-17",
+    "Date_effective": "2026-03-21",
+    "lieu_livraison": "Avignon",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV722",
+    "IdRapport": "RQ093",
+    "Date_prevue": "2026-09-28",
+    "Date_effective": "2026-09-29",
+    "lieu_livraison": "Montpellier",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV723",
+    "IdRapport": "RQ798",
+    "Date_prevue": "2026-04-17",
+    "Date_effective": null,
+    "lieu_livraison": "Grenoble",
+    "Statut_livraison": "En attente"
+  },
+  {
+    "IdLivraison": "LIV724",
+    "IdRapport": "RQ842",
+    "Date_prevue": "2026-07-25",
+    "Date_effective": "2026-07-28",
+    "lieu_livraison": "Brest",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV725",
+    "IdRapport": "RQ562",
+    "Date_prevue": "2026-12-01",
+    "Date_effective": null,
+    "lieu_livraison": "Toulon",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV726",
+    "IdRapport": "RQ951",
+    "Date_prevue": "2026-04-20",
+    "Date_effective": "2026-04-23",
+    "lieu_livraison": "Nancy",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV727",
+    "IdRapport": "RQ148",
+    "Date_prevue": "2026-05-24",
+    "Date_effective": "2026-05-24",
+    "lieu_livraison": "Saint-Etienne",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV728",
+    "IdRapport": "RQ640",
+    "Date_prevue": "2026-10-16",
+    "Date_effective": "2026-10-22",
+    "lieu_livraison": "Toulouse",
+    "Statut_livraison": "Retardé"
+  },
+  {
+    "IdLivraison": "LIV729",
+    "IdRapport": "RQ906",
+    "Date_prevue": "2026-04-29",
+    "Date_effective": "2026-05-04",
+    "lieu_livraison": "Reims",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV730",
+    "IdRapport": "RQ058",
+    "Date_prevue": "2026-02-19",
+    "Date_effective": null,
+    "lieu_livraison": "Avignon",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV731",
+    "IdRapport": "RQ439",
+    "Date_prevue": "2026-07-12",
+    "Date_effective": null,
+    "lieu_livraison": "Metz",
+    "Statut_livraison": "En transit"
+  },
+  {
+    "IdLivraison": "LIV732",
+    "IdRapport": "RQ556",
+    "Date_prevue": "2026-09-18",
+    "Date_effective": "2026-09-22",
+    "lieu_livraison": "Rennes",
+    "Statut_livraison": "Livré"
+  },
+  {
+    "IdLivraison": "LIV733",
+    "IdRapport": "RQ830",
+    "Date_prevue": "2026-09-27",
+    "Date_effective": "2026-10-12",
+    "lieu_livraison": "Nice",
+    "Statut_livraison": "Retardé"
+  },
+  {
+    "IdLivraison": "LIV734",
+    "IdRapport": "RQ721",
+    "Date_prevue": "2026-06-13",
+    "Date_effective": "2026-06-16",
+    "lieu_livraison": "Toulon",
+    "Statut_livraison": "Livré"
   }
 ]

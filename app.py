@@ -100,7 +100,7 @@ HTML_TEMPLATE = """
     {% endif %}
 
     <div class="box">
-        <h3>Livrable L7.2 : Enrichissement Wikidata / DBpedia</h3>
+        <h3>Enrichissement Wikidata / DBpedia</h3>
         <p>Lier un noeud de la base E à sa page Wikidata ou DBpedia (sans dupliquer l'information).</p>
         <form method="post" action="/link">
             <p>
