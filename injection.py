@@ -64,28 +64,36 @@ class DataInjector:
             commandes = pd.read_sql("SELECT * FROM commandes", self.engine)
 
             for _, c in clients.iterrows():
-                self.query("CREATE (:Client {IdClient: $id, nom: $nom, coordonnees: $coord})",
-                           {"id": str(c['IdClient']), "nom": str(c['nom']), "coord": str(c['coordonnees'])})
+                self.query("""
+                MERGE (cli:Client {IdClient: $id})
+                SET cli.nom = $nom, cli.coordonnees = $coord
+                """, {"id": str(c['IdClient']), "nom": str(c['nom']), "coord": str(c['coordonnees'])})
 
             for _, d in demandes.iterrows():
                 self.query("""
-                MATCH (c:Client {IdClient: $id_client})
-                CREATE (c)-[:EMET]->(:DemandeClient {IdDemande: $id_demande, Date_Demande: $date, carac_souhaitees: $carac})
+                MERGE (c:Client {IdClient: $id_client})
+                MERGE (dc:DemandeClient {IdDemande: $id_demande})
+                SET dc.Date_Demande = $date, dc.carac_souhaitees = $carac
+                MERGE (c)-[:EMET]->(dc)
                 """, {"id_client": str(d['IdClient']), "id_demande": str(d['IdDemande']),
                       "date": str(d['Date_Demande']),
                       "carac": str(d['carac_souhaitees']) if 'carac_souhaitees' in d.index else str(d['caracteristiques_souhaitees'])})
 
             for _, o in offres.iterrows():
                 self.query("""
-                MATCH (d:DemandeClient {IdDemande: $id_demande})
-                CREATE (d)-[:DONNE_LIEU_A]->(:OffreCommerciale {IdOffre: $id_offre, prix: $prix, delai_propose: $delai, statut: $statut})
+                MERGE (dc:DemandeClient {IdDemande: $id_demande})
+                MERGE (off:OffreCommerciale {IdOffre: $id_offre})
+                SET off.prix = $prix, off.delai_propose = $delai, off.statut = $statut
+                MERGE (dc)-[:DONNE_LIEU_A]->(off)
                 """, {"id_demande": str(o['IdDemande']), "id_offre": str(o['IdOffre']),
                       "prix": float(o['prix']), "delai": str(o['delai_propose']), "statut": str(o['statut'])})
 
             for _, cmd in commandes.iterrows():
                 self.query("""
-                MATCH (o:OffreCommerciale {IdOffre: $id_offre})
-                CREATE (o)-[:ABOUTIT_A]->(:BonDeCommande {IdCommande: $id_cmd, Date_commande: $date, Conditions_de_vente: $cond})
+                MERGE (off:OffreCommerciale {IdOffre: $id_offre})
+                MERGE (bc:BonDeCommande {IdCommande: $id_cmd})
+                SET bc.Date_commande = $date, bc.Conditions_de_vente = $cond
+                MERGE (off)-[:ABOUTIT_A]->(bc)
                 """, {"id_offre": str(cmd['IdOffre']), "id_cmd": str(cmd['IdCommande']),
                       "date": str(cmd['Date_commande']), "cond": str(cmd['Conditions_de_vente'])})
 
@@ -123,47 +131,58 @@ class DataInjector:
         # Injection des données validées
         print("\n Injection des usines...")
         for u in validated_data['usines']:
-            self.query("CREATE (:Usine {IdUsine: $id, localisation: $loc})",
+            self.query("""
+            MERGE (us:Usine {IdUsine: $id})
+            SET us.localisation = $loc
+            """,
                       {"id": int(u['IdUsine']), "loc": u['localisation']})
 
         print(" Injection des ordres de fabrication...")
         for o in validated_data['ordres_fabrication']:
             self.query("""
-            MATCH (bc:BonDeCommande {IdCommande: $id_cmd})
-            CREATE (bc)-[:DECLENCHE]->(:OrdreDeFabrication {IdOF: $id_of, Date_Planification: $dp, Date_lancement: $dl})
+            MERGE (bc:BonDeCommande {IdCommande: $id_cmd})
+            MERGE (of:OrdreDeFabrication {IdOF: $id_of})
+            SET of.Date_Planification = $dp, of.Date_lancement = $dl
+            MERGE (bc)-[:DECLENCHE]->(of)
             """, {"id_cmd": str(o['IdCommande']), "id_of": str(o['IdOF']), "dp": o['Date_Planification'], "dl": o['Date_lancement']})
 
         print(" Injection des véhicules...")
         for v in validated_data['vehicules']:
             self.query("""
-            MATCH (of:OrdreDeFabrication {IdOF: $id_of}), (u:Usine {IdUsine: $id_usine})
-            CREATE (of)-[:PERMET_DE_FABRIQUER]->(veh:Vehicule {numero_de_serie: $vin, modele: $mod})
-            CREATE (veh)-[:ASSEMBLE_DANS]->(u)
+            MERGE (of:OrdreDeFabrication {IdOF: $id_of})
+            MERGE (us:Usine {IdUsine: $id_usine})
+            MERGE (veh:Vehicule {numero_de_serie: $vin})
+            SET veh.modele = $mod
+            MERGE (of)-[:PERMET_DE_FABRIQUER]->(veh)
+            MERGE (veh)-[:ASSEMBLE_DANS]->(us)
             """, {"id_of": str(v['IdOF']), "id_usine": int(v['IdUsine']), "vin": str(v['numero_de_serie']), "mod": v['modele']})
 
         print(" Injection des rapports qualité...")
         for r in validated_data['rapports_qualite']:
             self.query("""
-            MATCH (u:Usine {IdUsine: $id_usine})
-            CREATE (u)-[:FAIT_L_OBJET_DE]->(:RapportQualite {IdRapport: $id, Statut_conformite: $statut, Date_controle: $date})
+            MERGE (us:Usine {IdUsine: $id_usine})
+            MERGE (rq:RapportQualite {IdRapport: $id})
+            SET rq.Statut_conformite = $statut, rq.Date_controle = $date
+            MERGE (us)-[:FAIT_L_OBJET_DE]->(rq)
             """, {"id_usine": int(r['IdUsine']), "id": str(r['IdRapport']), "statut": r['Statut_conformite'], "date": r['Date_controle']})
 
         print(" Injection des livraisons...")
         for l in validated_data['livraisons']:
             self.query("""
-            MATCH (rq:RapportQualite {IdRapport: $id_rapport})
-            CREATE (rq)-[:CONFORMITE_VALIDEE]->(:Livraison {
-                IdLivraison: $id, Date_prevue: $dp, Date_effective: $de, 
-                lieu_livraison: $lieu, Statut_livraison: $statut
-            })
+            MERGE (rq:RapportQualite {IdRapport: $id_rapport})
+            MERGE (liv:Livraison {IdLivraison: $id})
+            SET liv.Date_prevue = $dp, liv.Date_effective = $de,
+                liv.lieu_livraison = $lieu, liv.Statut_livraison = $statut
+            MERGE (rq)-[:CONFORMITE_VALIDEE]->(liv)
             """, {"id_rapport": str(l['IdRapport']), "id": str(l['IdLivraison']), "dp": l['Date_prevue'],
                   "de": str(l.get('Date_effective') or ''), "lieu": l['lieu_livraison'], "statut": l['Statut_livraison']})
 
         print(" Injection des entreprises de livraison...")
         for e in validated_data['entreprises_livraison']:
             self.query("""
-            MATCH (liv:Livraison {IdLivraison: $id_liv})
-            CREATE (liv)-[:LIVREE_PAR]->(:EntrepriseDeLivraison {nom: $nom})
+            MERGE (liv:Livraison {IdLivraison: $id_liv})
+            MERGE (ent:EntrepriseDeLivraison {nom: $nom})
+            MERGE (liv)-[:LIVREE_PAR]->(ent)
             """, {"id_liv": str(e['IdLivraison']), "nom": e['nom']})
 
         print(" Injection M2 terminée avec succès !")
@@ -181,13 +200,15 @@ class DataInjector:
             date = d.find('Date_signalement').text.strip()
             desc = d.find('description').text.strip()
             self.query("""
-            MATCH (c:Client {IdClient: $id_client})
-            CREATE (c)-[:SIGNALE]->(ds:DemandeSAV {IdSAV: $id_sav, Date_signalement: $date, description: $desc, numero_de_serie: $vin})
+            MERGE (c:Client {IdClient: $id_client})
+            MERGE (ds:DemandeSAV {IdSAV: $id_sav})
+            SET ds.Date_signalement = $date, ds.description = $desc, ds.numero_de_serie = $vin
+            MERGE (c)-[:SIGNALE]->(ds)
             """, {"id_client": id_client, "vin": vin, "id_sav": id_sav, "date": date, "desc": desc})
-            # Relier au véhicule s'il existe
             self.query("""
-            MATCH (ds:DemandeSAV {IdSAV: $id_sav}), (v:Vehicule {numero_de_serie: $vin})
-            CREATE (ds)-[:CONCERNE]->(v)
+            MERGE (ds:DemandeSAV {IdSAV: $id_sav})
+            MERGE (v:Vehicule {numero_de_serie: $vin})
+            MERGE (ds)-[:CONCERNE]->(v)
             """, {"id_sav": id_sav, "vin": vin})
 
         # 2. Diagnostics et Réparations
