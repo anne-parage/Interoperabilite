@@ -1,9 +1,10 @@
-from flask import Flask, render_template_string, request
+from flask import Flask, render_template_string, request, jsonify
 from neo4j import GraphDatabase
+import requests
 
 app = Flask(__name__)
 
-# Connexion à la base (Même identifiants que ton script d'injection)
+# Connexion à la base
 driver = GraphDatabase.driver("bolt://localhost:7687", auth=("neo4j", "eTyDWf1CD7gvr5Qg1SgMUIBccgzbm0hTYHzNJ3hAq2M"))
 
 # Le design de la page (HTML)
@@ -13,14 +14,34 @@ HTML_TEMPLATE = """
 <head>
     <title>Projet Interopérabilité 2026</title>
     <style>
-        body { font-family: sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; }
+        body { font-family: sans-serif; max-width: 900px; margin: 0 auto; padding: 20px; }
         table { border-collapse: collapse; width: 100%; margin-top: 20px; }
         th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
         th { background-color: #f2f2f2; }
         .box { border: 1px solid #ccc; padding: 15px; border-radius: 5px; margin-bottom: 20px; background: #f9f9f9; }
-        button { background-color: #4CAF50; color: white; padding: 10px 15px; border: none; cursor: pointer; }
+        button { background-color: #4CAF50; color: white; padding: 10px 15px; border: none; cursor: pointer; margin: 2px; }
         button:hover { background-color: #45a049; }
         select, input[type="text"] { padding: 8px; margin-right: 5px; }
+        .search-btn { background-color: #008CBA; }
+        .search-btn:hover { background-color: #007099; }
+        #wikidata-results { margin-top: 15px; }
+        .wiki-result { 
+            border: 1px solid #ddd; 
+            padding: 10px; 
+            margin: 5px 0; 
+            border-radius: 5px; 
+            background: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .wiki-result:hover { background: #f0f8ff; }
+        .wiki-info { flex: 1; }
+        .wiki-id { color: #666; font-size: 0.9em; }
+        .wiki-desc { color: #333; font-style: italic; }
+        .select-btn { background-color: #4CAF50; padding: 8px 15px; }
+        .loading { color: #666; font-style: italic; }
+        .hidden { display: none; }
     </style>
 </head>
 <body>
@@ -83,7 +104,7 @@ HTML_TEMPLATE = """
             <td>{{ row.Usine }}</td>
             <td>
                 {% if row.Wiki %}
-                    <a href="{{row.Wiki}}" target="_blank">Voir sur wikidata</a>
+                    <a href="{{row.Wiki}}" target="_blank">Voir sur Wikidata</a>
                 {% else %}
                     Non lié
                 {% endif %}
@@ -95,31 +116,26 @@ HTML_TEMPLATE = """
     </table>
     {% endif %}
 
-    {% if message %}
-    <p style="color: green; font-weight: bold;">{{ message }}</p>
-    {% endif %}
-
     <div class="box">
-        <h3>Enrichissement Wikidata / DBpedia</h3>
-        <p>Lier un noeud de la base E à sa page Wikidata ou DBpedia (sans dupliquer l'information).</p>
-        <form method="post" action="/link">
-            <p>
-                <label>Type de noeud :</label>
-                <select name="type_noeud">
-                    <option value="Usine">Usine (par ville)</option>
-                    <option value="Vehicule">Véhicule (par VIN)</option>
-                </select>
-            </p>
-            <p>
-                <input type="text" name="identifiant" placeholder="Ville ou VIN (ex: Lyon)" required>
-                <select name="base_externe">
-                    <option value="wikidata">Wikidata</option>
-                    <option value="dbpedia">DBpedia</option>
-                </select>
-                <input type="text" name="url_externe" placeholder="ID ou URL (ex: Q456)" required>
-                <button type="submit" style="background-color: #008CBA;">Créer le lien</button>
-            </p>
-        </form>
+        <h3>Enrichissement Wikidata</h3>
+        <p>Recherchez une ville ou un terme sur Wikidata et liez-le à une usine de la base.</p>
+        
+        <p>
+            <label>Usine à enrichir :</label>
+            <select id="usine_select" name="usine_select">
+                {% for u in usines_list %}
+                <option value="{{ u }}">{{ u }}</option>
+                {% endfor %}
+            </select>
+        </p>
+        
+        <p>
+            <label>Rechercher sur Wikidata :</label>
+            <input type="text" id="search_term" placeholder="Ex: Lyon, Paris, Toulouse..." style="width: 250px;">
+            <button type="button" class="search-btn" onclick="searchWikidata()">Rechercher</button>
+        </p>
+        
+        <div id="wikidata-results"></div>
     </div>
 
     {% if liens_existants %}
@@ -138,6 +154,92 @@ HTML_TEMPLATE = """
         </table>
     </div>
     {% endif %}
+
+    <script>
+        function searchWikidata() {
+            const searchTerm = document.getElementById('search_term').value.trim();
+            const resultsDiv = document.getElementById('wikidata-results');
+            
+            if (!searchTerm) {
+                resultsDiv.innerHTML = '<p style="color: red;">Veuillez entrer un terme de recherche.</p>';
+                return;
+            }
+            
+            resultsDiv.innerHTML = '<p class="loading">Recherche en cours sur Wikidata...</p>';
+            
+            fetch('/search_wikidata?q=' + encodeURIComponent(searchTerm))
+                .then(response => response.json())
+                .then(data => {
+                    if (data.error) {
+                        resultsDiv.innerHTML = '<p style="color: red;">Erreur: ' + data.error + '</p>';
+                        return;
+                    }
+                    
+                    if (data.results.length === 0) {
+                        resultsDiv.innerHTML = '<p>Aucun résultat trouvé pour "' + searchTerm + '".</p>';
+                        return;
+                    }
+                    
+                    let html = '<h4>Résultats Wikidata (' + data.results.length + ') :</h4>';
+                    data.results.forEach(item => {
+                        html += `
+                            <div class="wiki-result">
+                                <div class="wiki-info">
+                                    <strong>${item.label}</strong> 
+                                    <span class="wiki-id">(${item.id})</span><br>
+                                    <span class="wiki-desc">${item.description || 'Pas de description'}</span>
+                                </div>
+                                <button class="select-btn" onclick="selectWikidata('${item.id}', '${item.url}', '${item.label.replace(/'/g, "\\'")}')">
+                                    ✓ Sélectionner
+                                </button>
+                            </div>
+                        `;
+                    });
+                    resultsDiv.innerHTML = html;
+                })
+                .catch(err => {
+                    resultsDiv.innerHTML = '<p style="color: red;">Erreur de connexion: ' + err + '</p>';
+                });
+        }
+        
+        function selectWikidata(wikidataId, wikidataUrl, label) {
+            const usine = document.getElementById('usine_select').value;
+            const resultsDiv = document.getElementById('wikidata-results');
+            
+            resultsDiv.innerHTML = '<p class="loading">Enregistrement du lien...</p>';
+            
+            fetch('/link_wikidata', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify({
+                    usine: usine,
+                    wikidata_id: wikidataId,
+                    wikidata_url: wikidataUrl,
+                    label: label
+                })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    resultsDiv.innerHTML = '<p style="color: green; font-weight: bold;">✓ ' + data.message + '</p>';
+                    // Recharger la page après 1.5 secondes pour voir le lien dans le tableau
+                    setTimeout(() => location.reload(), 1500);
+                } else {
+                    resultsDiv.innerHTML = '<p style="color: red;">Erreur: ' + data.error + '</p>';
+                }
+            })
+            .catch(err => {
+                resultsDiv.innerHTML = '<p style="color: red;">Erreur: ' + err + '</p>';
+            });
+        }
+        
+        // Permettre la recherche avec Entrée
+        document.getElementById('search_term').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                searchWikidata();
+            }
+        });
+    </script>
 
 </body>
 </html>
@@ -180,9 +282,14 @@ def get_liens_existants():
                 liens.append({"Type": "Vehicule", "Identifiant": r["Identifiant"], "Propriete": "dbpedia_url", "URL": r["dbpedia"]})
     return liens
 
+
 @app.route('/')
 def home():
-    return render_template_string(HTML_TEMPLATE, usines_list=get_usines_list(), modeles_list=get_modeles_list(), liens_existants=get_liens_existants())
+    return render_template_string(HTML_TEMPLATE,
+                                  usines_list=get_usines_list(),
+                                  modeles_list=get_modeles_list(),
+                                  liens_existants=get_liens_existants())
+
 
 @app.route('/query', methods=['POST'])
 def run_query():
@@ -193,68 +300,129 @@ def run_query():
     cypher_query = """
     MATCH (c:Client)-[:EMET]->(d:DemandeClient)-[:DONNE_LIEU_A]->(o:OffreCommerciale)-[:ABOUTIT_A]->(bc:BonDeCommande)
     MATCH (bc)-[:DECLENCHE]->(of:OrdreDeFabrication)-[:PERMET_DE_FABRIQUER]->(v:Vehicule)-[:ASSEMBLE_DANS]->(u:Usine)
-    OPTIONAL MATCH (ds:DemandeSAV)-[:CONCERNE]->(v)
-    OPTIONAL MATCH (v)-[:DONNE_LIEU_A]->(diag:Diagnostic)-[:DECLENCHE]->(rep:Reparation)
-    WITH c, v, u, ds, rep
     WHERE ($filtre_modele = '' OR v.modele = $filtre_modele)
       AND ($filtre_usine = '' OR u.localisation = $filtre_usine)
+    OPTIONAL MATCH (ds:DemandeSAV)-[:CONCERNE]->(v)
+    OPTIONAL MATCH (v)-[:DONNE_LIEU_A]->(diag:Diagnostic)-[:DECLENCHE]->(rep:Reparation)
     RETURN 
         c.nom AS Client, 
         v.numero_de_serie AS Vin,
         v.modele AS Modele,
         u.localisation AS Usine, 
         u.wikidata_url AS Wiki,
-        COALESCE(ds.description, "Aucun incident") AS Panne,
-        COALESCE(rep.type_intervention, "Aucune") AS Reparation
+        COALESCE(ds.description, 'Aucun incident') AS Panne,
+        COALESCE(rep.type_intervention, 'Aucune') AS Reparation
     ORDER BY c.nom, v.numero_de_serie
     """
-    with driver.session() as session:
-        result = session.run(cypher_query, filtre_modele=filtre_modele, filtre_usine=filtre_usine)
-        data = [record.data() for record in result]
 
-    if filtre_panne == 'avec':
-        data = [r for r in data if r['Panne'] != 'Aucun incident']
-    elif filtre_panne == 'sans':
-        data = [r for r in data if r['Panne'] == 'Aucun incident']
+    try:
+        with driver.session() as session:
+            result = session.run(cypher_query, filtre_modele=filtre_modele, filtre_usine=filtre_usine)
+            data = [record.data() for record in result]
 
-    return render_template_string(HTML_TEMPLATE,
-                                  results=data, usines_list=get_usines_list(), modeles_list=get_modeles_list(),
-                                  liens_existants=get_liens_existants(),
-                                  filtre_modele=filtre_modele, filtre_usine=filtre_usine, filtre_panne=filtre_panne)
+        if filtre_panne == 'avec':
+            data = [r for r in data if r['Panne'] != 'Aucun incident']
+        elif filtre_panne == 'sans':
+            data = [r for r in data if r['Panne'] == 'Aucun incident']
 
-@app.route('/link', methods=['POST'])
-def add_link():
-    type_noeud = request.form['type_noeud']
-    identifiant = request.form['identifiant'].strip()
-    base_externe = request.form['base_externe']
-    url_externe = request.form['url_externe'].strip()
-
-    if base_externe == 'wikidata':
-        if not url_externe.startswith('http'):
-            url_externe = f"https://www.wikidata.org/wiki/{url_externe}"
-        prop = 'wikidata_url'
-    else:
-        if not url_externe.startswith('http'):
-            url_externe = f"http://dbpedia.org/resource/{url_externe}"
-        prop = 'dbpedia_url'
-
-    if type_noeud == 'Usine':
-        cypher = f"MATCH (u:Usine {{localisation: $identifiant}}) SET u.{prop} = $url RETURN u.localisation AS nom"
-    else:
-        cypher = f"MATCH (v:Vehicule {{numero_de_serie: $identifiant}}) SET v.{prop} = $url RETURN v.numero_de_serie AS nom"
-
-    with driver.session() as session:
-        result = session.run(cypher, identifiant=identifiant, url=url_externe)
-        record = result.single()
-
-    if record:
         return render_template_string(HTML_TEMPLATE,
-                                      message=f"Lien {base_externe} ajouté pour {type_noeud} « {identifiant} » !",
-                                      usines_list=get_usines_list(), modeles_list=get_modeles_list(), liens_existants=get_liens_existants())
-    else:
+                                      results=data,
+                                      usines_list=get_usines_list(),
+                                      modeles_list=get_modeles_list(),
+                                      liens_existants=get_liens_existants(),
+                                      filtre_modele=filtre_modele,
+                                      filtre_usine=filtre_usine,
+                                      filtre_panne=filtre_panne)
+    except Exception as e:
         return render_template_string(HTML_TEMPLATE,
-                                      error=f"Noeud {type_noeud} « {identifiant} » introuvable dans la base E.",
-                                      usines_list=get_usines_list(), modeles_list=get_modeles_list(), liens_existants=get_liens_existants())
+                                      error=f"Erreur de requête: {str(e)}",
+                                      usines_list=get_usines_list(),
+                                      modeles_list=get_modeles_list(),
+                                      liens_existants=get_liens_existants())
+
+
+@app.route('/search_wikidata')
+def search_wikidata():
+    """Recherche sur l'API Wikidata et retourne les résultats"""
+    query = request.args.get('q', '').strip()
+
+    if not query:
+        return jsonify({"error": "Terme de recherche vide", "results": []})
+
+    try:
+        # Appel à l'API Wikidata (wbsearchentities)
+        url = "https://www.wikidata.org/w/api.php"
+        params = {
+            "action": "wbsearchentities",
+            "search": query,
+            "language": "fr",
+            "uselang": "fr",
+            "type": "item",
+            "limit": 10,
+            "format": "json"
+        }
+
+        # User-Agent requis par Wikidata pour éviter le 403
+        headers = {
+            "User-Agent": "ProjetInteroperabilite/1.0 (Projet universitaire; contact@exemple.fr)"
+        }
+
+        response = requests.get(url, params=params, headers=headers, timeout=10)
+        response.raise_for_status()
+        data = response.json()
+
+        results = []
+        for item in data.get("search", []):
+            results.append({
+                "id": item.get("id"),
+                "label": item.get("label", "Sans nom"),
+                "description": item.get("description", ""),
+                "url": f"https://www.wikidata.org/wiki/{item.get('id')}"
+            })
+
+        return jsonify({"results": results})
+
+    except requests.exceptions.Timeout:
+        return jsonify({"error": "Timeout - Wikidata met trop de temps à répondre", "results": []})
+    except requests.exceptions.RequestException as e:
+        return jsonify({"error": f"Erreur de connexion à Wikidata: {str(e)}", "results": []})
+    except Exception as e:
+        return jsonify({"error": f"Erreur inattendue: {str(e)}", "results": []})
+
+
+@app.route('/link_wikidata', methods=['POST'])
+def link_wikidata():
+    """Enregistre le lien Wikidata pour une usine"""
+    try:
+        data = request.get_json()
+        usine = data.get('usine')
+        wikidata_url = data.get('wikidata_url')
+        wikidata_id = data.get('wikidata_id')
+        label = data.get('label')
+
+        if not usine or not wikidata_url:
+            return jsonify({"success": False, "error": "Données manquantes"})
+
+        with driver.session() as session:
+            result = session.run("""
+                MATCH (u:Usine {localisation: $usine})
+                SET u.wikidata_url = $url, u.wikidata_id = $id, u.wikidata_label = $label
+                RETURN u.localisation AS nom
+            """, usine=usine, url=wikidata_url, id=wikidata_id, label=label)
+
+            record = result.single()
+
+        if record:
+            return jsonify({
+                "success": True,
+                "message": f"Lien Wikidata ajouté pour l'usine « {usine} » → {label} ({wikidata_id})"
+            })
+        else:
+            return jsonify({"success": False, "error": f"Usine « {usine} » introuvable"})
+
+    except Exception as e:
+        return jsonify({"success": False, "error": str(e)})
+
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=5000, debug=True)

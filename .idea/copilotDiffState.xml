@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotDiffPersistence">
+    <option name="pendingDiffs">
+      <map>
+        <entry key="$PROJECT_DIR$/tmp_check.py">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/tmp_check.py" />
+              <option name="updatedContent" value="from neo4j import GraphDatabase&#10;&#10;driver = GraphDatabase.driver(&quot;bolt://localhost:7687&quot;, auth=(&quot;neo4j&quot;, &quot;eTyDWf1CD7gvr5Qg1SgMUIBccgzbm0hTYHzNJ3hAq2M&quot;))&#10;with driver.session() as session:&#10;    for label in [&quot;Client&quot;,&quot;DemandeClient&quot;,&quot;OffreCommerciale&quot;,&quot;BonDeCommande&quot;,&quot;OrdreDeFabrication&quot;,&quot;Vehicule&quot;]:&#10;        count = session.run(f&quot;MATCH (n:{label}) RETURN count(n) AS c&quot;).single()[&quot;c&quot;]&#10;        print(label, count)&#10;    path_count = session.run(&quot;&quot;&quot;&#10;    MATCH (c:Client)-[:EMET]-&gt;(:DemandeClient)-[:DONNE_LIEU_A]-&gt;(:OffreCommerciale)-[:ABOUTIT_A]-&gt;(:BonDeCommande)-[:DECLENCHE]-&gt;(:OrdreDeFabrication)-[:PERMET_DE_FABRIQUER]-&gt;(:Vehicule)&#10;    RETURN count(*) AS c&#10;    &quot;&quot;&quot;).single()[&quot;c&quot;]&#10;    print(&quot;paths&quot;, path_count)&#10;driver.close()&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
